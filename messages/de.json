@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "Zhenlong Aluminum",
+    "tagline": "Premium-Aluminiumkonstruktionen für globale Märkte",
+    "description": "Shanghai Zhenlong Aluminum Industry Co., Ltd. ist ein professioneller Hersteller von Aluminium-Carports, Pergolen, Vordächern, Geländern, Zäunen und Toren. OEM/ODM-Dienstleistungen für Wohn- und Gewerbeprojekte weltweit."
+  },
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "oemOdm": "OEM/ODM",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "getQuote": "Angebot anfordern",
+    "getFreeQuote": "Kostenloses Angebot",
+    "exploreProducts": "Produkte entdecken",
+    "viewDetails": "Details ansehen",
+    "viewAllProducts": "Alle Produkte ansehen",
+    "viewAllProjects": "Alle Projekte ansehen",
+    "readMore": "Mehr lesen",
+    "submitInquiry": "Anfrage senden",
+    "sending": "Wird gesendet...",
+    "home": "Startseite",
+    "products": "Produkte",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "Sprache",
+    "learnOem": "OEM/ODM kennenlernen"
+  },
+  "meta": {
+    "homeTitle": "Hersteller von Aluminium-Carports und Pergolen",
+    "homeDescription": "Shanghai Zhenlong Aluminum — werksdirekte Aluminium-Carports, Pergolen, Vordächer, Geländer und Tore. OEM/ODM für globale Einkäufer.",
+    "productsTitle": "Produkte",
+    "productsDescription": "Entdecken Sie Zhenlong Aluminum Produkte: Carports, Pergolen, Vordächer, Geländer und Tore. OEM-Anpassung für globale Einkäufer.",
+    "projectsTitle": "Projekte",
+    "projectsDescription": "Export-Projektbeispiele für Aluminium-Carports, Pergolen, Geländer und Vordächer von Zhenlong Aluminum.",
+    "aboutTitle": "Über uns",
+    "aboutDescription": "Zhenlong Aluminum: Fotos des Werks in Songjiang, eigene Fertigung und EN-1090-Nachweis für Vordächer, Pavillons, Zäune und Tore.",
+    "oemTitle": "OEM / ODM Dienstleistungen",
+    "oemDescription": "OEM- und ODM-Aluminiumfertigung von Zhenlong Aluminum. Individuelle Abmessungen, Farben, Branding und Exportverpackung.",
+    "blogTitle": "Blog",
+    "blogDescription": "Expertenleitfäden zu Aluminium-Carports, Pergolen, Pulverbeschichtung und OEM-Beschaffung von einem chinesischen Hersteller.",
+    "contactTitle": "Kontakt",
+    "contactDescription": "Kontaktieren Sie Zhenlong Aluminum für Angebote zu Aluminium-Carports, Pergolen, Geländern und Toren. Werksdirekt aus Shanghai, China."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Aluminiumkonstruktionshersteller",
+      "title": "Premium Aluminium-Carports, Pergolen und architektonische Lösungen",
+      "subtitle": "Shanghai Zhenlong Aluminum Industry Co., Ltd. fertigt maßgeschneiderte Aluminium-Carports, Pergolen, Vordächer, Geländer und Tore für Importeure, Händler und Projektauftragnehmer weltweit.",
+      "highlights": {
+        "0": "Werksdirekte Preise",
+        "1": "Volle OEM / ODM Unterstützung",
+        "2": "Weltweite Exporterfahrung",
+        "3": "Technische Zeichnungen inklusive"
+      },
+      "imageLabel": "Architektur-Aluminium",
+      "alloy": "Aluminiumlegierung"
+    },
+    "stats": {
+      "founded": "Jahre Erfahrung",
+      "products": "Produktlinien",
+      "markets": "Exportmärkte",
+      "support": "Angebotsantwort"
+    },
+    "products": {
+      "eyebrow": "Unsere Produkte",
+      "title": "Aluminiumkonstruktionen für globale Projekte",
+      "description": "Von Wohn-Carports bis zu gewerblichen Pergolensystemen liefern wir anpassbare Aluminiumlösungen mit zuverlässiger Exportunterstützung."
+    },
+    "whyUs": {
+      "eyebrow": "Warum Zhenlong",
+      "title": "Ihr zuverlässiger Aluminiumfertigungspartner",
+      "description": "Wir helfen internationalen Einkäufern, langlebige, anpassbare Aluminiumprodukte mit klarer Kommunikation und professioneller Projektunterstützung zu beziehen.",
+      "items": {
+        "0": {
+          "title": "Werksdirekt",
+          "description": "Eigenproduktion von Aluminiumprofilierung bis Schweißen, Beschichtung und Verpackung."
+        },
+        "1": {
+          "title": "OEM / ODM bereit",
+          "description": "Individuelle Abmessungen, Farben, Branding und Verpackung für Ihren Markt."
+        },
+        "2": {
+          "title": "Qualitätsfokus",
+          "description": "Strukturierter QC-Prozess für Material, Schweißen, Beschichtung und Vorversandinspektion."
+        },
+        "3": {
+          "title": "Exporterfahrung",
+          "description": "Wir bedienen Einkäufer in Nordamerika, Europa, Naher Osten und Asien-Pazifik."
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "Projektbeispiele",
+      "title": "Bewährte Ergebnisse auf globalen Märkten",
+      "description": "Entdecken Sie ausgewählte Exportprojekte, die unsere Fertigungskompetenz und Anpassungsexpertise zeigen."
+    },
+    "cta": {
+      "title": "Bereit, Ihr Aluminiumprojekt zu starten?",
+      "description": "Senden Sie uns Ihre Anforderungen, Zeichnungen oder Referenzfotos. Unser Team erstellt innerhalb von 24 Stunden ein professionelles Angebot und Fertigungsvorschlag."
+    },
+    "trust": {
+      "items": [
+        "OEM- / ODM-Anpassung",
+        "Aluminiumlegierung 6063-T5",
+        "Pulverbeschichtung und PVDF",
+        "Weltweiter Export-Support"
+      ]
+    },
+    "process": {
+      "eyebrow": "So arbeiten wir",
+      "title": "Vom Entwurf bis zur Lieferung",
+      "description": "Ein schlanker Fertigungsablauf für internationale Projektanforderungen.",
+      "steps": {
+        "0": {
+          "title": "Entwurfsprüfung",
+          "description": "Prüfung von Zeichnungen, Spezifikationen und Projektanforderungen mit unserem Ingenieurteam."
+        },
+        "1": {
+          "title": "Fertigung",
+          "description": "Präzises Schneiden, Schweißen und Montieren mit Aluminiumprofilen 6063-T5."
+        },
+        "2": {
+          "title": "Oberflächenbehandlung",
+          "description": "Pulverbeschichtung oder PVDF mit RAL-Farbabstimmung."
+        },
+        "3": {
+          "title": "Qualitätskontrolle",
+          "description": "Prüfung von Material, Schweißnähten, Beschichtung und vor dem Versand."
+        },
+        "4": {
+          "title": "Exportlieferung",
+          "description": "Individuelle Verpackung und koordinierte internationale Logistik."
+        }
+      }
+    }
+  },
+  "productsPage": {
+    "eyebrow": "Produktpalette",
+    "title": "Aluminiumprodukte für Exportprojekte",
+    "description": "Wir fertigen eine vollständige Palette an Aluminium-Außenkonstruktionen mit anpassbaren Abmessungen, Oberflächen und Verpackung."
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "Aluminium-Carports",
+      "shortDescription": "Langlebige, wetterfeste Carports für Wohnzufahrten, Parkplätze und Gewerbeimmobilien.",
+      "description": "Unsere Aluminium-Carports sind für langfristige Außenleistung konstruiert mit 6063-T5 Aluminiumprofilen, Präzisionsschweißen und Premium-Pulverbeschichtung. Vollständig anpassbar in Spannweite, Höhe, Dachstil und Farbe nach Ihren Projektanforderungen.",
+      "features": [
+        "6063-T5 Aluminiumlegierungsstruktur",
+        "UV-beständige Pulverbeschichtung (RAL-Farben)",
+        "Schnee- und Windlastoptionen verfügbar",
+        "Modulares Design für einfache Montage",
+        "OEM-Abmessungen und Branding unterstützt"
+      ],
+      "specLabels": [
+        "Material",
+        "Oberflächenfinish",
+        "Spannweite",
+        "Dachoptionen",
+        "Garantie"
+      ],
+      "specValues": [
+        "6063-T5 Aluminium",
+        "Pulverbeschichtung / PVDF",
+        "Maßanfertigung (3 m – 12 m+)",
+        "Polycarbonat / Aluminiumplatte",
+        "10+ Jahre (Beschichtung)"
+      ],
+      "applications": [
+        "Wohnzufahrten",
+        "Villa-Parkflächen",
+        "Gewerbeparkplätze",
+        "Hotel- und Resort-Eingänge"
+      ],
+      "faqs": [
+        {
+          "question": "Können Sie Carport-Abmessungen anpassen?",
+          "answer": "Ja. Wir bieten OEM-Anpassung für Breite, Länge, Höhe, Stützenabstand und Dachplattenoptionen basierend auf Ihren Standortplänen."
+        },
+        {
+          "question": "Wie ist die typische Lieferzeit?",
+          "answer": "Standardprojekte: 15–25 Tage nach Auftragsbestätigung. Große Gewerbeaufträge können 30–45 Tage erfordern."
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "Aluminium-Pergolen und Pavillons",
+      "shortDescription": "Elegante Outdoor-Pergolen und Pavillons für Gärten, Terrassen, Poolbereiche und Hotellerie.",
+      "description": "Zhenlong Aluminium-Pergolen verbinden architektonische Ästhetik mit struktureller Zuverlässigkeit. Erhältlich in festen und lamellenförmigen Dachdesigns, ideal für Außenbereiche mit Bedarf an Schatten, Belüftung und visueller Attraktivität.",
+      "features": [
+        "Feste oder verstellbare Lamellendachsysteme",
+        "Korrosionsbeständig für Küstenklimata",
+        "Integriertes Entwässerungsdesign",
+        "LED-Beleuchtung und Zubehöroptionen",
+        "Technische Zeichnungen inklusive"
+      ],
+      "specLabels": [
+        "Material",
+        "Dachtyp",
+        "Beschichtung",
+        "Montage",
+        "Anpassung"
+      ],
+      "specValues": [
+        "6063-T5 Aluminium",
+        "Fest / Lamellen",
+        "Pulverbeschichtung / Eloxiert",
+        "Verschraubte modulare Montage",
+        "Volles OEM/ODM"
+      ],
+      "applications": [
+        "Gartenterrassen",
+        "Pool-Loungebereiche",
+        "Restaurantterrassen",
+        "Hotel-Innenhöfe"
+      ],
+      "faqs": [
+        {
+          "question": "Bieten Sie motorisierte Lamellen-Pergolen an?",
+          "answer": "Ja. Wir können manuelle oder motorisierte Lamellensysteme je nach Projektbudget und Spezifikationen liefern."
+        },
+        {
+          "question": "Können Pergolen flach verpackt versendet werden?",
+          "answer": "Ja. Unser modulares Design unterstützt Flachpack-Export zur Reduzierung von Versandvolumen und -kosten."
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "Aluminium-Vordächer und Markisen",
+      "shortDescription": "Architektonische Aluminium-Vordächer für Eingänge, Gehwege, Balkone und Gewerbefassaden.",
+      "description": "Wir fertigen Aluminium-Vordachsysteme, die vor Sonne und Regen schützen und gleichzeitig die Gebäudeästhetik verbessern. Geeignet für Wohnbalkone, Ladeneingänge und große gewerbliche Gehwegeüberdachungen.",
+      "features": [
+        "Schlankes Strukturprofil-Design",
+        "Hochfestes Haltersystem",
+        "Mehrere Dachplattenmaterialien",
+        "Windbeständige Konstruktion",
+        "Individuelle RAL-Farbanpassung"
+      ],
+      "specLabels": [
+        "Profil",
+        "Platte",
+        "Tragfähigkeit",
+        "Finish",
+        "Designunterstützung"
+      ],
+      "specValues": [
+        "Maßgeschneiderte Aluminiumextrusion",
+        "PC / Glas / Aluminium",
+        "Projektspezifisch",
+        "Pulverbeschichtung",
+        "CAD-Zeichnungen inklusive"
+      ],
+      "applications": [
+        "Gebäudeeingänge",
+        "Gehwegeüberdachungen",
+        "Balkonmarkisen",
+        "Einzelhandelsfassaden"
+      ],
+      "faqs": [
+        {
+          "question": "Können Sie nach architektonischen Zeichnungen fertigen?",
+          "answer": "Selbstverständlich. Senden Sie uns Ihre Zeichnungen oder Standortfotos und unser Ingenieurteam erstellt Fertigungslösungen."
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "Aluminium-Geländer und Zäune",
+      "shortDescription": "Dekorative und strukturelle Aluminium-Geländer, Balustraden und Zaunsysteme für Wohn- und Gewerbenutzung.",
+      "description": "Unsere Aluminium-Geländer- und Zaunsysteme bieten eine Premium-Alternative zu Schmiedeeisen mit überlegener Korrosionsbeständigkeit und geringerem Wartungsaufwand. Individuelle Muster, Höhen und Torintegration verfügbar.",
+      "features": [
+        "Künstlerisches Aluminiumguss und Profile",
+        "Salzsprühnebel-getestete Beschichtung",
+        "Abgestimmte Geländer- und Torsets",
+        "Einhaltung der Projektsicherheitsvorschriften",
+        "Mehrere Designstile verfügbar"
+      ],
+      "specLabels": [
+        "Material",
+        "Höhe",
+        "Finish",
+        "Stil",
+        "MOQ"
+      ],
+      "specValues": [
+        "Aluminiumlegierung",
+        "Maßanfertigung (900 mm – 1800 mm)",
+        "Pulverbeschichtung",
+        "Modern / Europäisch / Maßanfertigung",
+        "Projektbasiert"
+      ],
+      "applications": [
+        "Villa-Balkone",
+        "Treppen",
+        "Gartengrenzen",
+        "Gewerbeimmobilien"
+      ],
+      "faqs": [
+        {
+          "question": "Können Geländer und Tore dasselbe Design haben?",
+          "answer": "Ja. Wir gestalten Geländer- und Torsysteme typischerweise als abgestimmtes Set für visuelle Konsistenz."
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "Aluminiumtore",
+      "shortDescription": "Maßgeschneiderte Aluminium-Einfahrtstore, Fußgängertore und Schiebetorsysteme mit Premium-Oberflächen.",
+      "description": "Zhenlong Aluminiumtore sind für Sicherheit, Langlebigkeit und optische Attraktivität gebaut. Wir unterstützen Dreh- und Schiebekonfigurationen mit manueller oder automatisierter Bedienung.",
+      "features": [
+        "Dreh- und Schiebekonfigurationen",
+        "Verstärkte Rahmenkonstruktion",
+        "Automatisierungsfertiges Design",
+        "Dekorative Paneloptionen",
+        "Exportgerechte Verpackung"
+      ],
+      "specLabels": [
+        "Typ",
+        "Breite",
+        "Rahmen",
+        "Finish",
+        "Zubehör"
+      ],
+      "specValues": [
+        "Dreh / Schiebe",
+        "Maßanfertigung",
+        "Verstärktes Aluminium",
+        "Pulverbeschichtung",
+        "Griffe, Schlösser, Motoren (optional)"
+      ],
+      "applications": [
+        "Wohnzufahrten",
+        "Villa-Eingänge",
+        "Industrieareale",
+        "Geschlossene Wohnanlagen"
+      ],
+      "faqs": [
+        {
+          "question": "Liefern Sie Tormotoren?",
+          "answer": "Wir können Tore liefern, die mit Drittanbieter-Automatisierungssystemen kompatibel sind, oder Motorspezifikationen für Ihren Markt empfehlen."
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "Spezifikationen",
+    "applications": "Anwendungen",
+    "faq": "FAQ",
+    "requestQuote": "Angebot anfordern",
+    "formHint": "Erzählen Sie uns von Ihrem Projekt und wir melden uns in Kürze."
+  },
+  "projectsPage": {
+    "eyebrow": "Fallstudien",
+    "title": "Globales Export-Projektportfolio",
+    "description": "Reale Anwendungen, die unsere Fertigungsqualität, Anpassungsfähigkeit und Exporterfahrung demonstrieren."
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "Wohn-Carport – Australien",
+      "location": "Melbourne, Australien",
+      "category": "Aluminium-Carports",
+      "description": "Maßgeschneiderter Doppel-Carport mit Polycarbonat-Dachplatten, pulverbeschichtet in RAL 7016 für moderne Villa-Zufahrt."
+    },
+    "hotel-pergola-dubai": {
+      "title": "Hotel-Innenhof-Pergola – VAE",
+      "location": "Dubai, VAE",
+      "category": "Aluminium-Pergolen",
+      "description": "Großformatiges Lamellendach-Pergolensystem für Hotel-Innenhof, konzipiert für Hochtemperaturklimata."
+    },
+    "villa-railing-germany": {
+      "title": "Villa-Geländersystem – Deutschland",
+      "location": "München, Deutschland",
+      "category": "Aluminium-Geländer",
+      "description": "Europäische Aluminium-Balustrade mit passendem Eingangstor für Wohnrenovierungsprojekt."
+    },
+    "commercial-canopy-usa": {
+      "title": "Gewerbliches Eingangsvordach – USA",
+      "location": "Kalifornien, USA",
+      "category": "Aluminium-Vordächer",
+      "description": "Architektonisches Eingangsvordach mit integrierter Entwässerung für Fassadenupgrade eines Einzelhandelskomplexes."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Über Zhenlong",
+    "capabilities": "Werkskapazitäten",
+    "exportMarkets": "Exportmärkte",
+    "capabilityItems": [
+      "Aluminiumprofil-Zuschnitt und -Fertigung",
+      "CNC-Bearbeitung und Präzisionsschweißen",
+      "Pulverbeschichtung und Oberflächenbehandlung",
+      "Montage, Inspektion und Exportverpackung",
+      "Technische Zeichnungen und OEM-Anpassung"
+    ],
+    "paragraphs": {
+      "0": "Gegründet im Jahr {year}, spezialisiert sich Shanghai Zhenlong Aluminum Industry Co., Ltd. auf Design und Fertigung von Aluminium-Außenkonstruktionen für Wohn-, Gewerbe- und Hotelprojekte.",
+      "1": "Mit eigenen Produktionskapazitäten und umfangreicher Exporterfahrung unterstützen wir internationale Einkäufer, Händler und Auftragnehmer mit zuverlässiger Qualität, wettbewerbsfähigen Werkspreisen und reaktionsschneller Kommunikation.",
+      "2": "Unser Produktsortiment umfasst Aluminium-Carports, Pergolen, Vordächer, dekorative Geländer, Zäune und Tore — alle mit voller OEM/ODM-Anpassung verfügbar."
+    },
+    "markets": [
+      "Nordamerika",
+      "Europa",
+      "Naher Osten",
+      "Südostasien",
+      "Australien"
+    ],
+    "introImageAlt": "Zufahrt zum Werk von Zhenlong Aluminum in Songjiang, Shanghai",
+    "introImageCaption": "Werk Songjiang · Yuxiu Road 39",
+    "galleryEyebrow": "Werk",
+    "galleryTitle": "Fertigung, Lager und Gelände",
+    "galleryDescription": "Aufgenommen an unserem Standort in der Yuxiu Road: Fertigungshalle, Alulager und Werkseingang.",
+    "photos": {
+      "workshop": {
+        "alt": "Weiter Blick in die Fertigungshalle von Zhenlong mit Profilen und Torfertigung",
+        "caption": "Fertigungshalle"
+      },
+      "assembly": {
+        "alt": "Mitarbeiter montiert ein pulverbeschichtetes Aluminiumtor",
+        "caption": "Tormontage"
+      },
+      "warehouse": {
+        "alt": "Regale mit Aluminiumprofilen im Lager von Zhenlong",
+        "caption": "Profillager"
+      },
+      "profiles": {
+        "alt": "Gebündelte Aluminiumprofile auf dem Hallenboden",
+        "caption": "Aluminiumvorrat"
+      },
+      "entrance": {
+        "alt": "Firmenschild am Eingang von Zhenlong Aluminum in der Yuxiu Road",
+        "caption": "Werkseingang"
+      }
+    },
+    "certEyebrow": "Konformität",
+    "certTitle": "Produktnachweise",
+    "certDescription": "ICR-Konformitätsnachweis für Vordächer, Pavillons, Zäune und Tore nach EN 1090 und der EU-Bauproduktenverordnung.",
+    "certView": "Zertifikat ansehen",
+    "certClose": "Schließen",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "Vordach",
+        "alt": "Konformitätsnachweis für Aluminium-Vordächer von Zhenlong, EN 1090"
+      },
+      "pavilion": {
+        "name": "Pavillon",
+        "alt": "Konformitätsnachweis für Aluminium-Pavillons von Zhenlong, EN 1090"
+      },
+      "fence": {
+        "name": "Zaun",
+        "alt": "Konformitätsnachweis für Aluminiumzäune von Zhenlong, EN 1090"
+      },
+      "gate": {
+        "name": "Tor",
+        "alt": "Konformitätsnachweis für Aluminiumtore von Zhenlong, EN 1090"
+      }
+    },
+    "certMatchedTitle": "Nachweis für diese Kategorie",
+    "certMatchedDescription": "Für diese Produktkategorie liegt ein ICR-Konformitätsnachweis nach EN 1090 und der EU-Bauproduktenverordnung vor."
+  },
+  "oemPage": {
+    "eyebrow": "Anpassung",
+    "title": "OEM / ODM Aluminiumfertigung",
+    "description": "Partnern Sie mit Zhenlong für vollständig maßgeschneiderte Aluminiumprodukte — vom Konzept bis zur exportfertigen Lieferung.",
+    "steps": {
+      "0": {
+        "title": "Anforderungsprüfung",
+        "description": "Teilen Sie Zeichnungen, Referenzbilder oder Produktspezifikationen. Unser Team prüft die Machbarkeit und gibt Empfehlungen."
+      },
+      "1": {
+        "title": "Engineering und Angebot",
+        "description": "Wir erstellen technische Vorschläge, 3D/CAD-Zeichnungen bei Bedarf und detaillierte Angebote basierend auf Menge und Anpassung."
+      },
+      "2": {
+        "title": "Muster und Freigabe",
+        "description": "Prototypmuster für qualifizierte Projekte verfügbar. Produktion beginnt nach Muster- und Spezifikationsfreigabe."
+      },
+      "3": {
+        "title": "Produktion und QC",
+        "description": "Vollständige Eigenfertigung mit Material-, Schweiß-, Beschichtungs- und Vorversand-Qualitätsinspektionen."
+      },
+      "4": {
+        "title": "Exportverpackung und Lieferung",
+        "description": "Individuelle Etikettierung, Flachpack- oder Montageverpackung und koordinierte Logistik für internationalen Versand."
+      }
+    },
+    "formTitle": "Starten Sie Ihr OEM-Projekt",
+    "formDescription": "Füllen Sie das Formular unten mit Ihren Anpassungsanforderungen aus."
+  },
+  "blogPage": {
+    "eyebrow": "Einblicke",
+    "title": "Aluminiumindustrie-Wissensdatenbank",
+    "description": "Praktische Artikel für Importeure, Händler und Auftragnehmer, die Aluminium-Außenkonstruktionen beziehen."
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "Wie Sie den richtigen Aluminium-Carport für Ihr Projekt wählen",
+      "excerpt": "Praktischer Leitfaden zu Materialauswahl, Dachtypen, Lastanforderungen und Anpassungsoptionen für Aluminium-Carports.",
+      "readTime": "6 Min. Lesezeit",
+      "content": "Aluminium-Carports werden für Wohn- und Gewerbeimmobilien immer beliebter aufgrund ihrer Korrosionsbeständigkeit, geringen Wartung und Designflexibilität.\n\n## Wichtige Faktoren\n\n**1. Aluminiumgrad**\nAchten Sie auf 6063-T5 oder gleichwertige Strukturaluminiumprofile.\n\n**2. Oberflächenbehandlung**\nPulverbeschichtung ist Standard. Für Küstenumgebungen empfiehlt sich PVDF-Beschichtung.\n\n**3. Dachplattenoptionen**\nPolycarbonatplatten bieten natürliches Licht. Aluminiumplatten sorgen für solides architektonisches Erscheinungsbild.\n\n**4. Wind- und Schneelast**\nGeben Sie immer Ihre lokalen Klimabedingungen an.\n\n## Warum direkt mit der Fabrik arbeiten?\n\nWerksdirekte Beschaffung ermöglicht volle Anpassung von Abmessungen, Farben und Verpackung."
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "Pulverbeschichtung vs Eloxierung für Outdoor-Aluminiumprodukte",
+      "excerpt": "Vergleich zweier beliebter Oberflächenbehandlungen für Aluminium-Pergolen, Geländer und Carports unter verschiedenen Klimabedingungen.",
+      "readTime": "5 Min. Lesezeit",
+      "content": "Oberflächenbehandlung ist entscheidend für die Langlebigkeit von Outdoor-Aluminiumkonstruktionen.\n\n## Pulverbeschichtung\n\n- Breites Farbspektrum (RAL-System)\n- Dicker Schutzfilm\n- Kosteneffektiv für große Strukturen\n\n## Eloxierung\n\n- Metallisches Erscheinungsbild\n- Hervorragende Haftung am Aluminium\n- Begrenzte Farboptionen\n\n## Empfehlung\n\nFür Exportprojekte in verschiedenen Klimazonen wird Pulverbeschichtung typischerweise bevorzugt wegen Farbflexibilität und bewährter Outdoor-Leistung."
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "OEM Aluminium-Pergola-Fertigung: Was Einkäufer wissen sollten",
+      "excerpt": "Essenzielle Checkliste für Importeure und Händler, die maßgeschneiderte Aluminium-Pergolen aus chinesischen Fabriken beziehen.",
+      "readTime": "7 Min. Lesezeit",
+      "content": "Die Beschaffung von Aluminium-Pergolen über OEM-Partnerschaften kann Margen und Produktdifferenzierung erheblich verbessern.\n\n## Checkliste vor der Bestellung\n\n1. Materialzertifikate und Beschichtungstestberichte anfordern\n2. Freigabeprozess für technische Zeichnungen bestätigen\n3. Verpackungsstandards für Export definieren\n4. Inspektionsprotokoll vor Versand vereinbaren\n5. Garantiebedingungen für Beschichtung und Struktur klären\n\n## Zhenlong OEM-Prozess\n\nWir unterstützen volles OEM/ODM von Konzeptzeichnungen bis Produktion, mit Musterprototyping für qualifizierte Projekte."
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Kontakt aufnehmen",
+    "title": "Kontakt Zhenlong Aluminum",
+    "description": "Senden Sie uns Ihre Projektdetails und unser Exportteam antwortet innerhalb von 24 Stunden.",
+    "infoTitle": "Kontaktinformationen",
+    "addressLabel": "Adresse",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "hoursTitle": "Geschäftszeiten",
+    "hoursValue": "7 Tage die Woche, rund um die Uhr"
+  },
+  "form": {
+    "title": "Angebot anfordern",
+    "description": "Erzählen Sie uns von Ihrem Projekt und wir melden uns in Kürze.",
+    "name": "Name",
+    "company": "Unternehmen",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "country": "Land",
+    "productInterest": "Produktinteresse",
+    "selectProduct": "Produkt auswählen",
+    "otherProduct": "Sonstiges / Mehrere Produkte",
+    "quantity": "Geschätzte Menge / Projektgröße",
+    "message": "Projektdetails",
+    "messagePlaceholder": "Bitte Abmessungen, Zielland, Zeitplan und besondere Anforderungen angeben.",
+    "required": "Pflichtfeld",
+    "successTitle": "Vielen Dank für Ihre Anfrage!",
+    "successMessage": "Wir haben Ihre Nachricht erhalten und antworten innerhalb von 24 Stunden.",
+    "sendAnother": "Weitere Anfrage senden",
+    "errors": {
+      "name": "Name muss mindestens 2 Zeichen haben",
+      "email": "Bitte gültige E-Mail eingeben",
+      "country": "Bitte Land eingeben",
+      "productInterest": "Bitte Produkt auswählen",
+      "message": "Nachricht muss mindestens 10 Zeichen haben",
+      "submit": "Anfrage konnte nicht gesendet werden. Bitte später erneut versuchen.",
+      "invalid": "Ungültige Formulardaten. Bitte Eingaben prüfen."
+    }
+  },
+  "footer": {
+    "quickLinks": "Schnelllinks",
+    "productsTitle": "Produkte",
+    "contactTitle": "Kontakt",
+    "productList": [
+      "Aluminium-Carports",
+      "Aluminium-Pergolen",
+      "Aluminium-Vordächer",
+      "Aluminium-Geländer",
+      "Aluminiumtore"
+    ],
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "whatsapp": {
+    "message": "Hallo, ich interessiere mich für Ihre Aluminiumprodukte. Bitte senden Sie mir weitere Informationen."
+  }
+}

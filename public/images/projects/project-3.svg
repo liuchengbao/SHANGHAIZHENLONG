@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <rect width="400" height="260" fill="#e2e8f0"/>
+  <rect x="60" y="100" width="280" height="80" rx="2" stroke="#475569" stroke-width="3" fill="none"/>
+  <line x1="100" y1="100" x2="100" y2="180" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="200" y1="100" x2="200" y2="180" stroke="#94a3b8" stroke-width="2"/>
+  <text x="200" y="230" text-anchor="middle" fill="#64748b" font-size="13" font-family="system-ui">Project Case</text>
+</svg>

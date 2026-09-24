@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "Zhenlong Aluminum",
+    "tagline": "Estruturas de alumínio premium para mercados globais",
+    "description": "Shanghai Zhenlong Aluminum Industry Co., Ltd. é um fabricante profissional de coberturas para veículos, pérgolas, toldos, guarda-corpos, cercas e portões em alumínio. Serviços OEM/ODM para projetos residenciais e comerciais em todo o mundo."
+  },
+  "nav": {
+    "home": "Início",
+    "products": "Produtos",
+    "projects": "Projetos",
+    "about": "Sobre nós",
+    "oemOdm": "OEM/ODM",
+    "blog": "Blog",
+    "contact": "Contato"
+  },
+  "common": {
+    "getQuote": "Solicitar orçamento",
+    "getFreeQuote": "Orçamento gratuito",
+    "exploreProducts": "Explorar produtos",
+    "viewDetails": "Ver detalhes",
+    "viewAllProducts": "Ver todos os produtos",
+    "viewAllProjects": "Ver todos os projetos",
+    "readMore": "Leia mais",
+    "submitInquiry": "Enviar consulta",
+    "sending": "Enviando...",
+    "home": "Início",
+    "products": "Produtos",
+    "projects": "Projetos",
+    "about": "Sobre nós",
+    "blog": "Blog",
+    "contact": "Contato",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "Idioma",
+    "learnOem": "Conhecer OEM/ODM"
+  },
+  "meta": {
+    "homeTitle": "Fabricante de coberturas e pérgolas de alumínio",
+    "homeDescription": "Shanghai Zhenlong Aluminum — coberturas, pérgolas, toldos, guarda-corpos e portões de alumínio direto da fábrica. OEM/ODM para compradores globais.",
+    "productsTitle": "Produtos",
+    "productsDescription": "Explore os produtos Zhenlong Aluminum: coberturas, pérgolas, toldos, guarda-corpos e portões. Personalização OEM para compradores globais.",
+    "projectsTitle": "Projetos",
+    "projectsDescription": "Casos de projetos de exportação de coberturas, pérgolas, guarda-corpos e toldos de alumínio da Zhenlong Aluminum.",
+    "aboutTitle": "Sobre nós",
+    "aboutDescription": "Zhenlong Aluminum: fotos da fábrica em Songjiang, fabricação própria e verificação EN 1090 para marquises, pavilhões, cercas e portões.",
+    "oemTitle": "Serviços OEM / ODM",
+    "oemDescription": "Fabricação de alumínio OEM e ODM da Zhenlong Aluminum. Dimensões, cores, branding e embalagem de exportação personalizados.",
+    "blogTitle": "Blog",
+    "blogDescription": "Guias especializados sobre coberturas, pérgolas, pintura em pó e sourcing OEM de um fabricante chinês.",
+    "contactTitle": "Contato",
+    "contactDescription": "Entre em contato com a Zhenlong Aluminum para orçamentos de coberturas, pérgolas, guarda-corpos e portões de alumínio. Direto da fábrica em Xangai, China."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Fabricante de estruturas de alumínio",
+      "title": "Coberturas, pérgolas e soluções arquitetônicas de alumínio premium",
+      "subtitle": "Shanghai Zhenlong Aluminum Industry Co., Ltd. fabrica coberturas, pérgolas, toldos, guarda-corpos e portões de alumínio personalizados para importadores, distribuidores e empreiteiros de projetos em todo o mundo.",
+      "highlights": {
+        "0": "Preços diretos de fábrica",
+        "1": "Suporte completo OEM / ODM",
+        "2": "Experiência de exportação mundial",
+        "3": "Desenhos de engenharia fornecidos"
+      },
+      "imageLabel": "Alumínio arquitetónico",
+      "alloy": "Liga de alumínio"
+    },
+    "stats": {
+      "founded": "Anos de experiência",
+      "products": "Linhas de produtos",
+      "markets": "Mercados de exportação",
+      "support": "Resposta a orçamentos"
+    },
+    "products": {
+      "eyebrow": "Nossos produtos",
+      "title": "Estruturas de alumínio para projetos globais",
+      "description": "De coberturas residenciais a sistemas de pérgolas comerciais, entregamos soluções de alumínio personalizáveis com suporte de exportação confiável."
+    },
+    "whyUs": {
+      "eyebrow": "Por que Zhenlong",
+      "title": "Seu parceiro confiável em fabricação de alumínio",
+      "description": "Ajudamos compradores internacionais a obter produtos de alumínio duráveis e personalizáveis com comunicação clara e suporte profissional de projetos.",
+      "items": {
+        "0": {
+          "title": "Direto da fábrica",
+          "description": "Produção interna desde perfilagem de alumínio até soldagem, revestimento e embalagem."
+        },
+        "1": {
+          "title": "Pronto para OEM / ODM",
+          "description": "Dimensões, cores, branding e embalagem adaptados ao seu mercado."
+        },
+        "2": {
+          "title": "Foco em qualidade",
+          "description": "Processo de QC estruturado cobrindo material, soldagem, revestimento e inspeção pré-embarque."
+        },
+        "3": {
+          "title": "Experiência de exportação",
+          "description": "Atendemos compradores na América do Norte, Europa, Oriente Médio e Ásia-Pacífico."
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "Casos de projeto",
+      "title": "Resultados comprovados em mercados globais",
+      "description": "Explore projetos de exportação selecionados que demonstram nossa capacidade de fabricação e expertise em personalização."
+    },
+    "cta": {
+      "title": "Pronto para iniciar seu projeto de alumínio?",
+      "description": "Envie seus requisitos, desenhos ou fotos de referência. Nossa equipe fornecerá um orçamento profissional e proposta de fabricação em 24 horas."
+    },
+    "trust": {
+      "items": [
+        "Personalização OEM / ODM",
+        "Liga de alumínio 6063-T5",
+        "Pintura a pó e PVDF",
+        "Suporte de exportação global"
+      ]
+    },
+    "process": {
+      "eyebrow": "Como trabalhamos",
+      "title": "Do projeto à entrega",
+      "description": "Um processo de fabricação enxuto, pensado para projetos internacionais.",
+      "steps": {
+        "0": {
+          "title": "Revisão de projeto",
+          "description": "Analisamos desenhos, especificações e requisitos com a equipe de engenharia."
+        },
+        "1": {
+          "title": "Fabricação",
+          "description": "Corte, soldagem e montagem de precisão com perfis de alumínio 6063-T5."
+        },
+        "2": {
+          "title": "Tratamento de superfície",
+          "description": "Pintura a pó ou acabamento PVDF com correspondência de cor RAL."
+        },
+        "3": {
+          "title": "Controlo de qualidade",
+          "description": "Inspeção de material, solda, revestimento e pré-embarque."
+        },
+        "4": {
+          "title": "Entrega de exportação",
+          "description": "Embalagem sob medida e logística internacional coordenada."
+        }
+      }
+    }
+  },
+  "productsPage": {
+    "eyebrow": "Gama de produtos",
+    "title": "Produtos de alumínio para projetos de exportação",
+    "description": "Fabricamos uma gama completa de estruturas externas de alumínio com dimensões, acabamentos e embalagem personalizáveis."
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "Coberturas de alumínio",
+      "shortDescription": "Coberturas duráveis e resistentes ao clima para entradas residenciais, estacionamentos e propriedades comerciais.",
+      "description": "Nossas coberturas de alumínio são projetadas para desempenho externo de longo prazo com perfis de alumínio 6063-T5, soldagem de precisão e pintura em pó premium. Totalmente personalizáveis em vão, altura, estilo de telhado e cor conforme os requisitos do projeto.",
+      "features": [
+        "Estrutura em liga de alumínio 6063-T5",
+        "Pintura em pó resistente a UV (cores RAL)",
+        "Opções de carga de neve e vento disponíveis",
+        "Design modular para instalação fácil",
+        "Dimensões e branding OEM suportados"
+      ],
+      "specLabels": [
+        "Material",
+        "Acabamento superficial",
+        "Largura do vão",
+        "Opções de telhado",
+        "Garantia"
+      ],
+      "specValues": [
+        "Alumínio 6063-T5",
+        "Pintura em pó / PVDF",
+        "Personalizado (3 m – 12 m+)",
+        "Policarbonato / Painel de alumínio",
+        "10+ anos (revestimento)"
+      ],
+      "applications": [
+        "Entradas residenciais",
+        "Áreas de estacionamento em villas",
+        "Estacionamentos comerciais",
+        "Entradas de hotéis e resorts"
+      ],
+      "faqs": [
+        {
+          "question": "Vocês personalizam dimensões da cobertura?",
+          "answer": "Sim. Oferecemos personalização OEM de largura, comprimento, altura, espaçamento de colunas e opções de painel de telhado com base nos seus desenhos do local."
+        },
+        {
+          "question": "Qual é o prazo de entrega típico?",
+          "answer": "Projetos padrão: 15–25 dias após confirmação do pedido. Pedidos comerciais grandes podem exigir 30–45 dias."
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "Pérgolas e gazebos de alumínio",
+      "shortDescription": "Pérgolas e gazebos externos elegantes para jardins, pátios, áreas de piscina e estabelecimentos hoteleiros.",
+      "description": "As pérgolas de alumínio Zhenlong combinam estética arquitetônica com confiabilidade estrutural. Disponíveis em designs de telhado fixo e com lambris, ideais para espaços externos que exigem sombra, ventilação e apelo visual.",
+      "features": [
+        "Sistemas de telhado fixo ou com lambris ajustáveis",
+        "Resistentes à corrosão para climas costeiros",
+        "Design de drenagem integrado",
+        "Opções de iluminação LED e acessórios",
+        "Desenhos de engenharia fornecidos"
+      ],
+      "specLabels": [
+        "Material",
+        "Tipo de telhado",
+        "Revestimento",
+        "Instalação",
+        "Personalização"
+      ],
+      "specValues": [
+        "Alumínio 6063-T5",
+        "Fixo / Com lambris",
+        "Pintura em pó / Anodizado",
+        "Montagem modular parafusada",
+        "OEM/ODM completo"
+      ],
+      "applications": [
+        "Pátios de jardim",
+        "Áreas de descanso junto à piscina",
+        "Terraços de restaurantes",
+        "Pátios de hotéis"
+      ],
+      "faqs": [
+        {
+          "question": "Vocês oferecem pérgolas com lambris motorizados?",
+          "answer": "Sim. Podemos fornecer sistemas de lambris manuais ou motorizados conforme orçamento e especificações do projeto."
+        },
+        {
+          "question": "As pérgolas podem ser enviadas em embalagem plana?",
+          "answer": "Sim. Nosso design modular suporta exportação em embalagem plana para reduzir volume e custo de envio."
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "Toldos e marquises de alumínio",
+      "shortDescription": "Toldos arquitetônicos de alumínio para entradas, passarelas, varandas e fachadas comerciais.",
+      "description": "Fabricamos sistemas de toldos de alumínio que protegem do sol e da chuva enquanto realçam a estética do edifício. Adequados para varandas residenciais, entradas de lojas e coberturas de passarelas comerciais de grande porte.",
+      "features": [
+        "Design estrutural de perfil fino",
+        "Sistemas de suportes de alta resistência",
+        "Múltiplos materiais de painel de telhado",
+        "Engenharia resistente ao vento",
+        "Correspondência de cor RAL personalizada"
+      ],
+      "specLabels": [
+        "Perfil",
+        "Painel",
+        "Classificação de carga",
+        "Acabamento",
+        "Suporte de design"
+      ],
+      "specValues": [
+        "Extrusão de alumínio personalizada",
+        "PC / Vidro / Alumínio",
+        "Específico do projeto",
+        "Pintura em pó",
+        "Desenhos CAD incluídos"
+      ],
+      "applications": [
+        "Entradas de edifícios",
+        "Coberturas de passarelas",
+        "Toldos de varanda",
+        "Fachadas de varejo"
+      ],
+      "faqs": [
+        {
+          "question": "Vocês fabricam com base em desenhos arquitetônicos?",
+          "answer": "Com certeza. Envie seus desenhos ou fotos do local e nossa equipe de engenharia fornecerá soluções de fabricação."
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "Guarda-corpos e cercas de alumínio",
+      "shortDescription": "Guarda-corpos, balaustradas e sistemas de cerca de alumínio decorativos e estruturais para uso residencial e comercial.",
+      "description": "Nossos sistemas de guarda-corpos e cercas de alumínio oferecem uma alternativa premium à ferro forjado com superior resistência à corrosão e menor manutenção. Padrões, alturas e integração de portões personalizáveis.",
+      "features": [
+        "Fundição artística de alumínio e perfis",
+        "Revestimento testado em névoa salina",
+        "Conjuntos coordenados de guarda-corpo e portão",
+        "Conformidade com especificações de segurança do projeto",
+        "Múltiplos estilos de design disponíveis"
+      ],
+      "specLabels": [
+        "Material",
+        "Altura",
+        "Acabamento",
+        "Estilo",
+        "MOQ"
+      ],
+      "specValues": [
+        "Liga de alumínio",
+        "Personalizado (900 mm – 1800 mm)",
+        "Pintura em pó",
+        "Moderno / Europeu / Personalizado",
+        "Baseado em projeto"
+      ],
+      "applications": [
+        "Varandas de villas",
+        "Escadas",
+        "Limites de jardim",
+        "Propriedades comerciais"
+      ],
+      "faqs": [
+        {
+          "question": "Guarda-corpos e portões podem ter o mesmo design?",
+          "answer": "Sim. Normalmente projetamos sistemas de guarda-corpo e portão como conjunto coordenado para consistência visual."
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "Portões de alumínio",
+      "shortDescription": "Portões de entrada, pedestres e deslizantes de alumínio personalizados com acabamentos premium.",
+      "description": "Os portões de alumínio Zhenlong são construídos para segurança, durabilidade e apelo estético. Suportamos configurações de batente e deslizante compatíveis com operação manual ou automatizada.",
+      "features": [
+        "Configurações de batente e deslizante",
+        "Construção de estrutura reforçada",
+        "Design preparado para automação",
+        "Opções de painéis decorativos",
+        "Embalagem de grau exportação"
+      ],
+      "specLabels": [
+        "Tipo",
+        "Largura",
+        "Estrutura",
+        "Acabamento",
+        "Acessórios"
+      ],
+      "specValues": [
+        "Batente / Deslizante",
+        "Personalizado",
+        "Alumínio reforçado",
+        "Pintura em pó",
+        "Maçanetas, fechaduras, motores (opcional)"
+      ],
+      "applications": [
+        "Entradas residenciais",
+        "Entradas de villas",
+        "Compounds industriais",
+        "Condomínios fechados"
+      ],
+      "faqs": [
+        {
+          "question": "Vocês fornecem motores para portões?",
+          "answer": "Podemos fornecer portões compatíveis com sistemas de automação de terceiros ou recomendar especificações de motor para seu mercado."
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "Especificações",
+    "applications": "Aplicações",
+    "faq": "Perguntas frequentes",
+    "requestQuote": "Solicitar orçamento",
+    "formHint": "Conte-nos sobre seu projeto e retornaremos em breve."
+  },
+  "projectsPage": {
+    "eyebrow": "Estudos de caso",
+    "title": "Portfólio de projetos de exportação global",
+    "description": "Aplicações reais que demonstram nossa qualidade de fabricação, capacidade de personalização e experiência de exportação."
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "Cobertura residencial – Austrália",
+      "location": "Melbourne, Austrália",
+      "category": "Coberturas de alumínio",
+      "description": "Cobertura dupla personalizada com painéis de policarbonato, pintura em pó RAL 7016 para entrada de villa moderna."
+    },
+    "hotel-pergola-dubai": {
+      "title": "Pérgola de pátio hoteleiro – EAU",
+      "location": "Dubai, EAU",
+      "category": "Pérgolas de alumínio",
+      "description": "Sistema de pérgola com lambris de grande formato para pátio hoteleiro, projetado para climas de alta temperatura."
+    },
+    "villa-railing-germany": {
+      "title": "Sistema de guarda-corpo para villa – Alemanha",
+      "location": "Munique, Alemanha",
+      "category": "Guarda-corpos de alumínio",
+      "description": "Balaustrada de alumínio estilo europeu com portão de entrada coordenado para projeto de renovação residencial."
+    },
+    "commercial-canopy-usa": {
+      "title": "Toldo de entrada comercial – EUA",
+      "location": "Califórnia, EUA",
+      "category": "Toldos de alumínio",
+      "description": "Toldo de entrada arquitetônico com drenagem integrada para upgrade de fachada de complexo comercial."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Sobre Zhenlong",
+    "capabilities": "Capacidades da fábrica",
+    "exportMarkets": "Mercados de exportação",
+    "capabilityItems": [
+      "Corte e fabricação de perfis de alumínio",
+      "Usinagem CNC e soldagem de precisão",
+      "Pintura em pó e tratamento superficial",
+      "Montagem, inspeção e embalagem de exportação",
+      "Desenhos de engenharia e personalização OEM"
+    ],
+    "paragraphs": {
+      "0": "Fundada em {year}, a Shanghai Zhenlong Aluminum Industry Co., Ltd. especializa-se no design e fabricação de estruturas externas de alumínio para projetos residenciais, comerciais e hoteleiros.",
+      "1": "Com capacidades de produção interna e ampla experiência de exportação, apoiamos compradores internacionais, distribuidores e empreiteiros com qualidade confiável, preços competitivos de fábrica e comunicação ágil.",
+      "2": "Nossa gama de produtos inclui coberturas, pérgolas, toldos, guarda-corpos decorativos, cercas e portões de alumínio — todos disponíveis com personalização OEM/ODM completa."
+    },
+    "markets": [
+      "América do Norte",
+      "Europa",
+      "Oriente Médio",
+      "Sudeste Asiático",
+      "Austrália"
+    ],
+    "introImageAlt": "Acesso à fábrica da Zhenlong Aluminum em Songjiang, Xangai",
+    "introImageCaption": "Fábrica de Songjiang · Yuxiu Road 39",
+    "galleryEyebrow": "Fábrica",
+    "galleryTitle": "Oficina, armazém e fábrica",
+    "galleryDescription": "Fotografado nas instalações da Yuxiu Road: o chão de fábrica, o estoque de alumínio e a entrada.",
+    "photos": {
+      "workshop": {
+        "alt": "Vista ampla da oficina da Zhenlong, com perfis e fabricação de portões",
+        "caption": "Chão de fábrica"
+      },
+      "assembly": {
+        "alt": "Operário montando um portão de alumínio com pintura a pó",
+        "caption": "Montagem de portões"
+      },
+      "warehouse": {
+        "alt": "Estantes com extrusões de alumínio no armazém da Zhenlong",
+        "caption": "Armazém de perfis"
+      },
+      "profiles": {
+        "alt": "Perfis de alumínio embalados no chão da oficina",
+        "caption": "Estoque de alumínio"
+      },
+      "entrance": {
+        "alt": "Placa da empresa na entrada da Zhenlong Aluminum na Yuxiu Road",
+        "caption": "Entrada da fábrica"
+      }
+    },
+    "certEyebrow": "Conformidade",
+    "certTitle": "Verificação de produtos",
+    "certDescription": "Verificação de conformidade ICR para marquises, pavilhões, cercas e portões, segundo a EN 1090 e o regulamento europeu de produtos de construção.",
+    "certView": "Ver certificado",
+    "certClose": "Fechar",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "Marquise",
+        "alt": "Verificação de conformidade de marquises de alumínio Zhenlong, EN 1090"
+      },
+      "pavilion": {
+        "name": "Pavilhão",
+        "alt": "Verificação de conformidade de pavilhões de alumínio Zhenlong, EN 1090"
+      },
+      "fence": {
+        "name": "Cerca",
+        "alt": "Verificação de conformidade de cercas de alumínio Zhenlong, EN 1090"
+      },
+      "gate": {
+        "name": "Portão",
+        "alt": "Verificação de conformidade de portões de alumínio Zhenlong, EN 1090"
+      }
+    },
+    "certMatchedTitle": "Verificação desta categoria",
+    "certMatchedDescription": "Esta categoria tem verificação de conformidade ICR segundo a EN 1090 e o regulamento europeu de produtos de construção."
+  },
+  "oemPage": {
+    "eyebrow": "Personalização",
+    "title": "Fabricação de alumínio OEM / ODM",
+    "description": "Faça parceria com a Zhenlong para produtos de alumínio totalmente personalizados — do conceito à entrega pronta para exportação.",
+    "steps": {
+      "0": {
+        "title": "Revisão de requisitos",
+        "description": "Compartilhe desenhos, imagens de referência ou especificações do produto. Nossa equipe avalia viabilidade e fornece recomendações."
+      },
+      "1": {
+        "title": "Engenharia e orçamento",
+        "description": "Preparamos propostas técnicas, desenhos 3D/CAD se necessário, e orçamentos detalhados com base em quantidade e personalização."
+      },
+      "2": {
+        "title": "Amostra e aprovação",
+        "description": "Amostras protótipo disponíveis para projetos qualificados. A produção começa após aprovação da amostra e especificações."
+      },
+      "3": {
+        "title": "Produção e QC",
+        "description": "Fabricação interna completa com inspeções de qualidade de material, soldagem, revestimento e pré-embarque."
+      },
+      "4": {
+        "title": "Embalagem de exportação e entrega",
+        "description": "Rotulagem personalizada, embalagem plana ou montada, e logística coordenada para envio internacional."
+      }
+    },
+    "formTitle": "Inicie seu projeto OEM",
+    "formDescription": "Preencha o formulário abaixo com seus requisitos de personalização."
+  },
+  "blogPage": {
+    "eyebrow": "Insights",
+    "title": "Base de conhecimento da indústria de alumínio",
+    "description": "Artigos práticos para importadores, distribuidores e empreiteiros que buscam estruturas externas de alumínio."
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "Como escolher a cobertura de alumínio certa para seu projeto",
+      "excerpt": "Guia prático sobre seleção de materiais, tipos de telhado, requisitos de carga e opções de personalização para coberturas de alumínio.",
+      "readTime": "6 min de leitura",
+      "content": "Coberturas de alumínio são cada vez mais populares em propriedades residenciais e comerciais devido à resistência à corrosão, baixa manutenção e flexibilidade de design.\n\n## Fatores-chave a considerar\n\n**1. Grau de alumínio**\nProcure perfis de alumínio estrutural 6063-T5 ou equivalente.\n\n**2. Tratamento superficial**\nPintura em pó é padrão. Para ambientes costeiros, considere revestimento PVDF.\n\n**3. Opções de painel de telhado**\nPainéis de policarbonato proporcionam luz natural. Painéis de alumínio oferecem aspecto arquitetônico sólido.\n\n**4. Carga de vento e neve**\nSempre especifique as condições climáticas locais.\n\n## Por que trabalhar diretamente com a fábrica?\n\nO sourcing direto de fábrica permite personalização completa de dimensões, cores e embalagem."
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "Pintura em pó vs anodização para produtos de alumínio externos",
+      "excerpt": "Compare dois tratamentos superficiais populares para pérgolas, guarda-corpos e coberturas de alumínio em diferentes condições climáticas.",
+      "readTime": "5 min de leitura",
+      "content": "O tratamento superficial é crítico para a longevidade de estruturas de alumínio externas.\n\n## Pintura em pó\n\n- Ampla gama de cores (sistema RAL)\n- Película protetora espessa\n- Custo-benefício para estruturas grandes\n\n## Anodização\n\n- Aparência metálica\n- Excelente aderência ao alumínio\n- Opções de cor limitadas\n\n## Recomendação\n\nPara projetos de exportação em climas variados, a pintura em pó é tipicamente preferida devido à flexibilidade de cores e desempenho externo comprovado."
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "Fabricação OEM de pérgolas de alumínio: o que compradores devem saber",
+      "excerpt": "Checklist essencial para importadores e distribuidores que buscam pérgolas de alumínio personalizadas de fábricas chinesas.",
+      "readTime": "7 min de leitura",
+      "content": "Obter pérgolas de alumínio por meio de parcerias OEM pode melhorar significativamente margens e diferenciação de produto.\n\n## Checklist pré-pedido\n\n1. Solicite certificados de material e relatórios de teste de revestimento\n2. Confirme processo de aprovação de desenhos de engenharia\n3. Defina padrões de embalagem para exportação\n4. Acorde protocolo de inspeção antes do embarque\n5. Esclareça termos de garantia para revestimento e estrutura\n\n## Processo OEM Zhenlong\n\nOferecemos OEM/ODM completo de desenhos conceituais à produção, com prototipagem de amostras para projetos qualificados."
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Entre em contato",
+    "title": "Contato Zhenlong Aluminum",
+    "description": "Envie os detalhes do seu projeto e nossa equipe de exportação responderá em 24 horas.",
+    "infoTitle": "Informações de contato",
+    "addressLabel": "Endereço",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefone",
+    "hoursTitle": "Horário comercial",
+    "hoursValue": "7 dias por semana, 24 horas"
+  },
+  "form": {
+    "title": "Solicitar orçamento",
+    "description": "Conte-nos sobre seu projeto e retornaremos em breve.",
+    "name": "Nome",
+    "company": "Empresa",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "country": "País",
+    "productInterest": "Produto de interesse",
+    "selectProduct": "Selecione um produto",
+    "otherProduct": "Outro / Vários produtos",
+    "quantity": "Quantidade estimada / Tamanho do projeto",
+    "message": "Detalhes do projeto",
+    "messagePlaceholder": "Inclua dimensões, país de destino, prazo e quaisquer requisitos especiais.",
+    "required": "Obrigatório",
+    "successTitle": "Obrigado pela sua consulta!",
+    "successMessage": "Recebemos sua mensagem e responderemos em 24 horas.",
+    "sendAnother": "Enviar outra consulta",
+    "errors": {
+      "name": "O nome deve ter pelo menos 2 caracteres",
+      "email": "Insira um e-mail válido",
+      "country": "Insira seu país",
+      "productInterest": "Selecione um produto",
+      "message": "A mensagem deve ter pelo menos 10 caracteres",
+      "submit": "Falha ao enviar consulta. Tente novamente mais tarde.",
+      "invalid": "Dados do formulário inválidos. Verifique suas entradas."
+    }
+  },
+  "footer": {
+    "quickLinks": "Links rápidos",
+    "productsTitle": "Produtos",
+    "contactTitle": "Contato",
+    "productList": [
+      "Coberturas de alumínio",
+      "Pérgolas de alumínio",
+      "Toldos de alumínio",
+      "Guarda-corpos de alumínio",
+      "Portões de alumínio"
+    ],
+    "rights": "Todos os direitos reservados."
+  },
+  "whatsapp": {
+    "message": "Olá, tenho interesse em seus produtos de alumínio. Por favor, envie mais informações."
+  }
+}

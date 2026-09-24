@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "Zhenlong Aluminum",
+    "tagline": "Premium Aluminum Structures for Global Markets",
+    "description": "Shanghai Zhenlong Aluminum Industry Co., Ltd. is a professional manufacturer of aluminum carports, pergolas, canopies, railings, fences, and gates. OEM/ODM services for residential and commercial projects worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "projects": "Projects",
+    "about": "About",
+    "oemOdm": "OEM/ODM",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "getQuote": "Get a Quote",
+    "getFreeQuote": "Get a Free Quote",
+    "exploreProducts": "Explore Products",
+    "viewDetails": "View Details",
+    "viewAllProducts": "View All Products",
+    "viewAllProjects": "View All Projects",
+    "readMore": "Read more",
+    "submitInquiry": "Submit Inquiry",
+    "sending": "Sending...",
+    "home": "Home",
+    "products": "Products",
+    "projects": "Projects",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "Language",
+    "learnOem": "Learn About OEM/ODM"
+  },
+  "meta": {
+    "homeTitle": "Aluminum Carport & Pergola Manufacturer",
+    "homeDescription": "Shanghai Zhenlong Aluminum — factory-direct aluminum carports, pergolas, canopies, railings and gates. OEM/ODM for global buyers.",
+    "productsTitle": "Products",
+    "productsDescription": "Explore Zhenlong Aluminum products: carports, pergolas, canopies, railings, and gates. OEM customization for global buyers.",
+    "projectsTitle": "Projects",
+    "projectsDescription": "Export project cases for aluminum carports, pergolas, railings, and canopies by Zhenlong Aluminum.",
+    "aboutTitle": "About Us",
+    "aboutDescription": "Shanghai Zhenlong Aluminum: Songjiang factory photos, in-house fabrication, and EN 1090 verification for canopies, pavilions, fences, and gates.",
+    "oemTitle": "OEM / ODM Services",
+    "oemDescription": "OEM and ODM aluminum manufacturing from Zhenlong Aluminum. Custom dimensions, colors, branding, and export packaging.",
+    "blogTitle": "Blog",
+    "blogDescription": "Expert guides on aluminum carports, pergolas, powder coating, and OEM sourcing from a China manufacturer.",
+    "contactTitle": "Contact Us",
+    "contactDescription": "Contact Zhenlong Aluminum for quotes on aluminum carports, pergolas, railings, and gates. Factory direct from Shanghai, China."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Aluminum Structure Manufacturer",
+      "title": "Premium Aluminum Carports, Pergolas & Architectural Solutions",
+      "subtitle": "Shanghai Zhenlong Aluminum Industry Co., Ltd. manufactures custom aluminum carports, pergolas, canopies, railings, and gates for importers, distributors, and project contractors worldwide.",
+      "highlights": {
+        "0": "Direct factory pricing",
+        "1": "Full OEM / ODM support",
+        "2": "Export experience worldwide",
+        "3": "Engineering drawings provided"
+      },
+      "imageLabel": "Architectural Aluminum",
+      "alloy": "Aluminum Alloy"
+    },
+    "stats": {
+      "founded": "Years Experience",
+      "products": "Product Lines",
+      "markets": "Export Markets",
+      "support": "Quote Response"
+    },
+    "trust": {
+      "items": [
+        "OEM / ODM Customization",
+        "6063-T5 Aluminum Alloy",
+        "Powder Coating & PVDF",
+        "Global Export Support"
+      ]
+    },
+    "process": {
+      "eyebrow": "How We Work",
+      "title": "From Design to Delivery",
+      "description": "A streamlined manufacturing process built for international project requirements.",
+      "steps": {
+        "0": {
+          "title": "Design Review",
+          "description": "Review drawings, specs, and project requirements with our engineering team."
+        },
+        "1": {
+          "title": "Fabrication",
+          "description": "Precision cutting, welding, and assembly using 6063-T5 aluminum profiles."
+        },
+        "2": {
+          "title": "Surface Treatment",
+          "description": "Powder coating or PVDF finishing with RAL color matching."
+        },
+        "3": {
+          "title": "Quality Control",
+          "description": "Material, welding, coating, and pre-shipment inspection."
+        },
+        "4": {
+          "title": "Export Delivery",
+          "description": "Custom packaging and coordinated international logistics."
+        }
+      }
+    },
+    "products": {
+      "eyebrow": "Our Products",
+      "title": "Aluminum Structures Built for Global Projects",
+      "description": "From residential carports to commercial pergola systems, we deliver customizable aluminum solutions with reliable export support."
+    },
+    "whyUs": {
+      "eyebrow": "Why Zhenlong",
+      "title": "Your Reliable Aluminum Manufacturing Partner",
+      "description": "We help international buyers source durable, customizable aluminum products with clear communication and professional project support.",
+      "items": {
+        "0": {
+          "title": "Factory Direct",
+          "description": "In-house production from aluminum profiling to welding, coating, and packaging."
+        },
+        "1": {
+          "title": "OEM / ODM Ready",
+          "description": "Custom dimensions, colors, branding, and packaging tailored to your market."
+        },
+        "2": {
+          "title": "Quality Focused",
+          "description": "Structured QC process covering material, welding, coating, and pre-shipment inspection."
+        },
+        "3": {
+          "title": "Export Experience",
+          "description": "Serving buyers across North America, Europe, Middle East, and Asia-Pacific."
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "Project Cases",
+      "title": "Proven Results Across Global Markets",
+      "description": "Explore selected export projects showcasing our manufacturing capability and customization expertise."
+    },
+    "cta": {
+      "title": "Ready to Start Your Aluminum Project?",
+      "description": "Send us your requirements, drawings, or reference photos. Our team will provide a professional quotation and manufacturing proposal within 24 hours."
+    }
+  },
+  "productsPage": {
+    "eyebrow": "Product Range",
+    "title": "Aluminum Products for Export Projects",
+    "description": "We manufacture a complete range of aluminum outdoor structures with customizable dimensions, finishes, and packaging."
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "Aluminum Carports",
+      "shortDescription": "Durable, weather-resistant carports for residential driveways, parking lots, and commercial properties.",
+      "description": "Our aluminum carports are engineered for long-term outdoor performance with 6063-T5 aluminum profiles, precision welding, and premium powder coating. Fully customizable in span, height, roof style, and color to match your project requirements.",
+      "features": [
+        "6063-T5 aluminum alloy structure",
+        "UV-resistant powder coating (RAL colors)",
+        "Snow and wind load options available",
+        "Modular design for easy installation",
+        "OEM dimensions and branding supported"
+      ],
+      "specLabels": [
+        "Material",
+        "Surface Finish",
+        "Span Width",
+        "Roof Options",
+        "Warranty"
+      ],
+      "specValues": [
+        "6063-T5 Aluminum",
+        "Powder Coating / PVDF",
+        "Custom (3m – 12m+)",
+        "Polycarbonate / Aluminum Panel",
+        "10+ Years (coating)"
+      ],
+      "applications": [
+        "Residential driveways",
+        "Villa parking areas",
+        "Commercial parking lots",
+        "Hotel and resort entrances"
+      ],
+      "faqs": [
+        {
+          "question": "Can you customize carport dimensions?",
+          "answer": "Yes. We provide OEM customization for width, length, height, column spacing, and roof panel options based on your site drawings."
+        },
+        {
+          "question": "What is the typical lead time?",
+          "answer": "Standard projects: 15–25 days after order confirmation. Large commercial orders may require 30–45 days."
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "Aluminum Pergolas & Gazebos",
+      "shortDescription": "Elegant outdoor pergolas and gazebos for gardens, patios, poolsides, and hospitality venues.",
+      "description": "Zhenlong aluminum pergolas combine architectural aesthetics with structural reliability. Available in fixed and louvered roof designs, ideal for outdoor living spaces that require shade, ventilation, and visual appeal.",
+      "features": [
+        "Fixed or adjustable louver roof systems",
+        "Corrosion-resistant for coastal climates",
+        "Integrated drainage design",
+        "LED lighting and accessory options",
+        "Engineering drawings provided"
+      ],
+      "specLabels": [
+        "Material",
+        "Roof Type",
+        "Coating",
+        "Installation",
+        "Customization"
+      ],
+      "specValues": [
+        "6063-T5 Aluminum",
+        "Fixed / Louvered",
+        "Powder Coating / Anodized",
+        "Bolt-on modular assembly",
+        "Full OEM/ODM"
+      ],
+      "applications": [
+        "Garden patios",
+        "Poolside lounges",
+        "Restaurant terraces",
+        "Hotel courtyards"
+      ],
+      "faqs": [
+        {
+          "question": "Do you offer motorized louver pergolas?",
+          "answer": "Yes. We can supply manual or motorized louver systems depending on project budget and specifications."
+        },
+        {
+          "question": "Can pergolas be shipped flat-packed?",
+          "answer": "Yes. Our modular design supports flat-pack export to reduce shipping volume and cost."
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "Aluminum Canopies & Awnings",
+      "shortDescription": "Architectural aluminum canopies for entrances, walkways, balconies, and commercial facades.",
+      "description": "We manufacture aluminum canopy systems that protect against sun and rain while enhancing building aesthetics. Suitable for residential balconies, shop entrances, and large commercial walkway covers.",
+      "features": [
+        "Slim-profile structural design",
+        "High-strength bracket systems",
+        "Multiple roof panel materials",
+        "Wind-resistant engineering",
+        "Custom RAL color matching"
+      ],
+      "specLabels": [
+        "Profile",
+        "Panel",
+        "Load Rating",
+        "Finish",
+        "Design Support"
+      ],
+      "specValues": [
+        "Custom aluminum extrusion",
+        "PC / Glass / Aluminum",
+        "Project-specific",
+        "Powder Coating",
+        "CAD drawings included"
+      ],
+      "applications": [
+        "Building entrances",
+        "Walkway covers",
+        "Balcony awnings",
+        "Retail storefronts"
+      ],
+      "faqs": [
+        {
+          "question": "Can you manufacture based on architectural drawings?",
+          "answer": "Absolutely. Send us your drawings or site photos and our engineering team will provide manufacturing solutions."
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "Aluminum Railings & Fences",
+      "shortDescription": "Decorative and structural aluminum railings, balustrades, and fence systems for residential and commercial use.",
+      "description": "Our aluminum railing and fence systems offer a premium alternative to wrought iron with superior corrosion resistance and lower maintenance. Custom patterns, heights, and gate integration available.",
+      "features": [
+        "Artistic aluminum casting and profiles",
+        "Salt-spray tested coating",
+        "Gate and railing matched sets",
+        "Compliance with project safety specs",
+        "Multiple design styles available"
+      ],
+      "specLabels": [
+        "Material",
+        "Height",
+        "Finish",
+        "Style",
+        "MOQ"
+      ],
+      "specValues": [
+        "Aluminum Alloy",
+        "Custom (900mm – 1800mm)",
+        "Powder Coating",
+        "Modern / European / Custom",
+        "Project-based"
+      ],
+      "applications": [
+        "Villa balconies",
+        "Staircases",
+        "Garden boundaries",
+        "Commercial properties"
+      ],
+      "faqs": [
+        {
+          "question": "Can railings and gates use the same design?",
+          "answer": "Yes. We typically design railing and gate systems as a matched set for visual consistency."
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "Aluminum Gates",
+      "shortDescription": "Custom aluminum driveway gates, pedestrian gates, and sliding gate systems with premium finishes.",
+      "description": "Zhenlong aluminum gates are built for security, durability, and curb appeal. We support swing and sliding configurations with manual or automated operation compatibility.",
+      "features": [
+        "Swing and sliding configurations",
+        "Reinforced frame construction",
+        "Automation-ready design",
+        "Decorative panel options",
+        "Export-grade packaging"
+      ],
+      "specLabels": [
+        "Type",
+        "Width",
+        "Frame",
+        "Finish",
+        "Accessories"
+      ],
+      "specValues": [
+        "Swing / Sliding",
+        "Custom",
+        "Reinforced aluminum",
+        "Powder Coating",
+        "Handles, locks, motors (optional)"
+      ],
+      "applications": [
+        "Residential driveways",
+        "Villa entrances",
+        "Industrial compounds",
+        "Gated communities"
+      ],
+      "faqs": [
+        {
+          "question": "Do you supply gate motors?",
+          "answer": "We can supply gates compatible with third-party automation systems, or recommend motor specifications for your market."
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "Specifications",
+    "applications": "Applications",
+    "faq": "FAQ",
+    "requestQuote": "Request a Quote",
+    "formHint": "Tell us about your project and we will get back to you shortly."
+  },
+  "projectsPage": {
+    "eyebrow": "Case Studies",
+    "title": "Global Export Project Portfolio",
+    "description": "Real-world applications demonstrating our manufacturing quality, customization capability, and export experience."
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "Residential Carport – Australia",
+      "location": "Melbourne, Australia",
+      "category": "Aluminum Carports",
+      "description": "Custom double carport with polycarbonate roof panels, powder-coated in RAL 7016 for a modern villa driveway."
+    },
+    "hotel-pergola-dubai": {
+      "title": "Hotel Courtyard Pergola – UAE",
+      "location": "Dubai, UAE",
+      "category": "Aluminum Pergolas",
+      "description": "Large-format louvered pergola system for a hospitality courtyard, designed for high-temperature climates."
+    },
+    "villa-railing-germany": {
+      "title": "Villa Railing System – Germany",
+      "location": "Munich, Germany",
+      "category": "Aluminum Railings",
+      "description": "European-style aluminum balustrade with matched entrance gate for a residential renovation project."
+    },
+    "commercial-canopy-usa": {
+      "title": "Commercial Entrance Canopy – USA",
+      "location": "California, USA",
+      "category": "Aluminum Canopies",
+      "description": "Architectural entrance canopy with integrated drainage for a retail complex facade upgrade."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "About Zhenlong",
+    "capabilities": "Factory Capabilities",
+    "exportMarkets": "Export Markets",
+    "capabilityItems": [
+      "Aluminum profile cutting and fabrication",
+      "CNC machining and precision welding",
+      "Powder coating and surface treatment",
+      "Assembly, inspection, and export packaging",
+      "Engineering drawing and OEM customization"
+    ],
+    "paragraphs": {
+      "0": "Founded in {year}, Shanghai Zhenlong Aluminum Industry Co., Ltd. specializes in the design and manufacturing of aluminum outdoor structures for residential, commercial, and hospitality projects.",
+      "1": "With in-house production capabilities and extensive export experience, we support international buyers, distributors, and contractors with reliable quality, competitive factory pricing, and responsive communication.",
+      "2": "Our product range includes aluminum carports, pergolas, canopies, decorative railings, fences, and gates — all available with full OEM/ODM customization."
+    },
+    "markets": [
+      "North America",
+      "Europe",
+      "Middle East",
+      "Southeast Asia",
+      "Australia"
+    ],
+    "introImageAlt": "Entrance driveway of the Zhenlong Aluminum plant in Songjiang, Shanghai",
+    "introImageCaption": "Songjiang plant · No. 39 Yuxiu Road",
+    "galleryEyebrow": "Factory",
+    "galleryTitle": "Workshop, warehouse, and plant",
+    "galleryDescription": "Photographed at our facility on Yuxiu Road: the production floor, aluminum stock, and the plant entrance.",
+    "photos": {
+      "workshop": {
+        "alt": "Wide view of the Zhenlong aluminum workshop with profiles and gate fabrication",
+        "caption": "Production floor"
+      },
+      "assembly": {
+        "alt": "Worker assembling a powder-coated aluminum gate in the workshop",
+        "caption": "Gate assembly"
+      },
+      "warehouse": {
+        "alt": "Racking filled with aluminum extrusions in the Zhenlong warehouse",
+        "caption": "Profile warehouse"
+      },
+      "profiles": {
+        "alt": "Bundled aluminum profiles stored on the factory floor",
+        "caption": "Aluminum stock"
+      },
+      "entrance": {
+        "alt": "Company plaque at the Zhenlong Aluminum entrance on Yuxiu Road",
+        "caption": "Plant entrance"
+      }
+    },
+    "certEyebrow": "Compliance",
+    "certTitle": "Product verification",
+    "certDescription": "ICR verification of conformity for canopies, pavilions, fences, and gates, under EN 1090 and the EU Construction Products Regulation.",
+    "certView": "View certificate",
+    "certClose": "Close",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "Canopy",
+        "alt": "Verification of Conformity for Zhenlong aluminum canopies, EN 1090"
+      },
+      "pavilion": {
+        "name": "Pavilion",
+        "alt": "Verification of Conformity for Zhenlong aluminum pavilions, EN 1090"
+      },
+      "fence": {
+        "name": "Fence",
+        "alt": "Verification of Conformity for Zhenlong aluminum fences, EN 1090"
+      },
+      "gate": {
+        "name": "Gate",
+        "alt": "Verification of Conformity for Zhenlong aluminum gates, EN 1090"
+      }
+    },
+    "certMatchedTitle": "Verification for this category",
+    "certMatchedDescription": "This product category holds an ICR verification of conformity under EN 1090 and the EU Construction Products Regulation."
+  },
+  "oemPage": {
+    "eyebrow": "Customization",
+    "title": "OEM / ODM Aluminum Manufacturing",
+    "description": "Partner with Zhenlong for fully customized aluminum products — from concept to export-ready delivery.",
+    "steps": {
+      "0": {
+        "title": "Requirement Review",
+        "description": "Share drawings, reference images, or product specifications. Our team reviews feasibility and provides recommendations."
+      },
+      "1": {
+        "title": "Engineering & Quotation",
+        "description": "We prepare technical proposals, 3D/CAD drawings if needed, and detailed quotations based on quantity and customization."
+      },
+      "2": {
+        "title": "Sample & Approval",
+        "description": "Prototype samples available for qualified projects. Production begins after sample and specification approval."
+      },
+      "3": {
+        "title": "Production & QC",
+        "description": "Full in-house manufacturing with material, welding, coating, and pre-shipment quality inspections."
+      },
+      "4": {
+        "title": "Export Packaging & Delivery",
+        "description": "Custom labeling, flat-pack or assembled packaging, and coordinated logistics for international shipping."
+      }
+    },
+    "formTitle": "Start Your OEM Project",
+    "formDescription": "Fill out the form below with your customization requirements."
+  },
+  "blogPage": {
+    "eyebrow": "Insights",
+    "title": "Aluminum Industry Knowledge Base",
+    "description": "Practical articles for importers, distributors, and contractors sourcing aluminum outdoor structures."
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "How to Choose the Right Aluminum Carport for Your Project",
+      "excerpt": "A practical guide to material selection, roof types, load requirements, and customization options for aluminum carports.",
+      "readTime": "6 min read",
+      "content": "Aluminum carports are increasingly popular for residential and commercial properties due to their corrosion resistance, low maintenance, and design flexibility.\n\n## Key Factors to Consider\n\n**1. Aluminum Grade**\nLook for 6063-T5 or equivalent structural aluminum profiles.\n\n**2. Surface Treatment**\nPowder coating is standard. For coastal environments, consider PVDF coating.\n\n**3. Roof Panel Options**\nPolycarbonate panels provide natural light. Aluminum panels offer a solid architectural look.\n\n**4. Wind and Snow Load**\nAlways specify your local climate conditions.\n\n## Why Work with a Factory Directly?\n\nFactory-direct sourcing allows full customization of dimensions, colors, and packaging."
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "Powder Coating vs Anodizing for Outdoor Aluminum Products",
+      "excerpt": "Compare two popular surface treatments for aluminum pergolas, railings, and carports in different climate conditions.",
+      "readTime": "5 min read",
+      "content": "Surface treatment is critical for the longevity of outdoor aluminum structures.\n\n## Powder Coating\n\n- Wide color range (RAL system)\n- Thick protective film\n- Cost-effective for large structures\n\n## Anodizing\n\n- Metallic appearance\n- Excellent adhesion to aluminum\n- Limited color options\n\n## Recommendation\n\nFor export projects in varied climates, powder coating is typically preferred due to color flexibility and proven outdoor performance."
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "OEM Aluminum Pergola Manufacturing: What Buyers Should Know",
+      "excerpt": "Essential checklist for importers and distributors sourcing custom aluminum pergolas from China factories.",
+      "readTime": "7 min read",
+      "content": "Sourcing aluminum pergolas through OEM partnerships can significantly improve margins and product differentiation.\n\n## Pre-Order Checklist\n\n1. Request material certificates and coating test reports\n2. Confirm engineering drawing approval process\n3. Define packaging standards for export\n4. Agree on inspection protocol before shipment\n5. Clarify warranty terms for coating and structure\n\n## Zhenlong OEM Process\n\nWe support full OEM/ODM from concept drawings to production, with sample prototyping available for qualified projects."
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Get in Touch",
+    "title": "Contact Zhenlong Aluminum",
+    "description": "Send us your project details and our export team will respond within 24 hours.",
+    "infoTitle": "Contact Information",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "hoursTitle": "Business Hours",
+    "hoursValue": "7 days a week, 24 hours"
+  },
+  "form": {
+    "title": "Request a Quote",
+    "description": "Tell us about your project and we will get back to you shortly.",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "country": "Country",
+    "productInterest": "Product Interest",
+    "selectProduct": "Select a product",
+    "otherProduct": "Other / Multiple Products",
+    "quantity": "Estimated Quantity / Project Size",
+    "message": "Project Details",
+    "messagePlaceholder": "Please include dimensions, destination country, timeline, and any special requirements.",
+    "required": "Required",
+    "successTitle": "Thank you for your inquiry!",
+    "successMessage": "We have received your message and will reply within 24 hours.",
+    "sendAnother": "Send Another Inquiry",
+    "errors": {
+      "name": "Name must be at least 2 characters",
+      "email": "Please enter a valid email",
+      "country": "Please enter your country",
+      "productInterest": "Please select a product",
+      "message": "Message must be at least 10 characters",
+      "submit": "Failed to submit inquiry. Please try again later.",
+      "invalid": "Invalid form data. Please check your inputs."
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "productsTitle": "Products",
+    "contactTitle": "Contact",
+    "productList": [
+      "Aluminum Carports",
+      "Aluminum Pergolas",
+      "Aluminum Canopies",
+      "Aluminum Railings",
+      "Aluminum Gates"
+    ],
+    "rights": "All rights reserved."
+  },
+  "whatsapp": {
+    "message": "Hello, I am interested in your aluminum products. Please send me more information."
+  }
+}

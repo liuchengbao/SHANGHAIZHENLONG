@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "Zhenlong Aluminum",
+    "tagline": "글로벌 시장을 위한 프리미엄 알루미늄 구조물",
+    "description": "Shanghai Zhenlong Aluminum Industry Co., Ltd.는 알루미늄 카포트, 퍼골라, 캐노피, 난간, 펜스, 게이트 전문 제조업체입니다. 전 세계 주거 및 상업 프로젝트를 위한 OEM/ODM 서비스를 제공합니다."
+  },
+  "nav": {
+    "home": "홈",
+    "products": "제품",
+    "projects": "프로젝트",
+    "about": "회사 소개",
+    "oemOdm": "OEM/ODM",
+    "blog": "블로그",
+    "contact": "문의하기"
+  },
+  "common": {
+    "getQuote": "견적 요청",
+    "getFreeQuote": "무료 견적",
+    "exploreProducts": "제품 둘러보기",
+    "viewDetails": "상세 보기",
+    "viewAllProducts": "전체 제품 보기",
+    "viewAllProjects": "전체 프로젝트 보기",
+    "readMore": "더 읽기",
+    "submitInquiry": "문의 제출",
+    "sending": "전송 중...",
+    "home": "홈",
+    "products": "제품",
+    "projects": "프로젝트",
+    "about": "회사 소개",
+    "blog": "블로그",
+    "contact": "문의하기",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "언어",
+    "learnOem": "OEM/ODM 알아보기"
+  },
+  "meta": {
+    "homeTitle": "알루미늄 카포트 및 퍼골라 제조사",
+    "homeDescription": "Shanghai Zhenlong Aluminum — 공장 직송 알루미늄 카포트, 퍼골라, 캐노피, 난간 및 게이트. 글로벌 바이어를 위한 OEM/ODM.",
+    "productsTitle": "제품",
+    "productsDescription": "Zhenlong Aluminum 제품: 카포트, 퍼골라, 캐노피, 난간, 게이트. 글로벌 바이어를 위한 OEM 맞춤 제작.",
+    "projectsTitle": "프로젝트",
+    "projectsDescription": "Zhenlong Aluminum의 알루미늄 카포트, 퍼골라, 난간, 캐노피 수출 프로젝트 사례.",
+    "aboutTitle": "회사 소개",
+    "aboutDescription": "전롱 알루미늄: 송장 공장 사진, 자체 가공, 캐노피·파빌리온·펜스·대문의 EN 1090 적합성 검증.",
+    "oemTitle": "OEM / ODM 서비스",
+    "oemDescription": "Zhenlong Aluminum OEM 및 ODM 알루미늄 제조. 맞춤 치수, 색상, 브랜딩, 수출 포장.",
+    "blogTitle": "블로그",
+    "blogDescription": "중국 제조사의 알루미늄 카포트, 퍼골라, 분체 도장, OEM 소싱 전문 가이드.",
+    "contactTitle": "문의하기",
+    "contactDescription": "Zhenlong Aluminum에 알루미늄 카포트, 퍼골라, 난간, 게이트 견적을 문의하세요. 중국 상하이 공장 직송."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "알루미늄 구조물 제조사",
+      "title": "프리미엄 알루미늄 카포트, 퍼골라 및 건축 솔루션",
+      "subtitle": "Shanghai Zhenlong Aluminum Industry Co., Ltd.는 전 세계 수입업자, 유통업자, 프로젝트 시공사를 위한 맞춤형 알루미늄 카포트, 퍼골라, 캐노피, 난간, 게이트를 제조합니다.",
+      "highlights": {
+        "0": "공장 직접 가격",
+        "1": "완전 OEM / ODM 지원",
+        "2": "전 세계 수출 경험",
+        "3": "엔지니어링 도면 제공"
+      },
+      "imageLabel": "건축용 알루미늄",
+      "alloy": "알루미늄 합금"
+    },
+    "stats": {
+      "founded": "년 경력",
+      "products": "제품 라인",
+      "markets": "수출 시장",
+      "support": "견적 응답"
+    },
+    "products": {
+      "eyebrow": "제품",
+      "title": "글로벌 프로젝트를 위한 알루미늄 구조물",
+      "description": "주거용 카포트부터 상업용 퍼골라 시스템까지, 맞춤형 알루미늄 솔루션과 신뢰할 수 있는 수출 지원을 제공합니다."
+    },
+    "whyUs": {
+      "eyebrow": "Zhenlong을 선택하는 이유",
+      "title": "신뢰할 수 있는 알루미늄 제조 파트너",
+      "description": "국제 바이어가 내구성 있고 맞춤 가능한 알루미늄 제품을 명확한 커뮤니케이션과 전문적인 프로젝트 지원으로 조달할 수 있도록 돕습니다.",
+      "items": {
+        "0": {
+          "title": "공장 직송",
+          "description": "알루미늄 프로파일링부터 용접, 코팅, 포장까지 자체 생산."
+        },
+        "1": {
+          "title": "OEM / ODM 준비",
+          "description": "시장에 맞춘 맞춤 치수, 색상, 브랜딩, 포장."
+        },
+        "2": {
+          "title": "품질 중심",
+          "description": "재료, 용접, 코팅, 선적 전 검사를 아우르는 체계적 QC 프로세스."
+        },
+        "3": {
+          "title": "수출 경험",
+          "description": "북미, 유럽, 중동, 아시아-태평양 바이어 서비스."
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "프로젝트 사례",
+      "title": "글로벌 시장에서 검증된 성과",
+      "description": "제조 역량과 맞춤 제작 전문성을 보여주는 선별된 수출 프로젝트를 살펴보세요."
+    },
+    "cta": {
+      "title": "알루미늄 프로젝트를 시작할 준비가 되셨나요?",
+      "description": "요구사항, 도면 또는 참고 사진을 보내주세요. 24시간 이내에 전문 견적 및 제조 제안을 제공합니다."
+    },
+    "trust": {
+      "items": [
+        "OEM / ODM 맞춤",
+        "6063-T5 알루미늄 합금",
+        "분체 도장 & PVDF",
+        "글로벌 수출 지원"
+      ]
+    },
+    "process": {
+      "eyebrow": "작업 방식",
+      "title": "설계부터 납품까지",
+      "description": "해외 프로젝트 요구에 맞춘 제조 공정입니다.",
+      "steps": {
+        "0": {
+          "title": "설계 검토",
+          "description": "도면, 사양, 프로젝트 요구를 엔지니어링팀과 검토합니다."
+        },
+        "1": {
+          "title": "가공",
+          "description": "6063-T5 알루미늄 프로파일의 정밀 절단, 용접, 조립."
+        },
+        "2": {
+          "title": "표면 처리",
+          "description": "분체 도장 또는 PVDF, RAL 색상 매칭."
+        },
+        "3": {
+          "title": "품질 검사",
+          "description": "소재, 용접, 도장 및 선적 전 검사."
+        },
+        "4": {
+          "title": "수출 납품",
+          "description": "맞춤 포장과 국제 물류 조율."
+        }
+      }
+    }
+  },
+  "productsPage": {
+    "eyebrow": "제품군",
+    "title": "수출 프로젝트용 알루미늄 제품",
+    "description": "맞춤 치수, 마감, 포장이 가능한 알루미늄 옥외 구조물 전 제품군을 제조합니다."
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "알루미늄 카포트",
+      "shortDescription": "주거용 진입로, 주차장, 상업 부동산을 위한 내구성 있고 내후성 카포트.",
+      "description": "당사 알루미늄 카포트는 6063-T5 알루미늄 프로파일, 정밀 용접, 프리미엄 분체 도장으로 장기 옥외 성능을 위해 설계되었습니다. 프로젝트 요구에 맞게 스팬, 높이, 지붕 스타일, 색상을 완전 맞춤 제작 가능합니다.",
+      "features": [
+        "6063-T5 알루미늄 합금 구조",
+        "UV 내성 분체 도장 (RAL 색상)",
+        "적설 및 풍하중 옵션 제공",
+        "모듈형 설계로 간편 설치",
+        "OEM 치수 및 브랜딩 지원"
+      ],
+      "specLabels": [
+        "재료",
+        "표면 마감",
+        "스팬 폭",
+        "지붕 옵션",
+        "보증"
+      ],
+      "specValues": [
+        "6063-T5 알루미늄",
+        "분체 도장 / PVDF",
+        "맞춤 (3m – 12m+)",
+        "폴리카보네이트 / 알루미늄 패널",
+        "10년 이상 (코팅)"
+      ],
+      "applications": [
+        "주거용 진입로",
+        "빌라 주차 구역",
+        "상업 주차장",
+        "호텔 및 리조트 입구"
+      ],
+      "faqs": [
+        {
+          "question": "카포트 치수 맞춤 제작이 가능한가요?",
+          "answer": "네. 현장 도면을 기반으로 폭, 길이, 높이, 기둥 간격, 지붕 패널 옵션에 대한 OEM 맞춤 제작을 제공합니다."
+        },
+        {
+          "question": "일반적인 리드타임은?",
+          "answer": "표준 프로젝트: 주문 확인 후 15–25일. 대규모 상업 주문은 30–45일 소요될 수 있습니다."
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "알루미늄 퍼골라 및 정자",
+      "shortDescription": "정원, 파티오, 수영장 주변, 호스피탈리티 시설을 위한 우아한 옥외 퍼골라 및 정자.",
+      "description": "Zhenlong 알루미늄 퍼골라는 건축 미학과 구조적 신뢰성을 결합합니다. 고정식 및 루버 지붕 디자인으로 그늘, 환기, 시각적 매력이 필요한 옥외 공간에 이상적입니다.",
+      "features": [
+        "고정 또는 조절 가능 루버 지붕 시스템",
+        "해안 기후용 내식성",
+        "통합 배수 설계",
+        "LED 조명 및 액세서리 옵션",
+        "엔지니어링 도면 제공"
+      ],
+      "specLabels": [
+        "재료",
+        "지붕 유형",
+        "코팅",
+        "설치",
+        "맞춤 제작"
+      ],
+      "specValues": [
+        "6063-T5 알루미늄",
+        "고정 / 루버",
+        "분체 도장 / 양극 산화",
+        "볼트식 모듈 조립",
+        "완전 OEM/ODM"
+      ],
+      "applications": [
+        "정원 파티오",
+        "수영장 라운지",
+        "레스토랑 테라스",
+        "호텔 중정"
+      ],
+      "faqs": [
+        {
+          "question": "전동 루버 퍼골라를 제공하나요?",
+          "answer": "네. 프로젝트 예산과 사양에 따라 수동 또는 전동 루버 시스템을 공급할 수 있습니다."
+        },
+        {
+          "question": "퍼골라를 플랫팩으로 배송할 수 있나요?",
+          "answer": "네. 모듈형 설계로 플랫팩 수출이 가능하여 배송 부피와 비용을 줄일 수 있습니다."
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "알루미늄 캐노피 및 차양",
+      "shortDescription": "입구, 보행로, 발코니, 상업 파사드를 위한 건축용 알루미늄 캐노피.",
+      "description": "햇빛과 비로부터 보호하면서 건물 미관을 향상시키는 알루미늄 캐노피 시스템을 제조합니다. 주거 발코니, 상점 입구, 대형 상업 보행로 덮개에 적합합니다.",
+      "features": [
+        "슬림 프로파일 구조 설계",
+        "고강도 브래킷 시스템",
+        "다양한 지붕 패널 재료",
+        "내풍 엔지니어링",
+        "맞춤 RAL 색상 매칭"
+      ],
+      "specLabels": [
+        "프로파일",
+        "패널",
+        "하중 등급",
+        "마감",
+        "디자인 지원"
+      ],
+      "specValues": [
+        "맞춤 알루미늄 압출",
+        "PC / 유리 / 알루미늄",
+        "프로젝트별",
+        "분체 도장",
+        "CAD 도면 포함"
+      ],
+      "applications": [
+        "건물 입구",
+        "보행로 덮개",
+        "발코니 차양",
+        "소매점 파사드"
+      ],
+      "faqs": [
+        {
+          "question": "건축 도면을 기반으로 제조할 수 있나요?",
+          "answer": "물론입니다. 도면 또는 현장 사진을 보내주시면 엔지니어링 팀이 제조 솔루션을 제공합니다."
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "알루미늄 난간 및 펜스",
+      "shortDescription": "주거 및 상업용 장식 및 구조용 알루미늄 난간, 난간대, 펜스 시스템.",
+      "description": "당사 알루미늄 난간 및 펜스 시스템은 우수한 내식성과 낮은 유지보수로 단조철의 프리미엄 대안을 제공합니다. 맞춤 패턴, 높이, 게이트 통합 가능.",
+      "features": [
+        "예술적 알루미늄 주조 및 프로파일",
+        "염수 분무 테스트 코팅",
+        "난간 및 게이트 매칭 세트",
+        "프로젝트 안전 사양 준수",
+        "다양한 디자인 스타일"
+      ],
+      "specLabels": [
+        "재료",
+        "높이",
+        "마감",
+        "스타일",
+        "MOQ"
+      ],
+      "specValues": [
+        "알루미늄 합금",
+        "맞춤 (900mm – 1800mm)",
+        "분체 도장",
+        "모던 / 유럽식 / 맞춤",
+        "프로젝트 기준"
+      ],
+      "applications": [
+        "빌라 발코니",
+        "계단",
+        "정원 경계",
+        "상업 부동산"
+      ],
+      "faqs": [
+        {
+          "question": "난간과 게이트를 같은 디자인으로 할 수 있나요?",
+          "answer": "네. 시각적 일관성을 위해 일반적으로 난간과 게이트를 매칭 세트로 설계합니다."
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "알루미늄 게이트",
+      "shortDescription": "프리미엄 마감의 맞춤 알루미늄 진입로 게이트, 보행자 게이트, 슬라이딩 게이트 시스템.",
+      "description": "Zhenlong 알루미늄 게이트는 보안, 내구성, 미관을 위해 제작되었습니다. 수동 또는 자동 작동과 호환되는 여닫이 및 슬라이딩 구성을 지원합니다.",
+      "features": [
+        "여닫이 및 슬라이딩 구성",
+        "보강 프레임 구조",
+        "자동화 준비 설계",
+        "장식 패널 옵션",
+        "수출 등급 포장"
+      ],
+      "specLabels": [
+        "유형",
+        "폭",
+        "프레임",
+        "마감",
+        "액세서리"
+      ],
+      "specValues": [
+        "여닫이 / 슬라이딩",
+        "맞춤",
+        "보강 알루미늄",
+        "분체 도장",
+        "손잡이, 잠금장치, 모터 (선택)"
+      ],
+      "applications": [
+        "주거 진입로",
+        "빌라 입구",
+        "산업 단지",
+        "게이트 커뮤니티"
+      ],
+      "faqs": [
+        {
+          "question": "게이트 모터도 공급하나요?",
+          "answer": "서드파티 자동화 시스템과 호환되는 게이트를 공급하거나 시장에 맞는 모터 사양을 추천할 수 있습니다."
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "사양",
+    "applications": "적용 분야",
+    "faq": "FAQ",
+    "requestQuote": "견적 요청",
+    "formHint": "프로젝트에 대해 알려주시면 곧 연락드리겠습니다."
+  },
+  "projectsPage": {
+    "eyebrow": "사례 연구",
+    "title": "글로벌 수출 프로젝트 포트폴리오",
+    "description": "제조 품질, 맞춤 제작 역량, 수출 경험을 보여주는 실제 적용 사례."
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "주거용 카포트 – 호주",
+      "location": "멜버른, 호주",
+      "category": "알루미늄 카포트",
+      "description": "폴리카보네이트 지붕 패널, RAL 7016 분체 도장의 맞춤 2대용 카포트. 모던 빌라 진입로용."
+    },
+    "hotel-pergola-dubai": {
+      "title": "호텔 중정 퍼골라 – UAE",
+      "location": "두바이, UAE",
+      "category": "알루미늄 퍼골라",
+      "description": "고온 기후를 위해 설계된 호스피탈리티 중정용 대형 루버 퍼골라 시스템."
+    },
+    "villa-railing-germany": {
+      "title": "빌라 난간 시스템 – 독일",
+      "location": "뮌헨, 독일",
+      "category": "알루미늄 난간",
+      "description": "주거 리노베이션 프로젝트용 매칭 입구 게이트가 있는 유럽식 알루미늄 난간대."
+    },
+    "commercial-canopy-usa": {
+      "title": "상업 입구 캐노피 – USA",
+      "location": "캘리포니아, USA",
+      "category": "알루미늄 캐노피",
+      "description": "소매 단지 파사드 업그레이드를 위한 통합 배수 기능의 건축용 입구 캐노피."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Zhenlong 소개",
+    "capabilities": "공장 역량",
+    "exportMarkets": "수출 시장",
+    "capabilityItems": [
+      "알루미늄 프로파일 절단 및 가공",
+      "CNC 가공 및 정밀 용접",
+      "분체 도장 및 표면 처리",
+      "조립, 검사, 수출 포장",
+      "엔지니어링 도면 및 OEM 맞춤"
+    ],
+    "paragraphs": {
+      "0": "{year}년에 설립된 Shanghai Zhenlong Aluminum Industry Co., Ltd.는 주거, 상업, 호스피탈리티 프로젝트용 알루미늄 옥외 구조물 설계 및 제조를 전문으로 합니다.",
+      "1": "자체 생산 역량과 풍부한 수출 경험으로 국제 바이어, 유통업자, 시공사에게 신뢰할 수 있는 품질, 경쟁력 있는 공장 가격, 신속한 커뮤니케이션을 지원합니다.",
+      "2": "제품군에는 알루미늄 카포트, 퍼골라, 캐노피, 장식 난간, 펜스, 게이트가 포함되며, 모두 완전 OEM/ODM 맞춤 제작이 가능합니다."
+    },
+    "markets": [
+      "북미",
+      "유럽",
+      "중동",
+      "동남아시아",
+      "호주"
+    ],
+    "introImageAlt": "상하이 송장 전롱 알루미늄 공장 진입로",
+    "introImageCaption": "송장 공장 · 위슈로 39호",
+    "galleryEyebrow": "공장",
+    "galleryTitle": "작업장, 창고, 부지",
+    "galleryDescription": "위슈로 공장에서 촬영했습니다. 생산 현장, 알루미늄 재고, 출입구입니다.",
+    "photos": {
+      "workshop": {
+        "alt": "전롱 작업장 전경. 형재와 대문 가공이 보입니다",
+        "caption": "생산 현장"
+      },
+      "assembly": {
+        "alt": "분체 도장 알루미늄 대문을 조립하는 작업자",
+        "caption": "대문 조립"
+      },
+      "warehouse": {
+        "alt": "전롱 창고 랙에 보관된 알루미늄 형재",
+        "caption": "형재 창고"
+      },
+      "profiles": {
+        "alt": "작업장 바닥에 묶여 있는 알루미늄 형재",
+        "caption": "알루미늄 재고"
+      },
+      "entrance": {
+        "alt": "위슈로 전롱 알루미늄 입구의 회사 명판",
+        "caption": "공장 입구"
+      }
+    },
+    "certEyebrow": "적합성",
+    "certTitle": "제품 적합성 검증",
+    "certDescription": "캐노피, 파빌리온, 펜스, 대문에 대해 EN 1090과 EU 건설제품규정에 따른 ICR 적합성 검증을 보유하고 있습니다.",
+    "certView": "인증서 보기",
+    "certClose": "닫기",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "캐노피",
+        "alt": "전롱 알루미늄 캐노피 적합성 검증 인증서, EN 1090"
+      },
+      "pavilion": {
+        "name": "파빌리온",
+        "alt": "전롱 알루미늄 파빌리온 적합성 검증 인증서, EN 1090"
+      },
+      "fence": {
+        "name": "펜스",
+        "alt": "전롱 알루미늄 펜스 적합성 검증 인증서, EN 1090"
+      },
+      "gate": {
+        "name": "대문",
+        "alt": "전롱 알루미늄 대문 적합성 검증 인증서, EN 1090"
+      }
+    },
+    "certMatchedTitle": "이 카테고리의 적합성 검증",
+    "certMatchedDescription": "이 제품 카테고리는 EN 1090과 EU 건설제품규정에 따른 ICR 적합성 검증을 보유하고 있습니다."
+  },
+  "oemPage": {
+    "eyebrow": "맞춤 제작",
+    "title": "OEM / ODM 알루미늄 제조",
+    "description": "Zhenlong과 파트너십을 맺고 개념부터 수출 준비 완료까지 완전 맞춤 알루미늄 제품을 제공받으세요.",
+    "steps": {
+      "0": {
+        "title": "요구사항 검토",
+        "description": "도면, 참고 이미지 또는 제품 사양을 공유해 주세요. 팀이 실현 가능성을 검토하고 권장 사항을 제공합니다."
+      },
+      "1": {
+        "title": "엔지니어링 및 견적",
+        "description": "필요 시 3D/CAD 도면을 포함한 기술 제안과 수량 및 맞춤 사양에 따른 상세 견적을 준비합니다."
+      },
+      "2": {
+        "title": "샘플 및 승인",
+        "description": "자격을 갖춘 프로젝트에 프로토타입 샘플 제공. 샘플 및 사양 승인 후 생산 시작."
+      },
+      "3": {
+        "title": "생산 및 QC",
+        "description": "재료, 용접, 코팅, 선적 전 품질 검사를 포함한 완전 자체 제조."
+      },
+      "4": {
+        "title": "수출 포장 및 납품",
+        "description": "맞춤 라벨, 플랫팩 또는 조립 포장, 국제 배송 물류 조율."
+      }
+    },
+    "formTitle": "OEM 프로젝트 시작",
+    "formDescription": "아래 양식에 맞춤 요구사항을 작성해 주세요."
+  },
+  "blogPage": {
+    "eyebrow": "인사이트",
+    "title": "알루미늄 산업 지식 베이스",
+    "description": "알루미늄 옥외 구조물을 조달하는 수입업자, 유통업자, 시공사를 위한 실용 기사."
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "프로젝트에 맞는 알루미늄 카포트 선택 방법",
+      "excerpt": "알루미늄 카포트의 재료 선택, 지붕 유형, 하중 요구사항, 맞춤 옵션에 대한 실용 가이드.",
+      "readTime": "6분 읽기",
+      "content": "알루미늄 카포트는 내식성, 낮은 유지보수, 디자인 유연성으로 주거 및 상업 부동산에서 점점 인기를 얻고 있습니다.\n\n## 주요 고려 사항\n\n**1. 알루미늄 등급**\n6063-T5 또는 동등한 구조용 알루미늄 프로파일을 선택하세요.\n\n**2. 표면 처리**\n분체 도장이 표준입니다. 해안 환경에서는 PVDF 코팅을 고려하세요.\n\n**3. 지붕 패널 옵션**\n폴리카보네이트 패널은 자연 채광을 제공합니다. 알루미늄 패널은 견고한 건축적 외관을 제공합니다.\n\n**4. 풍하중 및 적하중**\n항상 현지 기후 조건을 명시하세요.\n\n## 공장과 직접 거래하는 이유\n\n공장 직접 소싱으로 치수, 색상, 포장을 완전히 맞춤 제작할 수 있습니다."
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "옥외 알루미늄 제품: 분체 도장 vs 양극 산화",
+      "excerpt": "다양한 기후 조건에서 알루미늄 퍼골라, 난간, 카포트에 대한 두 가지 인기 표면 처리 비교.",
+      "readTime": "5분 읽기",
+      "content": "표면 처리는 옥외 알루미늄 구조물의 수명에 매우 중요합니다.\n\n## 분체 도장\n\n- 넓은 색상 범위 (RAL 시스템)\n- 두꺼운 보호막\n- 대형 구조물에 비용 효율적\n\n## 양극 산화\n\n- 금속적 외관\n- 알루미늄에 우수한 부착력\n- 제한된 색상 옵션\n\n## 권장 사항\n\n다양한 기후의 수출 프로젝트에서는 색상 유연성과 검증된 옥외 성능으로 분체 도장이 일반적으로 선호됩니다."
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "OEM 알루미늄 퍼골라 제조: 바이어가 알아야 할 사항",
+      "excerpt": "중국 공장에서 맞춤 알루미늄 퍼골라를 조달하는 수입업자 및 유통업자를 위한 필수 체크리스트.",
+      "readTime": "7분 읽기",
+      "content": "OEM 파트너십을 통한 알루미늄 퍼골라 조달은 마진과 제품 차별화를 크게 개선할 수 있습니다.\n\n## 주문 전 체크리스트\n\n1. 재료 인증서 및 코팅 시험 보고서 요청\n2. 엔지니어링 도면 승인 프로세스 확인\n3. 수출 포장 기준 정의\n4. 선적 전 검사 프로토콜 합의\n5. 코팅 및 구조 보증 조건 명확화\n\n## Zhenlong OEM 프로세스\n\n개념 도면부터 생산까지 완전 OEM/ODM을 지원하며, 자격을 갖춘 프로젝트에 샘플 시제품을 제공합니다."
+    }
+  },
+  "contactPage": {
+    "eyebrow": "문의하기",
+    "title": "Zhenlong Aluminum 문의",
+    "description": "프로젝트 세부 정보를 보내주시면 수출 팀이 24시간 이내에 답변드립니다.",
+    "infoTitle": "연락처 정보",
+    "addressLabel": "주소",
+    "emailLabel": "이메일",
+    "phoneLabel": "전화",
+    "hoursTitle": "영업 시간",
+    "hoursValue": "주 7일, 24시간"
+  },
+  "form": {
+    "title": "견적 요청",
+    "description": "프로젝트에 대해 알려주시면 곧 연락드리겠습니다.",
+    "name": "이름",
+    "company": "회사",
+    "email": "이메일",
+    "whatsapp": "WhatsApp",
+    "country": "국가",
+    "productInterest": "관심 제품",
+    "selectProduct": "제품 선택",
+    "otherProduct": "기타 / 여러 제품",
+    "quantity": "예상 수량 / 프로젝트 규모",
+    "message": "프로젝트 세부 정보",
+    "messagePlaceholder": "치수, 목적지 국가, 일정 및 특별 요구사항을 포함해 주세요.",
+    "required": "필수",
+    "successTitle": "문의해 주셔서 감사합니다!",
+    "successMessage": "메시지를 받았으며 24시간 이내에 답변드리겠습니다.",
+    "sendAnother": "다른 문의 보내기",
+    "errors": {
+      "name": "이름은 2자 이상이어야 합니다",
+      "email": "유효한 이메일을 입력해 주세요",
+      "country": "국가를 입력해 주세요",
+      "productInterest": "제품을 선택해 주세요",
+      "message": "메시지는 10자 이상이어야 합니다",
+      "submit": "문의 제출에 실패했습니다. 나중에 다시 시도해 주세요.",
+      "invalid": "양식 데이터가 유효하지 않습니다. 입력 내용을 확인해 주세요."
+    }
+  },
+  "footer": {
+    "quickLinks": "빠른 링크",
+    "productsTitle": "제품",
+    "contactTitle": "연락처",
+    "productList": [
+      "알루미늄 카포트",
+      "알루미늄 퍼골라",
+      "알루미늄 캐노피",
+      "알루미늄 난간",
+      "알루미늄 게이트"
+    ],
+    "rights": "무단 복제 및 배포를 금합니다."
+  },
+  "whatsapp": {
+    "message": "안녕하세요, 귀사의 알루미늄 제품에 관심이 있습니다. 자세한 정보를 보내주세요."
+  }
+}

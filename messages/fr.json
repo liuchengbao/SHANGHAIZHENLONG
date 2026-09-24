@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "Zhenlong Aluminum",
+    "tagline": "Structures en aluminium premium pour les marchés mondiaux",
+    "description": "Shanghai Zhenlong Aluminum Industry Co., Ltd. est un fabricant professionnel d'abris de voiture, pergolas, marquises, garde-corps, clôtures et portails en aluminium. Services OEM/ODM pour projets résidentiels et commerciaux dans le monde entier."
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "projects": "Projets",
+    "about": "À propos",
+    "oemOdm": "OEM/ODM",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "common": {
+    "getQuote": "Demander un devis",
+    "getFreeQuote": "Devis gratuit",
+    "exploreProducts": "Explorer les produits",
+    "viewDetails": "Voir les détails",
+    "viewAllProducts": "Voir tous les produits",
+    "viewAllProjects": "Voir tous les projets",
+    "readMore": "En savoir plus",
+    "submitInquiry": "Envoyer une demande",
+    "sending": "Envoi en cours...",
+    "home": "Accueil",
+    "products": "Produits",
+    "projects": "Projets",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "Langue",
+    "learnOem": "Découvrir OEM/ODM"
+  },
+  "meta": {
+    "homeTitle": "Fabricant d'abris de voiture et pergolas en aluminium",
+    "homeDescription": "Shanghai Zhenlong Aluminum — abris de voiture, pergolas, marquises, garde-corps et portails en aluminium direct usine. OEM/ODM pour acheteurs internationaux.",
+    "productsTitle": "Produits",
+    "productsDescription": "Découvrez les produits Zhenlong Aluminum : abris de voiture, pergolas, marquises, garde-corps et portails. Personnalisation OEM pour acheteurs internationaux.",
+    "projectsTitle": "Projets",
+    "projectsDescription": "Cas de projets d'exportation d'abris de voiture, pergolas, garde-corps et marquises en aluminium par Zhenlong Aluminum.",
+    "aboutTitle": "À propos de nous",
+    "aboutDescription": "Zhenlong Aluminum : photos de l'usine de Songjiang, fabrication interne et vérification EN 1090 pour auvents, pavillons, clôtures et portails.",
+    "oemTitle": "Services OEM / ODM",
+    "oemDescription": "Fabrication aluminium OEM et ODM par Zhenlong Aluminum. Dimensions, couleurs, marque et emballage export personnalisés.",
+    "blogTitle": "Blog",
+    "blogDescription": "Guides experts sur abris de voiture, pergolas, thermolaquage et approvisionnement OEM d'un fabricant chinois.",
+    "contactTitle": "Contact",
+    "contactDescription": "Contactez Zhenlong Aluminum pour des devis sur abris de voiture, pergolas, garde-corps et portails en aluminium. Direct usine à Shanghai, Chine."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Fabricant de structures en aluminium",
+      "title": "Abris de voiture, pergolas et solutions architecturales en aluminium premium",
+      "subtitle": "Shanghai Zhenlong Aluminum Industry Co., Ltd. fabrique des abris de voiture, pergolas, marquises, garde-corps et portails en aluminium sur mesure pour importateurs, distributeurs et entrepreneurs de projets dans le monde entier.",
+      "highlights": {
+        "0": "Prix direct usine",
+        "1": "Support OEM / ODM complet",
+        "2": "Expérience d'exportation mondiale",
+        "3": "Plans d'ingénierie fournis"
+      },
+      "imageLabel": "Aluminium architectural",
+      "alloy": "Alliage d'aluminium"
+    },
+    "stats": {
+      "founded": "Années d'expérience",
+      "products": "Gammes de produits",
+      "markets": "Marchés d'exportation",
+      "support": "Réponse aux devis"
+    },
+    "products": {
+      "eyebrow": "Nos produits",
+      "title": "Structures en aluminium conçues pour projets internationaux",
+      "description": "Des abris de voiture résidentiels aux systèmes de pergolas commerciaux, nous proposons des solutions aluminium personnalisables avec un support export fiable."
+    },
+    "whyUs": {
+      "eyebrow": "Pourquoi Zhenlong",
+      "title": "Votre partenaire fiable en fabrication aluminium",
+      "description": "Nous aidons les acheteurs internationaux à sourcer des produits aluminium durables et personnalisables avec une communication claire et un support projet professionnel.",
+      "items": {
+        "0": {
+          "title": "Direct usine",
+          "description": "Production interne du profilage aluminium au soudage, revêtement et emballage."
+        },
+        "1": {
+          "title": "Prêt OEM / ODM",
+          "description": "Dimensions, couleurs, marque et emballage adaptés à votre marché."
+        },
+        "2": {
+          "title": "Qualité avant tout",
+          "description": "Processus QC structuré couvrant matériaux, soudage, revêtement et inspection pré-expédition."
+        },
+        "3": {
+          "title": "Expérience export",
+          "description": "Nous servons des acheteurs en Amérique du Nord, Europe, Moyen-Orient et Asie-Pacifique."
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "Cas projets",
+      "title": "Résultats prouvés sur les marchés mondiaux",
+      "description": "Explorez des projets d'exportation sélectionnés démontrant notre capacité de fabrication et notre expertise en personnalisation."
+    },
+    "cta": {
+      "title": "Prêt à lancer votre projet aluminium ?",
+      "description": "Envoyez-nous vos exigences, plans ou photos de référence. Notre équipe vous fournira un devis professionnel et une proposition de fabrication sous 24 heures."
+    },
+    "trust": {
+      "items": [
+        "Personnalisation OEM / ODM",
+        "Alliage d'aluminium 6063-T5",
+        "Thermolaquage et PVDF",
+        "Support export mondial"
+      ]
+    },
+    "process": {
+      "eyebrow": "Notre méthode",
+      "title": "De la conception à la livraison",
+      "description": "Un processus de fabrication fluide, conçu pour les projets internationaux.",
+      "steps": {
+        "0": {
+          "title": "Revue de conception",
+          "description": "Examen des plans, spécifications et exigences avec notre équipe d'ingénierie."
+        },
+        "1": {
+          "title": "Fabrication",
+          "description": "Découpe, soudure et assemblage de précision en profilés aluminium 6063-T5."
+        },
+        "2": {
+          "title": "Traitement de surface",
+          "description": "Thermolaquage ou finition PVDF avec contretypage RAL."
+        },
+        "3": {
+          "title": "Contrôle qualité",
+          "description": "Contrôle des matériaux, soudures, revêtements et inspection avant expédition."
+        },
+        "4": {
+          "title": "Livraison export",
+          "description": "Emballage sur mesure et logistique internationale coordonnée."
+        }
+      }
+    }
+  },
+  "productsPage": {
+    "eyebrow": "Gamme produits",
+    "title": "Produits aluminium pour projets d'exportation",
+    "description": "Nous fabriquons une gamme complète de structures extérieures en aluminium avec dimensions, finitions et emballage personnalisables."
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "Abris de voiture en aluminium",
+      "shortDescription": "Abris durables et résistants aux intempéries pour allées résidentielles, parkings et propriétés commerciales.",
+      "description": "Nos abris de voiture en aluminium sont conçus pour une performance extérieure à long terme avec profils aluminium 6063-T5, soudage de précision et thermolaquage premium. Entièrement personnalisables en portée, hauteur, style de toit et couleur selon vos exigences projet.",
+      "features": [
+        "Structure en alliage aluminium 6063-T5",
+        "Thermolaquage résistant aux UV (couleurs RAL)",
+        "Options charge neige et vent disponibles",
+        "Conception modulaire pour installation facile",
+        "Dimensions et marque OEM prises en charge"
+      ],
+      "specLabels": [
+        "Matériau",
+        "Finition surface",
+        "Largeur portée",
+        "Options toit",
+        "Garantie"
+      ],
+      "specValues": [
+        "Aluminium 6063-T5",
+        "Thermolaquage / PVDF",
+        "Sur mesure (3 m – 12 m+)",
+        "Polycarbonate / Panneau aluminium",
+        "10+ ans (revêtement)"
+      ],
+      "applications": [
+        "Allées résidentielles",
+        "Zones parking villas",
+        "Parkings commerciaux",
+        "Entrées hôtels et resorts"
+      ],
+      "faqs": [
+        {
+          "question": "Pouvez-vous personnaliser les dimensions de l'abri ?",
+          "answer": "Oui. Nous proposons une personnalisation OEM pour largeur, longueur, hauteur, espacement des poteaux et options de panneau de toit selon vos plans de site."
+        },
+        {
+          "question": "Quel est le délai de livraison typique ?",
+          "answer": "Projets standard : 15–25 jours après confirmation de commande. Grandes commandes commerciales : 30–45 jours."
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "Pergolas et gazébos en aluminium",
+      "shortDescription": "Pergolas et gazébos extérieurs élégants pour jardins, terrasses, bords de piscine et établissements hôteliers.",
+      "description": "Les pergolas aluminium Zhenlong allient esthétique architecturale et fiabilité structurelle. Disponibles en toits fixes et à lames orientables, idéales pour espaces extérieurs nécessitant ombre, ventilation et attrait visuel.",
+      "features": [
+        "Systèmes toit fixe ou lames orientables",
+        "Résistant à la corrosion pour climats côtiers",
+        "Conception drainage intégré",
+        "Options éclairage LED et accessoires",
+        "Plans d'ingénierie fournis"
+      ],
+      "specLabels": [
+        "Matériau",
+        "Type de toit",
+        "Revêtement",
+        "Installation",
+        "Personnalisation"
+      ],
+      "specValues": [
+        "Aluminium 6063-T5",
+        "Fixe / Lames orientables",
+        "Thermolaquage / Anodisé",
+        "Assemblage modulaire boulonné",
+        "OEM/ODM complet"
+      ],
+      "applications": [
+        "Terrasses jardin",
+        "Salons bord piscine",
+        "Terrasses restaurants",
+        "Cours d'hôtels"
+      ],
+      "faqs": [
+        {
+          "question": "Proposez-vous des pergolas à lames motorisées ?",
+          "answer": "Oui. Nous pouvons fournir des systèmes à lames manuels ou motorisés selon budget et spécifications du projet."
+        },
+        {
+          "question": "Les pergolas peuvent-elles être expédiées à plat ?",
+          "answer": "Oui. Notre conception modulaire permet l'export en emballage plat pour réduire volume et coût d'expédition."
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "Marquises et auvents en aluminium",
+      "shortDescription": "Marquises architecturales en aluminium pour entrées, couloirs, balcons et façades commerciales.",
+      "description": "Nous fabriquons des systèmes de marquises en aluminium protégeant du soleil et de la pluie tout en rehaussant l'esthétique du bâtiment. Adaptés aux balcons résidentiels, entrées de magasins et couvertures de couloirs commerciaux.",
+      "features": [
+        "Conception structure profil fin",
+        "Systèmes de supports haute résistance",
+        "Multiples matériaux panneau toit",
+        "Ingénierie résistante au vent",
+        "Correspondance couleur RAL sur mesure"
+      ],
+      "specLabels": [
+        "Profilé",
+        "Panneau",
+        "Charge admissible",
+        "Finition",
+        "Support conception"
+      ],
+      "specValues": [
+        "Extrusion aluminium sur mesure",
+        "PC / Verre / Aluminium",
+        "Spécifique au projet",
+        "Thermolaquage",
+        "Plans CAD inclus"
+      ],
+      "applications": [
+        "Entrées bâtiments",
+        "Couvertures couloirs",
+        "Auvents balcons",
+        "Façades commerces"
+      ],
+      "faqs": [
+        {
+          "question": "Pouvez-vous fabriquer selon plans architecturaux ?",
+          "answer": "Absolument. Envoyez-nous vos plans ou photos de site et notre équipe ingénierie proposera des solutions de fabrication."
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "Garde-corps et clôtures en aluminium",
+      "shortDescription": "Garde-corps, balustrades et systèmes de clôture en aluminium décoratifs et structurels pour usage résidentiel et commercial.",
+      "description": "Nos systèmes garde-corps et clôtures en aluminium offrent une alternative premium à la ferronnerie avec une meilleure résistance à la corrosion et moins d'entretien. Motifs, hauteurs et intégration portail personnalisables.",
+      "features": [
+        "Fonderie artistique aluminium et profilés",
+        "Revêtement testé brouillard salin",
+        "Ensembles garde-corps et portail assortis",
+        "Conformité aux normes sécurité projet",
+        "Multiples styles de design disponibles"
+      ],
+      "specLabels": [
+        "Matériau",
+        "Hauteur",
+        "Finition",
+        "Style",
+        "MOQ"
+      ],
+      "specValues": [
+        "Alliage aluminium",
+        "Sur mesure (900 mm – 1800 mm)",
+        "Thermolaquage",
+        "Moderne / Européen / Sur mesure",
+        "Selon projet"
+      ],
+      "applications": [
+        "Balcons villas",
+        "Escaliers",
+        "Limites jardin",
+        "Propriétés commerciales"
+      ],
+      "faqs": [
+        {
+          "question": "Garde-corps et portail peuvent-ils avoir le même design ?",
+          "answer": "Oui. Nous concevons généralement garde-corps et portail en ensemble assorti pour cohérence visuelle."
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "Portails en aluminium",
+      "shortDescription": "Portails d'entrée, piétons et coulissants en aluminium sur mesure avec finitions premium.",
+      "description": "Les portails aluminium Zhenlong sont conçus pour sécurité, durabilité et esthétique. Nous proposons configurations battantes et coulissantes compatibles avec fonctionnement manuel ou automatisé.",
+      "features": [
+        "Configurations battantes et coulissantes",
+        "Construction cadre renforcé",
+        "Conception prête pour automatisation",
+        "Options panneaux décoratifs",
+        "Emballage grade export"
+      ],
+      "specLabels": [
+        "Type",
+        "Largeur",
+        "Cadre",
+        "Finition",
+        "Accessoires"
+      ],
+      "specValues": [
+        "Battant / Coulissant",
+        "Sur mesure",
+        "Aluminium renforcé",
+        "Thermolaquage",
+        "Poignées, serrures, moteurs (optionnel)"
+      ],
+      "applications": [
+        "Allées résidentielles",
+        "Entrées villas",
+        "Enceintes industrielles",
+        "Résidences sécurisées"
+      ],
+      "faqs": [
+        {
+          "question": "Fournissez-vous des moteurs de portail ?",
+          "answer": "Nous pouvons fournir des portails compatibles avec systèmes d'automatisation tiers ou recommander des spécifications moteur pour votre marché."
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "Spécifications",
+    "applications": "Applications",
+    "faq": "FAQ",
+    "requestQuote": "Demander un devis",
+    "formHint": "Parlez-nous de votre projet et nous vous répondrons rapidement."
+  },
+  "projectsPage": {
+    "eyebrow": "Études de cas",
+    "title": "Portfolio projets export mondiaux",
+    "description": "Applications réelles démontrant notre qualité de fabrication, capacité de personnalisation et expérience export."
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "Abri de voiture résidentiel – Australie",
+      "location": "Melbourne, Australie",
+      "category": "Abris de voiture en aluminium",
+      "description": "Abri double sur mesure avec panneaux toit polycarbonate, thermolaqué RAL 7016 pour allée villa moderne."
+    },
+    "hotel-pergola-dubai": {
+      "title": "Pergola cour hôtel – EAU",
+      "location": "Dubaï, EAU",
+      "category": "Pergolas en aluminium",
+      "description": "Système pergola à lames grand format pour cour hôtelière, conçu pour climats à haute température."
+    },
+    "villa-railing-germany": {
+      "title": "Système garde-corps villa – Allemagne",
+      "location": "Munich, Allemagne",
+      "category": "Garde-corps en aluminium",
+      "description": "Balustrade aluminium style européen avec portail d'entrée assorti pour projet rénovation résidentielle."
+    },
+    "commercial-canopy-usa": {
+      "title": "Marquise entrée commerciale – USA",
+      "location": "Californie, USA",
+      "category": "Marquises en aluminium",
+      "description": "Marquise entrée architecturale avec drainage intégré pour rénovation façade complexe commercial."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "À propos de Zhenlong",
+    "capabilities": "Capacités usine",
+    "exportMarkets": "Marchés d'exportation",
+    "capabilityItems": [
+      "Découpe et fabrication profilés aluminium",
+      "Usinage CNC et soudage de précision",
+      "Thermolaquage et traitement surface",
+      "Assemblage, inspection et emballage export",
+      "Plans ingénierie et personnalisation OEM"
+    ],
+    "paragraphs": {
+      "0": "Fondée en {year}, Shanghai Zhenlong Aluminum Industry Co., Ltd. est spécialisée dans la conception et fabrication de structures extérieures en aluminium pour projets résidentiels, commerciaux et hôteliers.",
+      "1": "Avec des capacités de production internes et une vaste expérience export, nous accompagnons acheteurs internationaux, distributeurs et entrepreneurs avec qualité fiable, prix usine compétitifs et communication réactive.",
+      "2": "Notre gamme comprend abris de voiture, pergolas, marquises, garde-corps décoratifs, clôtures et portails en aluminium — tous disponibles avec personnalisation OEM/ODM complète."
+    },
+    "markets": [
+      "Amérique du Nord",
+      "Europe",
+      "Moyen-Orient",
+      "Asie du Sud-Est",
+      "Australie"
+    ],
+    "introImageAlt": "Allée d'accès de l'usine Zhenlong Aluminum à Songjiang, Shanghai",
+    "introImageCaption": "Usine de Songjiang · 39 Yuxiu Road",
+    "galleryEyebrow": "Usine",
+    "galleryTitle": "Atelier, stock et site",
+    "galleryDescription": "Photographié sur notre site de Yuxiu Road : l'atelier, le stock d'aluminium et l'entrée.",
+    "photos": {
+      "workshop": {
+        "alt": "Vue large de l'atelier Zhenlong, profilés et fabrication de portails",
+        "caption": "Atelier de production"
+      },
+      "assembly": {
+        "alt": "Opérateur assemblant un portail aluminium thermolaqué",
+        "caption": "Assemblage de portails"
+      },
+      "warehouse": {
+        "alt": "Rayonnages de profilés aluminium dans l'entrepôt Zhenlong",
+        "caption": "Stock de profilés"
+      },
+      "profiles": {
+        "alt": "Profilés aluminium bottelés au sol de l'atelier",
+        "caption": "Matière aluminium"
+      },
+      "entrance": {
+        "alt": "Plaque de l'entreprise à l'entrée de Zhenlong Aluminum, Yuxiu Road",
+        "caption": "Entrée de l'usine"
+      }
+    },
+    "certEyebrow": "Conformité",
+    "certTitle": "Vérification produits",
+    "certDescription": "Vérification de conformité ICR pour auvents, pavillons, clôtures et portails, selon EN 1090 et le règlement européen sur les produits de construction.",
+    "certView": "Voir le certificat",
+    "certClose": "Fermer",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "Auvent",
+        "alt": "Vérification de conformité des auvents aluminium Zhenlong, EN 1090"
+      },
+      "pavilion": {
+        "name": "Pavillon",
+        "alt": "Vérification de conformité des pavillons aluminium Zhenlong, EN 1090"
+      },
+      "fence": {
+        "name": "Clôture",
+        "alt": "Vérification de conformité des clôtures aluminium Zhenlong, EN 1090"
+      },
+      "gate": {
+        "name": "Portail",
+        "alt": "Vérification de conformité des portails aluminium Zhenlong, EN 1090"
+      }
+    },
+    "certMatchedTitle": "Vérification de cette catégorie",
+    "certMatchedDescription": "Cette catégorie dispose d'une vérification de conformité ICR selon EN 1090 et le règlement européen sur les produits de construction."
+  },
+  "oemPage": {
+    "eyebrow": "Personnalisation",
+    "title": "Fabrication aluminium OEM / ODM",
+    "description": "Associez-vous à Zhenlong pour des produits aluminium entièrement personnalisés — du concept à la livraison prête export.",
+    "steps": {
+      "0": {
+        "title": "Revue des exigences",
+        "description": "Partagez plans, images de référence ou spécifications produit. Notre équipe évalue la faisabilité et formule des recommandations."
+      },
+      "1": {
+        "title": "Ingénierie et devis",
+        "description": "Nous préparons propositions techniques, plans 3D/CAD si nécessaire, et devis détaillés selon quantité et personnalisation."
+      },
+      "2": {
+        "title": "Échantillon et approbation",
+        "description": "Échantillons prototype disponibles pour projets qualifiés. Production démarre après approbation échantillon et spécifications."
+      },
+      "3": {
+        "title": "Production et QC",
+        "description": "Fabrication interne complète avec inspections qualité matériaux, soudage, revêtement et pré-expédition."
+      },
+      "4": {
+        "title": "Emballage export et livraison",
+        "description": "Étiquetage personnalisé, emballage plat ou monté, et logistique coordonnée pour expédition internationale."
+      }
+    },
+    "formTitle": "Lancez votre projet OEM",
+    "formDescription": "Remplissez le formulaire ci-dessous avec vos exigences de personnalisation."
+  },
+  "blogPage": {
+    "eyebrow": "Insights",
+    "title": "Base de connaissances industrie aluminium",
+    "description": "Articles pratiques pour importateurs, distributeurs et entrepreneurs sourçant des structures extérieures en aluminium."
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "Comment choisir le bon abri de voiture en aluminium pour votre projet",
+      "excerpt": "Guide pratique sur sélection matériaux, types de toit, exigences de charge et options de personnalisation pour abris de voiture en aluminium.",
+      "readTime": "6 min de lecture",
+      "content": "Les abris de voiture en aluminium gagnent en popularité pour propriétés résidentielles et commerciales grâce à leur résistance à la corrosion, faible entretien et flexibilité de design.\n\n## Facteurs clés à considérer\n\n**1. Grade aluminium**\nRecherchez profils aluminium structurels 6063-T5 ou équivalent.\n\n**2. Traitement surface**\nLe thermolaquage est standard. Pour environnements côtiers, envisagez revêtement PVDF.\n\n**3. Options panneau toit**\nLes panneaux polycarbonate apportent lumière naturelle. Les panneaux aluminium offrent un aspect architectural solide.\n\n**4. Charge vent et neige**\nSpécifiez toujours vos conditions climatiques locales.\n\n## Pourquoi travailler directement avec l'usine ?\n\nLe sourcing direct usine permet une personnalisation complète des dimensions, couleurs et emballage."
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "Thermolaquage vs anodisation pour produits aluminium extérieurs",
+      "excerpt": "Comparez deux traitements de surface populaires pour pergolas, garde-corps et abris de voiture en aluminium selon conditions climatiques.",
+      "readTime": "5 min de lecture",
+      "content": "Le traitement de surface est crucial pour la longévité des structures aluminium extérieures.\n\n## Thermolaquage\n\n- Large gamme de couleurs (système RAL)\n- Film protecteur épais\n- Rentable pour grandes structures\n\n## Anodisation\n\n- Apparence métallique\n- Excellente adhérence à l'aluminium\n- Options couleur limitées\n\n## Recommandation\n\nPour projets export en climats variés, le thermolaquage est généralement préféré pour sa flexibilité colorimétrique et performance extérieure éprouvée."
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "Fabrication pergola aluminium OEM : ce que les acheteurs doivent savoir",
+      "excerpt": "Checklist essentielle pour importateurs et distributeurs sourçant pergolas aluminium sur mesure auprès d'usines chinoises.",
+      "readTime": "7 min de lecture",
+      "content": "Sourcer des pergolas aluminium via partenariats OEM peut améliorer significativement marges et différenciation produit.\n\n## Checklist pré-commande\n\n1. Demandez certificats matériaux et rapports tests revêtement\n2. Confirmez processus approbation plans ingénierie\n3. Définissez standards emballage export\n4. Convenez protocole inspection avant expédition\n5. Clarifiez conditions garantie revêtement et structure\n\n## Processus OEM Zhenlong\n\nNous proposons OEM/ODM complet des plans conceptuels à la production, avec prototypage échantillon pour projets qualifiés."
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Contactez-nous",
+    "title": "Contact Zhenlong Aluminum",
+    "description": "Envoyez-nous les détails de votre projet et notre équipe export répondra sous 24 heures.",
+    "infoTitle": "Coordonnées",
+    "addressLabel": "Adresse",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "hoursTitle": "Heures d'ouverture",
+    "hoursValue": "7 jours sur 7, 24 h/24"
+  },
+  "form": {
+    "title": "Demander un devis",
+    "description": "Parlez-nous de votre projet et nous vous répondrons rapidement.",
+    "name": "Nom",
+    "company": "Entreprise",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "country": "Pays",
+    "productInterest": "Produit d'intérêt",
+    "selectProduct": "Sélectionner un produit",
+    "otherProduct": "Autre / Plusieurs produits",
+    "quantity": "Quantité estimée / Taille projet",
+    "message": "Détails du projet",
+    "messagePlaceholder": "Veuillez inclure dimensions, pays de destination, délais et exigences spéciales.",
+    "required": "Obligatoire",
+    "successTitle": "Merci pour votre demande !",
+    "successMessage": "Nous avons reçu votre message et répondrons sous 24 heures.",
+    "sendAnother": "Envoyer une autre demande",
+    "errors": {
+      "name": "Le nom doit comporter au moins 2 caractères",
+      "email": "Veuillez entrer un e-mail valide",
+      "country": "Veuillez entrer votre pays",
+      "productInterest": "Veuillez sélectionner un produit",
+      "message": "Le message doit comporter au moins 10 caractères",
+      "submit": "Échec de l'envoi. Veuillez réessayer plus tard.",
+      "invalid": "Données du formulaire invalides. Veuillez vérifier vos saisies."
+    }
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "productsTitle": "Produits",
+    "contactTitle": "Contact",
+    "productList": [
+      "Abris de voiture en aluminium",
+      "Pergolas en aluminium",
+      "Marquises en aluminium",
+      "Garde-corps en aluminium",
+      "Portails en aluminium"
+    ],
+    "rights": "Tous droits réservés."
+  },
+  "whatsapp": {
+    "message": "Bonjour, je suis intéressé par vos produits en aluminium. Veuillez m'envoyer plus d'informations."
+  }
+}

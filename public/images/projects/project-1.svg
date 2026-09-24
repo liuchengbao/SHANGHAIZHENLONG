@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <rect width="400" height="260" fill="#e2e8f0"/>
+  <path d="M40 180h320M60 180V110l140-50 140 50v70" stroke="#475569" stroke-width="3" fill="none"/>
+  <text x="200" y="230" text-anchor="middle" fill="#64748b" font-size="13" font-family="system-ui">Project Case</text>
+</svg>

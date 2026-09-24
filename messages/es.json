@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "Zhenlong Aluminum",
+    "tagline": "Estructuras de aluminio premium para mercados globales",
+    "description": "Shanghai Zhenlong Aluminum Industry Co., Ltd. es un fabricante profesional de marquesinas, pérgolas, toldos, barandillas, vallas y portones de aluminio. Servicios OEM/ODM para proyectos residenciales y comerciales en todo el mundo."
+  },
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "oemOdm": "OEM/ODM",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "common": {
+    "getQuote": "Solicitar presupuesto",
+    "getFreeQuote": "Presupuesto gratuito",
+    "exploreProducts": "Explorar productos",
+    "viewDetails": "Ver detalles",
+    "viewAllProducts": "Ver todos los productos",
+    "viewAllProjects": "Ver todos los proyectos",
+    "readMore": "Leer más",
+    "submitInquiry": "Enviar consulta",
+    "sending": "Enviando...",
+    "home": "Inicio",
+    "products": "Productos",
+    "projects": "Proyectos",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "Idioma",
+    "learnOem": "Conocer OEM/ODM"
+  },
+  "meta": {
+    "homeTitle": "Fabricante de marquesinas y pérgolas de aluminio",
+    "homeDescription": "Shanghai Zhenlong Aluminum — marquesinas, pérgolas, toldos, barandillas y portones de aluminio directo de fábrica. OEM/ODM para compradores globales.",
+    "productsTitle": "Productos",
+    "productsDescription": "Explore los productos de Zhenlong Aluminum: marquesinas, pérgolas, toldos, barandillas y portones. Personalización OEM para compradores globales.",
+    "projectsTitle": "Proyectos",
+    "projectsDescription": "Casos de proyectos de exportación de marquesinas, pérgolas, barandillas y toldos de aluminio de Zhenlong Aluminum.",
+    "aboutTitle": "Sobre nosotros",
+    "aboutDescription": "Zhenlong Aluminum: fotos de la fábrica en Songjiang, fabricación propia y verificación EN 1090 para marquesinas, pabellones, vallas y portones.",
+    "oemTitle": "Servicios OEM / ODM",
+    "oemDescription": "Fabricación de aluminio OEM y ODM de Zhenlong Aluminum. Dimensiones, colores, branding y embalaje de exportación personalizados.",
+    "blogTitle": "Blog",
+    "blogDescription": "Guías expertas sobre marquesinas, pérgolas, pintura en polvo y abastecimiento OEM de un fabricante chino.",
+    "contactTitle": "Contacto",
+    "contactDescription": "Contacte con Zhenlong Aluminum para presupuestos de marquesinas, pérgolas, barandillas y portones de aluminio. Directo de fábrica en Shanghái, China."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Fabricante de estructuras de aluminio",
+      "title": "Marquesinas, pérgolas y soluciones arquitectónicas de aluminio premium",
+      "subtitle": "Shanghai Zhenlong Aluminum Industry Co., Ltd. fabrica marquesinas, pérgolas, toldos, barandillas y portones de aluminio personalizados para importadores, distribuidores y contratistas de proyectos en todo el mundo.",
+      "highlights": {
+        "0": "Precios directos de fábrica",
+        "1": "Soporte completo OEM / ODM",
+        "2": "Experiencia de exportación mundial",
+        "3": "Planos de ingeniería incluidos"
+      },
+      "imageLabel": "Aluminio arquitectónico",
+      "alloy": "Aleación de aluminio"
+    },
+    "stats": {
+      "founded": "Años de experiencia",
+      "products": "Líneas de producto",
+      "markets": "Mercados de exportación",
+      "support": "Respuesta a presupuestos"
+    },
+    "products": {
+      "eyebrow": "Nuestros productos",
+      "title": "Estructuras de aluminio para proyectos globales",
+      "description": "Desde marquesinas residenciales hasta sistemas de pérgolas comerciales, ofrecemos soluciones de aluminio personalizables con soporte de exportación fiable."
+    },
+    "whyUs": {
+      "eyebrow": "Por qué Zhenlong",
+      "title": "Su socio fiable en fabricación de aluminio",
+      "description": "Ayudamos a compradores internacionales a abastecerse de productos de aluminio duraderos y personalizables con comunicación clara y soporte profesional de proyectos.",
+      "items": {
+        "0": {
+          "title": "Directo de fábrica",
+          "description": "Producción interna desde el perfilado de aluminio hasta soldadura, recubrimiento y embalaje."
+        },
+        "1": {
+          "title": "Listo para OEM / ODM",
+          "description": "Dimensiones, colores, branding y embalaje personalizados para su mercado."
+        },
+        "2": {
+          "title": "Enfoque en calidad",
+          "description": "Proceso de control de calidad estructurado que cubre material, soldadura, recubrimiento e inspección previa al envío."
+        },
+        "3": {
+          "title": "Experiencia de exportación",
+          "description": "Atendemos compradores en Norteamérica, Europa, Oriente Medio y Asia-Pacífico."
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "Casos de proyecto",
+      "title": "Resultados probados en mercados globales",
+      "description": "Explore proyectos de exportación seleccionados que muestran nuestra capacidad de fabricación y experiencia en personalización."
+    },
+    "cta": {
+      "title": "¿Listo para iniciar su proyecto de aluminio?",
+      "description": "Envíenos sus requisitos, planos o fotos de referencia. Nuestro equipo le proporcionará un presupuesto profesional y una propuesta de fabricación en 24 horas."
+    },
+    "trust": {
+      "items": [
+        "Personalización OEM / ODM",
+        "Aleación de aluminio 6063-T5",
+        "Recubrimiento en polvo y PVDF",
+        "Soporte de exportación global"
+      ]
+    },
+    "process": {
+      "eyebrow": "Cómo trabajamos",
+      "title": "Del diseño a la entrega",
+      "description": "Un proceso de fabricación ágil, pensado para proyectos internacionales.",
+      "steps": {
+        "0": {
+          "title": "Revisión de diseño",
+          "description": "Revisamos planos, especificaciones y requisitos del proyecto con nuestro equipo de ingeniería."
+        },
+        "1": {
+          "title": "Fabricación",
+          "description": "Corte, soldadura y montaje de precisión con perfiles de aluminio 6063-T5."
+        },
+        "2": {
+          "title": "Tratamiento de superficie",
+          "description": "Recubrimiento en polvo o acabado PVDF con correspondencia de color RAL."
+        },
+        "3": {
+          "title": "Control de calidad",
+          "description": "Inspección de material, soldadura, recubrimiento y previa al envío."
+        },
+        "4": {
+          "title": "Entrega de exportación",
+          "description": "Embalaje a medida y logística internacional coordinada."
+        }
+      }
+    }
+  },
+  "productsPage": {
+    "eyebrow": "Gama de productos",
+    "title": "Productos de aluminio para proyectos de exportación",
+    "description": "Fabricamos una gama completa de estructuras exteriores de aluminio con dimensiones, acabados y embalaje personalizables."
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "Marquesinas de aluminio",
+      "shortDescription": "Marquesinas duraderas y resistentes a la intemperie para accesos residenciales, aparcamientos y propiedades comerciales.",
+      "description": "Nuestras marquesinas de aluminio están diseñadas para un rendimiento exterior a largo plazo con perfiles de aluminio 6063-T5, soldadura de precisión y pintura en polvo premium. Totalmente personalizables en luz, altura, estilo de techo y color según los requisitos de su proyecto.",
+      "features": [
+        "Estructura de aleación de aluminio 6063-T5",
+        "Pintura en polvo resistente a UV (colores RAL)",
+        "Opciones de carga de nieve y viento disponibles",
+        "Diseño modular para fácil instalación",
+        "Dimensiones y branding OEM compatibles"
+      ],
+      "specLabels": [
+        "Material",
+        "Acabado superficial",
+        "Ancho de luz",
+        "Opciones de techo",
+        "Garantía"
+      ],
+      "specValues": [
+        "Aluminio 6063-T5",
+        "Pintura en polvo / PVDF",
+        "Personalizado (3 m – 12 m+)",
+        "Policarbonato / Panel de aluminio",
+        "10+ años (recubrimiento)"
+      ],
+      "applications": [
+        "Accesos residenciales",
+        "Zonas de aparcamiento en villas",
+        "Aparcamientos comerciales",
+        "Entradas de hoteles y resorts"
+      ],
+      "faqs": [
+        {
+          "question": "¿Pueden personalizar las dimensiones de la marquesina?",
+          "answer": "Sí. Ofrecemos personalización OEM de ancho, longitud, altura, espaciado de columnas y opciones de panel de techo según sus planos del sitio."
+        },
+        {
+          "question": "¿Cuál es el plazo de entrega habitual?",
+          "answer": "Proyectos estándar: 15–25 días tras confirmación del pedido. Pedidos comerciales grandes pueden requerir 30–45 días."
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "Pérgolas y cenadores de aluminio",
+      "shortDescription": "Elegantes pérgolas y cenadores exteriores para jardines, patios, zonas de piscina y establecimientos hoteleros.",
+      "description": "Las pérgolas de aluminio Zhenlong combinan estética arquitectónica con fiabilidad estructural. Disponibles en diseños de techo fijo y con lamas, ideales para espacios exteriores que requieren sombra, ventilación y atractivo visual.",
+      "features": [
+        "Sistemas de techo fijo o con lamas ajustables",
+        "Resistentes a la corrosión para climas costeros",
+        "Diseño de drenaje integrado",
+        "Opciones de iluminación LED y accesorios",
+        "Planos de ingeniería incluidos"
+      ],
+      "specLabels": [
+        "Material",
+        "Tipo de techo",
+        "Recubrimiento",
+        "Instalación",
+        "Personalización"
+      ],
+      "specValues": [
+        "Aluminio 6063-T5",
+        "Fijo / Con lamas",
+        "Pintura en polvo / Anodizado",
+        "Montaje modular atornillado",
+        "OEM/ODM completo"
+      ],
+      "applications": [
+        "Patios de jardín",
+        "Zonas de descanso junto a piscina",
+        "Terrazas de restaurantes",
+        "Patios de hoteles"
+      ],
+      "faqs": [
+        {
+          "question": "¿Ofrecen pérgolas con lamas motorizadas?",
+          "answer": "Sí. Podemos suministrar sistemas de lamas manuales o motorizados según el presupuesto y las especificaciones del proyecto."
+        },
+        {
+          "question": "¿Las pérgolas pueden enviarse en embalaje plano?",
+          "answer": "Sí. Nuestro diseño modular permite exportación en embalaje plano para reducir volumen y coste de envío."
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "Toldos y marquesinas de aluminio",
+      "shortDescription": "Toldos arquitectónicos de aluminio para entradas, pasillos, balcones y fachadas comerciales.",
+      "description": "Fabricamos sistemas de toldos de aluminio que protegen del sol y la lluvia mientras realzan la estética del edificio. Adecuados para balcones residenciales, entradas de tiendas y cubiertas de pasillos comerciales de gran formato.",
+      "features": [
+        "Diseño estructural de perfil delgado",
+        "Sistemas de soportes de alta resistencia",
+        "Múltiples materiales de panel de techo",
+        "Ingeniería resistente al viento",
+        "Coincidencia de color RAL personalizada"
+      ],
+      "specLabels": [
+        "Perfil",
+        "Panel",
+        "Clasificación de carga",
+        "Acabado",
+        "Soporte de diseño"
+      ],
+      "specValues": [
+        "Extrusión de aluminio personalizada",
+        "PC / Vidrio / Aluminio",
+        "Específico del proyecto",
+        "Pintura en polvo",
+        "Planos CAD incluidos"
+      ],
+      "applications": [
+        "Entradas de edificios",
+        "Cubiertas de pasillos",
+        "Toldos de balcón",
+        "Fachadas de comercios"
+      ],
+      "faqs": [
+        {
+          "question": "¿Pueden fabricar según planos arquitectónicos?",
+          "answer": "Por supuesto. Envíenos sus planos o fotos del sitio y nuestro equipo de ingeniería le proporcionará soluciones de fabricación."
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "Barandillas y vallas de aluminio",
+      "shortDescription": "Barandillas, balaustradas y sistemas de valla de aluminio decorativos y estructurales para uso residencial y comercial.",
+      "description": "Nuestros sistemas de barandillas y vallas de aluminio ofrecen una alternativa premium a la forja con mayor resistencia a la corrosión y menor mantenimiento. Patrones, alturas e integración de portones personalizables.",
+      "features": [
+        "Fundición artística de aluminio y perfiles",
+        "Recubrimiento probado en niebla salina",
+        "Conjuntos coordinados de valla y portón",
+        "Cumplimiento de especificaciones de seguridad del proyecto",
+        "Múltiples estilos de diseño disponibles"
+      ],
+      "specLabels": [
+        "Material",
+        "Altura",
+        "Acabado",
+        "Estilo",
+        "MOQ"
+      ],
+      "specValues": [
+        "Aleación de aluminio",
+        "Personalizado (900 mm – 1800 mm)",
+        "Pintura en polvo",
+        "Moderno / Europeo / Personalizado",
+        "Según proyecto"
+      ],
+      "applications": [
+        "Balcones de villas",
+        "Escaleras",
+        "Límites de jardín",
+        "Propiedades comerciales"
+      ],
+      "faqs": [
+        {
+          "question": "¿Las barandillas y portones pueden tener el mismo diseño?",
+          "answer": "Sí. Normalmente diseñamos los sistemas de barandilla y portón como un conjunto coordinado para consistencia visual."
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "Portones de aluminio",
+      "shortDescription": "Portones de acceso, peatonales y correderos de aluminio personalizados con acabados premium.",
+      "description": "Los portones de aluminio Zhenlong están construidos para seguridad, durabilidad y atractivo estético. Admitimos configuraciones batientes y correderas compatibles con operación manual o automatizada.",
+      "features": [
+        "Configuraciones batientes y correderas",
+        "Construcción de marco reforzado",
+        "Diseño preparado para automatización",
+        "Opciones de panel decorativo",
+        "Embalaje de grado exportación"
+      ],
+      "specLabels": [
+        "Tipo",
+        "Ancho",
+        "Marco",
+        "Acabado",
+        "Accesorios"
+      ],
+      "specValues": [
+        "Batiente / Corredero",
+        "Personalizado",
+        "Aluminio reforzado",
+        "Pintura en polvo",
+        "Manillas, cerraduras, motores (opcional)"
+      ],
+      "applications": [
+        "Accesos residenciales",
+        "Entradas de villas",
+        "Recintos industriales",
+        "Comunidades cerradas"
+      ],
+      "faqs": [
+        {
+          "question": "¿Suministran motores para portones?",
+          "answer": "Podemos suministrar portones compatibles con sistemas de automatización de terceros o recomendar especificaciones de motor para su mercado."
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "Especificaciones",
+    "applications": "Aplicaciones",
+    "faq": "Preguntas frecuentes",
+    "requestQuote": "Solicitar presupuesto",
+    "formHint": "Cuéntenos sobre su proyecto y le responderemos en breve."
+  },
+  "projectsPage": {
+    "eyebrow": "Casos de estudio",
+    "title": "Portafolio de proyectos de exportación global",
+    "description": "Aplicaciones reales que demuestran nuestra calidad de fabricación, capacidad de personalización y experiencia de exportación."
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "Marquesina residencial – Australia",
+      "location": "Melbourne, Australia",
+      "category": "Marquesinas de aluminio",
+      "description": "Marquesina doble personalizada con paneles de policarbonato, pintura en polvo RAL 7016 para acceso de villa moderna."
+    },
+    "hotel-pergola-dubai": {
+      "title": "Pérgola de patio hotelero – EAU",
+      "location": "Dubái, EAU",
+      "category": "Pérgolas de aluminio",
+      "description": "Sistema de pérgola con lamas de gran formato para patio hotelero, diseñado para climas de altas temperaturas."
+    },
+    "villa-railing-germany": {
+      "title": "Sistema de barandilla para villa – Alemania",
+      "location": "Múnich, Alemania",
+      "category": "Barandillas de aluminio",
+      "description": "Balaustrada de aluminio de estilo europeo con portón de entrada coordinado para proyecto de renovación residencial."
+    },
+    "commercial-canopy-usa": {
+      "title": "Toldo de entrada comercial – EE. UU.",
+      "location": "California, EE. UU.",
+      "category": "Toldos de aluminio",
+      "description": "Toldo de entrada arquitectónico con drenaje integrado para renovación de fachada de complejo comercial."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Sobre Zhenlong",
+    "capabilities": "Capacidades de fábrica",
+    "exportMarkets": "Mercados de exportación",
+    "capabilityItems": [
+      "Corte y fabricación de perfiles de aluminio",
+      "Mecanizado CNC y soldadura de precisión",
+      "Pintura en polvo y tratamiento superficial",
+      "Montaje, inspección y embalaje de exportación",
+      "Planos de ingeniería y personalización OEM"
+    ],
+    "paragraphs": {
+      "0": "Fundada en {year}, Shanghai Zhenlong Aluminum Industry Co., Ltd. se especializa en el diseño y fabricación de estructuras exteriores de aluminio para proyectos residenciales, comerciales y hoteleros.",
+      "1": "Con capacidades de producción interna y amplia experiencia de exportación, apoyamos a compradores internacionales, distribuidores y contratistas con calidad fiable, precios competitivos de fábrica y comunicación ágil.",
+      "2": "Nuestra gama de productos incluye marquesinas, pérgolas, toldos, barandillas decorativas, vallas y portones de aluminio — todos disponibles con personalización OEM/ODM completa."
+    },
+    "markets": [
+      "Norteamérica",
+      "Europa",
+      "Oriente Medio",
+      "Sudeste Asiático",
+      "Australia"
+    ],
+    "introImageAlt": "Acceso a la planta de Zhenlong Aluminum en Songjiang, Shanghái",
+    "introImageCaption": "Planta de Songjiang · Yuxiu Road 39",
+    "galleryEyebrow": "Fábrica",
+    "galleryTitle": "Taller, almacén y planta",
+    "galleryDescription": "Fotografiado en nuestras instalaciones de Yuxiu Road: el taller, el stock de aluminio y la entrada.",
+    "photos": {
+      "workshop": {
+        "alt": "Vista amplia del taller de Zhenlong, con perfiles y fabricación de portones",
+        "caption": "Taller de producción"
+      },
+      "assembly": {
+        "alt": "Operario montando un portón de aluminio con recubrimiento en polvo",
+        "caption": "Montaje de portones"
+      },
+      "warehouse": {
+        "alt": "Estanterías con extrusiones de aluminio en el almacén de Zhenlong",
+        "caption": "Almacén de perfiles"
+      },
+      "profiles": {
+        "alt": "Perfiles de aluminio embalados en el suelo del taller",
+        "caption": "Stock de aluminio"
+      },
+      "entrance": {
+        "alt": "Placa de la empresa en la entrada de Zhenlong Aluminum en Yuxiu Road",
+        "caption": "Entrada de la planta"
+      }
+    },
+    "certEyebrow": "Conformidad",
+    "certTitle": "Verificación de productos",
+    "certDescription": "Verificación de conformidad ICR para marquesinas, pabellones, vallas y portones, según EN 1090 y el Reglamento europeo de productos de construcción.",
+    "certView": "Ver certificado",
+    "certClose": "Cerrar",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "Marquesina",
+        "alt": "Verificación de conformidad de marquesinas de aluminio Zhenlong, EN 1090"
+      },
+      "pavilion": {
+        "name": "Pabellón",
+        "alt": "Verificación de conformidad de pabellones de aluminio Zhenlong, EN 1090"
+      },
+      "fence": {
+        "name": "Valla",
+        "alt": "Verificación de conformidad de vallas de aluminio Zhenlong, EN 1090"
+      },
+      "gate": {
+        "name": "Portón",
+        "alt": "Verificación de conformidad de portones de aluminio Zhenlong, EN 1090"
+      }
+    },
+    "certMatchedTitle": "Verificación de esta categoría",
+    "certMatchedDescription": "Esta categoría cuenta con una verificación de conformidad ICR según EN 1090 y el Reglamento europeo de productos de construcción."
+  },
+  "oemPage": {
+    "eyebrow": "Personalización",
+    "title": "Fabricación de aluminio OEM / ODM",
+    "description": "Asóciese con Zhenlong para productos de aluminio totalmente personalizados — del concepto a la entrega lista para exportación.",
+    "steps": {
+      "0": {
+        "title": "Revisión de requisitos",
+        "description": "Comparta planos, imágenes de referencia o especificaciones del producto. Nuestro equipo evalúa la viabilidad y ofrece recomendaciones."
+      },
+      "1": {
+        "title": "Ingeniería y presupuesto",
+        "description": "Preparamos propuestas técnicas, planos 3D/CAD si es necesario, y presupuestos detallados según cantidad y personalización."
+      },
+      "2": {
+        "title": "Muestra y aprobación",
+        "description": "Muestras prototipo disponibles para proyectos cualificados. La producción comienza tras aprobación de muestra y especificaciones."
+      },
+      "3": {
+        "title": "Producción y control de calidad",
+        "description": "Fabricación interna completa con inspecciones de calidad de material, soldadura, recubrimiento y previas al envío."
+      },
+      "4": {
+        "title": "Embalaje de exportación y entrega",
+        "description": "Etiquetado personalizado, embalaje plano o montado, y logística coordinada para envío internacional."
+      }
+    },
+    "formTitle": "Inicie su proyecto OEM",
+    "formDescription": "Complete el formulario con sus requisitos de personalización."
+  },
+  "blogPage": {
+    "eyebrow": "Conocimiento",
+    "title": "Base de conocimiento de la industria del aluminio",
+    "description": "Artículos prácticos para importadores, distribuidores y contratistas que abastecen estructuras exteriores de aluminio."
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "Cómo elegir la marquesina de aluminio adecuada para su proyecto",
+      "excerpt": "Guía práctica sobre selección de materiales, tipos de techo, requisitos de carga y opciones de personalización para marquesinas de aluminio.",
+      "readTime": "6 min de lectura",
+      "content": "Las marquesinas de aluminio son cada vez más populares en propiedades residenciales y comerciales por su resistencia a la corrosión, bajo mantenimiento y flexibilidad de diseño.\n\n## Factores clave a considerar\n\n**1. Grado de aluminio**\nBusque perfiles de aluminio estructural 6063-T5 o equivalente.\n\n**2. Tratamiento superficial**\nLa pintura en polvo es estándar. Para entornos costeros, considere recubrimiento PVDF.\n\n**3. Opciones de panel de techo**\nLos paneles de policarbonato proporcionan luz natural. Los paneles de aluminio ofrecen un aspecto arquitectónico sólido.\n\n**4. Carga de viento y nieve**\nEspecifique siempre las condiciones climáticas locales.\n\n## ¿Por qué trabajar directamente con la fábrica?\n\nEl abastecimiento directo de fábrica permite personalización completa de dimensiones, colores y embalaje."
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "Pintura en polvo vs anodizado para productos de aluminio exteriores",
+      "excerpt": "Compare dos tratamientos superficiales populares para pérgolas, barandillas y marquesinas de aluminio en distintas condiciones climáticas.",
+      "readTime": "5 min de lectura",
+      "content": "El tratamiento superficial es fundamental para la longevidad de las estructuras de aluminio exteriores.\n\n## Pintura en polvo\n\n- Amplia gama de colores (sistema RAL)\n- Película protectora gruesa\n- Rentable para estructuras grandes\n\n## Anodizado\n\n- Apariencia metálica\n- Excelente adherencia al aluminio\n- Opciones de color limitadas\n\n## Recomendación\n\nPara proyectos de exportación en climas variados, la pintura en polvo suele ser preferida por su flexibilidad de color y rendimiento exterior probado."
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "Fabricación OEM de pérgolas de aluminio: lo que deben saber los compradores",
+      "excerpt": "Lista esencial para importadores y distribuidores que abastecen pérgolas de aluminio personalizadas de fábricas chinas.",
+      "readTime": "7 min de lectura",
+      "content": "Abastecer pérgolas de aluminio mediante asociaciones OEM puede mejorar significativamente márgenes y diferenciación de producto.\n\n## Lista previa al pedido\n\n1. Solicite certificados de material e informes de prueba de recubrimiento\n2. Confirme el proceso de aprobación de planos de ingeniería\n3. Defina estándares de embalaje para exportación\n4. Acuerde protocolo de inspección antes del envío\n5. Aclare términos de garantía para recubrimiento y estructura\n\n## Proceso OEM de Zhenlong\n\nApoyamos OEM/ODM completo desde planos conceptuales hasta producción, con prototipado de muestras disponible para proyectos cualificados."
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Contáctenos",
+    "title": "Contacte con Zhenlong Aluminum",
+    "description": "Envíenos los detalles de su proyecto y nuestro equipo de exportación responderá en 24 horas.",
+    "infoTitle": "Información de contacto",
+    "addressLabel": "Dirección",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "hoursTitle": "Horario comercial",
+    "hoursValue": "Los 7 días de la semana, las 24 horas"
+  },
+  "form": {
+    "title": "Solicitar presupuesto",
+    "description": "Cuéntenos sobre su proyecto y le responderemos en breve.",
+    "name": "Nombre",
+    "company": "Empresa",
+    "email": "Correo electrónico",
+    "whatsapp": "WhatsApp",
+    "country": "País",
+    "productInterest": "Producto de interés",
+    "selectProduct": "Seleccione un producto",
+    "otherProduct": "Otro / Varios productos",
+    "quantity": "Cantidad estimada / Tamaño del proyecto",
+    "message": "Detalles del proyecto",
+    "messagePlaceholder": "Incluya dimensiones, país de destino, plazo y cualquier requisito especial.",
+    "required": "Obligatorio",
+    "successTitle": "¡Gracias por su consulta!",
+    "successMessage": "Hemos recibido su mensaje y responderemos en 24 horas.",
+    "sendAnother": "Enviar otra consulta",
+    "errors": {
+      "name": "El nombre debe tener al menos 2 caracteres",
+      "email": "Introduzca un correo electrónico válido",
+      "country": "Introduzca su país",
+      "productInterest": "Seleccione un producto",
+      "message": "El mensaje debe tener al menos 10 caracteres",
+      "submit": "Error al enviar la consulta. Inténtelo de nuevo más tarde.",
+      "invalid": "Datos del formulario no válidos. Compruebe sus entradas."
+    }
+  },
+  "footer": {
+    "quickLinks": "Enlaces rápidos",
+    "productsTitle": "Productos",
+    "contactTitle": "Contacto",
+    "productList": [
+      "Marquesinas de aluminio",
+      "Pérgolas de aluminio",
+      "Toldos de aluminio",
+      "Barandillas de aluminio",
+      "Portones de aluminio"
+    ],
+    "rights": "Todos los derechos reservados."
+  },
+  "whatsapp": {
+    "message": "Hola, estoy interesado en sus productos de aluminio. Por favor, envíeme más información."
+  }
+}

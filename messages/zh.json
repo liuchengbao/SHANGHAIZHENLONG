@@ -1,0 +1,577 @@
+{
+  "company": {
+    "name": "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
+    "nameZh": "上海振龙铝业有限公司",
+    "shortName": "振龙铝业",
+    "tagline": "面向全球市场的优质铝结构产品",
+    "description": "上海振龙铝业有限公司是专业铝车棚、凉亭、雨棚、栏杆、围栏及大门制造商，为全球住宅与商业项目提供 OEM/ODM 服务。"
+  },
+  "nav": {
+    "home": "首页",
+    "products": "产品",
+    "projects": "案例",
+    "about": "关于我们",
+    "oemOdm": "OEM/ODM",
+    "blog": "博客",
+    "contact": "联系我们"
+  },
+  "common": {
+    "getQuote": "获取报价",
+    "getFreeQuote": "免费获取报价",
+    "exploreProducts": "浏览产品",
+    "viewDetails": "查看详情",
+    "viewAllProducts": "查看全部产品",
+    "viewAllProjects": "查看全部案例",
+    "readMore": "阅读更多",
+    "submitInquiry": "提交询盘",
+    "sending": "发送中...",
+    "home": "首页",
+    "products": "产品",
+    "projects": "案例",
+    "about": "关于我们",
+    "blog": "博客",
+    "contact": "联系我们",
+    "oemOdm": "OEM/ODM",
+    "whatsapp": "WhatsApp",
+    "language": "语言",
+    "learnOem": "了解 OEM/ODM"
+  },
+  "meta": {
+    "homeTitle": "铝车棚与凉亭制造商",
+    "homeDescription": "上海振龙铝业——工厂直供铝车棚、凉亭、雨棚、栏杆及大门，为全球采购商提供 OEM/ODM 服务。",
+    "productsTitle": "产品",
+    "productsDescription": "浏览振龙铝业产品：车棚、凉亭、雨棚、栏杆及大门，为全球采购商提供 OEM 定制服务。",
+    "projectsTitle": "案例",
+    "projectsDescription": "振龙铝业铝车棚、凉亭、栏杆及雨棚出口项目案例。",
+    "aboutTitle": "关于我们",
+    "aboutDescription": "了解上海振龙铝业：松江工厂实拍、车间加工，以及雨棚、凉亭、围栏、大门的 EN 1090 符合性验证。",
+    "oemTitle": "OEM / ODM 服务",
+    "oemDescription": "振龙铝业 OEM 与 ODM 铝制品制造服务，支持定制尺寸、颜色、品牌标识及出口包装。",
+    "blogTitle": "博客",
+    "blogDescription": "来自中国制造商的铝车棚、凉亭、粉末涂装及 OEM 采购专业指南。",
+    "contactTitle": "联系我们",
+    "contactDescription": "联系振龙铝业，获取铝车棚、凉亭、栏杆及大门报价，工厂直供，位于中国上海。"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "铝结构制造商",
+      "title": "优质铝车棚、凉亭与建筑解决方案",
+      "subtitle": "上海振龙铝业有限公司为全球进口商、经销商及项目承包商定制生产铝车棚、凉亭、雨棚、栏杆及大门。",
+      "highlights": {
+        "0": "工厂直供价格",
+        "1": "全面 OEM / ODM 支持",
+        "2": "丰富的全球出口经验",
+        "3": "提供工程图纸"
+      },
+      "imageLabel": "建筑铝材",
+      "alloy": "铝合金"
+    },
+    "stats": {
+      "founded": "年行业经验",
+      "products": "产品线",
+      "markets": "出口市场",
+      "support": "报价响应"
+    },
+    "trust": {
+      "items": [
+        "OEM / ODM 定制",
+        "6063-T5 铝合金",
+        "粉末喷涂 & PVDF",
+        "全球出口支持"
+      ]
+    },
+    "process": {
+      "eyebrow": "工作流程",
+      "title": "从设计到交付",
+      "description": "专为国际项目需求打造的精益制造流程。",
+      "steps": {
+        "0": {
+          "title": "设计评审",
+          "description": "与工程团队审阅图纸、规格和项目需求。"
+        },
+        "1": {
+          "title": "精密加工",
+          "description": "采用 6063-T5 铝型材进行精密切割、焊接和组装。"
+        },
+        "2": {
+          "title": "表面处理",
+          "description": "粉末喷涂或 PVDF 处理，支持 RAL 色号定制。"
+        },
+        "3": {
+          "title": "质量检验",
+          "description": "材料、焊接、涂层及出货前全面质检。"
+        },
+        "4": {
+          "title": "出口交付",
+          "description": "定制包装，协调国际物流发货。"
+        }
+      }
+    },
+    "products": {
+      "eyebrow": "我们的产品",
+      "title": "为全球项目打造的铝结构产品",
+      "description": "从住宅车棚到商业凉亭系统，我们提供可定制的铝结构解决方案及可靠的出口支持。"
+    },
+    "whyUs": {
+      "eyebrow": "选择振龙",
+      "title": "您值得信赖的铝制品制造合作伙伴",
+      "description": "我们帮助国际采购商采购耐用、可定制的铝制品，提供清晰沟通与专业项目支持。",
+      "items": {
+        "0": {
+          "title": "工厂直供",
+          "description": "从铝型材加工到焊接、涂装及包装，全流程自主生产。"
+        },
+        "1": {
+          "title": "OEM / ODM 就绪",
+          "description": "定制尺寸、颜色、品牌标识及包装，贴合您的市场需求。"
+        },
+        "2": {
+          "title": "品质为本",
+          "description": "结构化质检流程，覆盖材料、焊接、涂装及出货前检验。"
+        },
+        "3": {
+          "title": "出口经验",
+          "description": "服务北美、欧洲、中东及亚太地区的采购商。"
+        }
+      }
+    },
+    "projects": {
+      "eyebrow": "项目案例",
+      "title": "全球市场验证成果",
+      "description": "浏览精选出口项目，展示我们的制造能力与定制实力。"
+    },
+    "cta": {
+      "title": "准备启动您的铝结构项目？",
+      "description": "发送您的需求、图纸或参考照片，我们的团队将在 24 小时内提供专业报价与制造方案。"
+    }
+  },
+  "productsPage": {
+    "eyebrow": "产品系列",
+    "title": "出口项目铝制品",
+    "description": "我们生产全系列铝制户外结构产品，支持定制尺寸、表面处理及包装。"
+  },
+  "productItems": {
+    "aluminum-carports": {
+      "name": "铝车棚",
+      "shortDescription": "适用于住宅车道、停车场及商业物业的耐用、耐候车棚。",
+      "description": "我们的铝车棚采用 6063-T5 铝型材、精密焊接及优质粉末涂装，经工程设计可长期户外使用。跨度、高度、屋顶样式及颜色均可定制，满足项目需求。",
+      "features": [
+        "6063-T5 铝合金结构",
+        "抗 UV 粉末涂装（RAL 色系）",
+        "可选雪载与风载配置",
+        "模块化设计，安装便捷",
+        "支持 OEM 尺寸与品牌定制"
+      ],
+      "specLabels": [
+        "材料",
+        "表面处理",
+        "跨度宽度",
+        "屋顶选项",
+        "质保"
+      ],
+      "specValues": [
+        "6063-T5 铝合金",
+        "粉末涂装 / PVDF",
+        "定制（3m – 12m+）",
+        "聚碳酸酯 / 铝板",
+        "10 年以上（涂装）"
+      ],
+      "applications": [
+        "住宅车道",
+        "别墅停车区",
+        "商业停车场",
+        "酒店及度假村入口"
+      ],
+      "faqs": [
+        {
+          "question": "可以定制车棚尺寸吗？",
+          "answer": "可以。我们根据您的现场图纸提供 OEM 定制，包括宽度、长度、高度、柱距及屋顶板材选项。"
+        },
+        {
+          "question": "常规交货期是多久？",
+          "answer": "标准项目：订单确认后 15–25 天。大型商业订单可能需要 30–45 天。"
+        }
+      ]
+    },
+    "aluminum-pergolas": {
+      "name": "铝凉亭与花架",
+      "shortDescription": "适用于花园、露台、泳池边及酒店场所的优雅户外凉亭与花架。",
+      "description": "振龙铝凉亭将建筑美学与结构可靠性相结合，提供固定式与百叶屋顶设计，适合需要遮阳、通风与视觉效果的户外休闲空间。",
+      "features": [
+        "固定式或可调百叶屋顶系统",
+        "沿海气候耐腐蚀",
+        "集成排水设计",
+        "LED 照明及配件选项",
+        "提供工程图纸"
+      ],
+      "specLabels": [
+        "材料",
+        "屋顶类型",
+        "涂装",
+        "安装方式",
+        "定制"
+      ],
+      "specValues": [
+        "6063-T5 铝合金",
+        "固定式 / 百叶式",
+        "粉末涂装 / 阳极氧化",
+        "螺栓连接模块化组装",
+        "全面 OEM/ODM"
+      ],
+      "applications": [
+        "花园露台",
+        "泳池休闲区",
+        "餐厅露台",
+        "酒店中庭"
+      ],
+      "faqs": [
+        {
+          "question": "是否提供电动百叶凉亭？",
+          "answer": "是的。我们可根据项目预算与规格提供手动或电动百叶系统。"
+        },
+        {
+          "question": "凉亭可以平板包装出口吗？",
+          "answer": "可以。我们的模块化设计支持平板包装出口，降低运输体积与成本。"
+        }
+      ]
+    },
+    "aluminum-canopies": {
+      "name": "铝雨棚与遮阳篷",
+      "shortDescription": "适用于入口、走道、阳台及商业立面的建筑级铝雨棚。",
+      "description": "我们制造铝雨棚系统，在防日晒雨淋的同时提升建筑美感，适用于住宅阳台、商铺入口及大型商业走道覆盖。",
+      "features": [
+        "纤薄型结构设计",
+        "高强度支架系统",
+        "多种屋顶板材材料",
+        "抗风工程设计",
+        "定制 RAL 配色"
+      ],
+      "specLabels": [
+        "型材",
+        "面板",
+        "荷载等级",
+        "表面处理",
+        "设计支持"
+      ],
+      "specValues": [
+        "定制铝挤压型材",
+        "PC / 玻璃 / 铝板",
+        "按项目定制",
+        "粉末涂装",
+        "含 CAD 图纸"
+      ],
+      "applications": [
+        "建筑入口",
+        "走道覆盖",
+        "阳台遮阳",
+        "零售店面"
+      ],
+      "faqs": [
+        {
+          "question": "能否按建筑图纸制造？",
+          "answer": "完全可以。请发送您的图纸或现场照片，我们的工程团队将提供制造方案。"
+        }
+      ]
+    },
+    "aluminum-railings": {
+      "name": "铝栏杆与围栏",
+      "shortDescription": "适用于住宅与商业的装饰性及结构性铝栏杆、护栏及围栏系统。",
+      "description": "我们的铝栏杆与围栏系统是铁艺的优质替代方案，具有更优的耐腐蚀性与更低的维护成本，支持定制图案、高度及大门配套。",
+      "features": [
+        "艺术铝铸造与型材",
+        "盐雾测试涂装",
+        "栏杆与大门配套设计",
+        "符合项目安全规范",
+        "多种设计风格可选"
+      ],
+      "specLabels": [
+        "材料",
+        "高度",
+        "表面处理",
+        "风格",
+        "起订量"
+      ],
+      "specValues": [
+        "铝合金",
+        "定制（900mm – 1800mm）",
+        "粉末涂装",
+        "现代 / 欧式 / 定制",
+        "按项目"
+      ],
+      "applications": [
+        "别墅阳台",
+        "楼梯",
+        "花园边界",
+        "商业物业"
+      ],
+      "faqs": [
+        {
+          "question": "栏杆与大门能否采用相同设计？",
+          "answer": "可以。我们通常将栏杆与大门设计为配套系列，确保视觉统一。"
+        }
+      ]
+    },
+    "aluminum-gates": {
+      "name": "铝大门",
+      "shortDescription": "定制铝制车道门、人行门及推拉门系统，优质表面处理。",
+      "description": "振龙铝大门兼顾安全、耐用与美观，支持平开与推拉配置，兼容手动或自动化操作。",
+      "features": [
+        "平开与推拉配置",
+        "加强型框架结构",
+        "自动化就绪设计",
+        "装饰面板选项",
+        "出口级包装"
+      ],
+      "specLabels": [
+        "类型",
+        "宽度",
+        "框架",
+        "表面处理",
+        "配件"
+      ],
+      "specValues": [
+        "平开 / 推拉",
+        "定制",
+        "加强铝合金",
+        "粉末涂装",
+        "把手、锁具、电机（可选）"
+      ],
+      "applications": [
+        "住宅车道",
+        "别墅入口",
+        "工业园区",
+        "封闭式社区"
+      ],
+      "faqs": [
+        {
+          "question": "是否供应大门电机？",
+          "answer": "我们可供应兼容第三方自动化系统的大门，或根据您的市场推荐电机规格。"
+        }
+      ]
+    }
+  },
+  "productDetail": {
+    "specifications": "规格参数",
+    "applications": "应用场景",
+    "faq": "常见问题",
+    "requestQuote": "索取报价",
+    "formHint": "请告诉我们您的项目需求，我们将尽快回复。"
+  },
+  "projectsPage": {
+    "eyebrow": "案例研究",
+    "title": "全球出口项目作品集",
+    "description": "真实应用案例，展示我们的制造品质、定制能力及出口经验。"
+  },
+  "projectItems": {
+    "residential-carport-australia": {
+      "title": "住宅车棚 – 澳大利亚",
+      "location": "墨尔本，澳大利亚",
+      "category": "铝车棚",
+      "description": "定制双车位车棚，聚碳酸酯屋顶板，RAL 7016 粉末涂装，适用于现代别墅车道。"
+    },
+    "hotel-pergola-dubai": {
+      "title": "酒店中庭凉亭 – 阿联酋",
+      "location": "迪拜，阿联酋",
+      "category": "铝凉亭",
+      "description": "大型百叶凉亭系统，用于酒店中庭，针对高温气候设计。"
+    },
+    "villa-railing-germany": {
+      "title": "别墅栏杆系统 – 德国",
+      "location": "慕尼黑，德国",
+      "category": "铝栏杆",
+      "description": "欧式铝护栏，配套入口大门，用于住宅翻新项目。"
+    },
+    "commercial-canopy-usa": {
+      "title": "商业入口雨棚 – 美国",
+      "location": "加利福尼亚，美国",
+      "category": "铝雨棚",
+      "description": "建筑级入口雨棚，集成排水系统，用于零售综合体立面升级。"
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "关于振龙",
+    "capabilities": "工厂能力",
+    "exportMarkets": "出口市场",
+    "capabilityItems": [
+      "铝型材切割与加工",
+      "CNC 加工与精密焊接",
+      "粉末涂装与表面处理",
+      "组装、检验与出口包装",
+      "工程图纸与 OEM 定制"
+    ],
+    "paragraphs": {
+      "0": "上海振龙铝业有限公司成立于 {year} 年，专注于住宅、商业及酒店项目用铝制户外结构的设计与制造。",
+      "1": "凭借自主生产能力与丰富的出口经验，我们为国际采购商、经销商及承包商提供可靠品质、有竞争力的工厂价格及高效沟通。",
+      "2": "我们的产品涵盖铝车棚、凉亭、雨棚、装饰栏杆、围栏及大门——均支持全面 OEM/ODM 定制。"
+    },
+    "markets": [
+      "北美",
+      "欧洲",
+      "中东",
+      "东南亚",
+      "澳大利亚"
+    ],
+    "introImageAlt": "上海松江振龙铝业厂区入口通道",
+    "introImageCaption": "松江厂区 · 玉秀路39号",
+    "galleryEyebrow": "工厂实拍",
+    "galleryTitle": "车间、仓库与厂区",
+    "galleryDescription": "拍摄于玉秀路厂区：生产车间、铝型材备货，以及公司入口。",
+    "photos": {
+      "workshop": {
+        "alt": "振龙铝业车间全景，可见型材与大门加工",
+        "caption": "生产车间"
+      },
+      "assembly": {
+        "alt": "工人在车间组装粉末喷涂铝艺大门",
+        "caption": "大门组装"
+      },
+      "warehouse": {
+        "alt": "振龙铝业仓库货架上的铝型材",
+        "caption": "型材仓库"
+      },
+      "profiles": {
+        "alt": "车间地面成捆存放的铝型材",
+        "caption": "铝材备货"
+      },
+      "entrance": {
+        "alt": "玉秀路振龙铝业入口公司铭牌",
+        "caption": "公司入口"
+      }
+    },
+    "certEyebrow": "合规认证",
+    "certTitle": "产品符合性验证",
+    "certDescription": "雨棚、凉亭、围栏与大门已取得 ICR 符合性验证，依据 EN 1090 与欧盟建筑产品法规 CPR (EU) 305/2011。",
+    "certView": "查看证书",
+    "certClose": "关闭",
+    "certStandard": "EN 1090 · CPR (EU) 305/2011",
+    "certs": {
+      "canopy": {
+        "name": "雨棚 / 遮阳篷",
+        "alt": "振龙铝业雨棚符合性验证证书，EN 1090"
+      },
+      "pavilion": {
+        "name": "凉亭",
+        "alt": "振龙铝业凉亭符合性验证证书，EN 1090"
+      },
+      "fence": {
+        "name": "围栏",
+        "alt": "振龙铝业围栏符合性验证证书，EN 1090"
+      },
+      "gate": {
+        "name": "大门",
+        "alt": "振龙铝业大门符合性验证证书，EN 1090"
+      }
+    },
+    "certMatchedTitle": "本类产品符合性验证",
+    "certMatchedDescription": "该品类已取得 ICR 符合性验证，依据 EN 1090 与欧盟建筑产品法规 CPR (EU) 305/2011。"
+  },
+  "oemPage": {
+    "eyebrow": "定制服务",
+    "title": "OEM / ODM 铝制品制造",
+    "description": "与振龙合作，获得全面定制的铝制品——从概念设计到出口就绪交付。",
+    "steps": {
+      "0": {
+        "title": "需求评审",
+        "description": "分享图纸、参考图片或产品规格，我们的团队评估可行性并提供建议。"
+      },
+      "1": {
+        "title": "工程与报价",
+        "description": "我们编制技术方案，按需准备 3D/CAD 图纸，并根据数量与定制要求提供详细报价。"
+      },
+      "2": {
+        "title": "样品与确认",
+        "description": "合格项目可提供原型样品，样品与规格确认后开始生产。"
+      },
+      "3": {
+        "title": "生产与质检",
+        "description": "全流程自主制造，涵盖材料、焊接、涂装及出货前质量检验。"
+      },
+      "4": {
+        "title": "出口包装与交付",
+        "description": "定制标签、平板或组装包装，协调国际物流运输。"
+      }
+    },
+    "formTitle": "启动您的 OEM 项目",
+    "formDescription": "请填写以下表单，说明您的定制需求。"
+  },
+  "blogPage": {
+    "eyebrow": "行业洞察",
+    "title": "铝行业知识库",
+    "description": "为进口商、经销商及承包商采购铝制户外结构提供的实用文章。"
+  },
+  "blogItems": {
+    "how-to-choose-aluminum-carport": {
+      "title": "如何为您的项目选择合适的铝车棚",
+      "excerpt": "铝车棚材料选择、屋顶类型、荷载要求及定制选项的实用指南。",
+      "readTime": "6 分钟阅读",
+      "content": "铝车棚因耐腐蚀、低维护及设计灵活，在住宅与商业项目中日益普及。\n\n## 关键考量因素\n\n**1. 铝合金牌号**\n建议选择 6063-T5 或同等结构铝型材。\n\n**2. 表面处理**\n粉末涂装为标准配置。沿海环境可考虑 PVDF 涂装。\n\n**3. 屋顶板材选项**\n聚碳酸酯板提供自然采光。铝板呈现实心建筑外观。\n\n**4. 风载与雪载**\n请务必说明当地气候条件。\n\n## 为何直接与工厂合作？\n\n工厂直采可实现尺寸、颜色及包装的全面定制。"
+    },
+    "powder-coating-vs-anodizing": {
+      "title": "户外铝制品：粉末涂装与阳极氧化对比",
+      "excerpt": "对比两种主流表面处理在不同气候条件下对铝凉亭、栏杆及车棚的适用性。",
+      "readTime": "5 分钟阅读",
+      "content": "表面处理对户外铝结构的耐久性至关重要。\n\n## 粉末涂装\n\n- 色彩范围广（RAL 色系）\n- 厚保护膜层\n- 大型结构成本效益高\n\n## 阳极氧化\n\n- 金属质感外观\n- 与铝材附着力优异\n- 颜色选择有限\n\n## 建议\n\n对于气候多样的出口项目，粉末涂装通常更受青睐，因其色彩灵活且户外性能经充分验证。"
+    },
+    "aluminum-pergola-oem-guide": {
+      "title": "OEM 铝凉亭制造：采购商须知",
+      "excerpt": "进口商与经销商从中国工厂采购定制铝凉亭的必备清单。",
+      "readTime": "7 分钟阅读",
+      "content": "通过 OEM 合作采购铝凉亭，可显著提升利润空间与产品差异化。\n\n## 下单前清单\n\n1. 索取材料证书与涂装测试报告\n2. 确认工程图纸审批流程\n3. 明确出口包装标准\n4. 约定出货前检验协议\n5. 明确涂装与结构的质保条款\n\n## 振龙 OEM 流程\n\n我们支持从概念图纸到生产的全面 OEM/ODM，合格项目可提供样品打样。"
+    }
+  },
+  "contactPage": {
+    "eyebrow": "联系我们",
+    "title": "联系振龙铝业",
+    "description": "发送您的项目详情，我们的出口团队将在 24 小时内回复。",
+    "infoTitle": "联系方式",
+    "addressLabel": "地址",
+    "emailLabel": "邮箱",
+    "phoneLabel": "电话",
+    "hoursTitle": "营业时间",
+    "hoursValue": "每周七天，全天 24 小时"
+  },
+  "form": {
+    "title": "索取报价",
+    "description": "请告诉我们您的项目需求，我们将尽快回复。",
+    "name": "姓名",
+    "company": "公司",
+    "email": "邮箱",
+    "whatsapp": "WhatsApp",
+    "country": "国家",
+    "productInterest": "感兴趣的产品",
+    "selectProduct": "选择产品",
+    "otherProduct": "其他 / 多种产品",
+    "quantity": "预估数量 / 项目规模",
+    "message": "项目详情",
+    "messagePlaceholder": "请提供尺寸、目的国、时间要求及任何特殊需求。",
+    "required": "必填",
+    "successTitle": "感谢您的询盘！",
+    "successMessage": "我们已收到您的消息，将在 24 小时内回复。",
+    "sendAnother": "再次提交询盘",
+    "errors": {
+      "name": "姓名至少 2 个字符",
+      "email": "请输入有效的邮箱地址",
+      "country": "请输入您的国家",
+      "productInterest": "请选择产品",
+      "message": "留言至少 10 个字符",
+      "submit": "提交失败，请稍后重试。",
+      "invalid": "表单数据无效，请检查输入内容。"
+    }
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "productsTitle": "产品",
+    "contactTitle": "联系方式",
+    "productList": [
+      "铝车棚",
+      "铝凉亭",
+      "铝雨棚",
+      "铝栏杆",
+      "铝大门"
+    ],
+    "rights": "版权所有。"
+  },
+  "whatsapp": {
+    "message": "您好，我对贵公司的铝制品感兴趣，请发送更多资料。"
+  }
+}
