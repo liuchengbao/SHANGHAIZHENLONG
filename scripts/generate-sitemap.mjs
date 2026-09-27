@@ -33,7 +33,7 @@ const newBlogs = [
 const catalog = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), "src/data/catalog.json"), "utf8"),
 );
-const products = catalog.products;
+const products = Array.isArray(catalog) ? catalog : catalog.products;
 const blogs = [...legacyBlogs, ...newBlogs];
 const lastmod = new Date().toISOString().slice(0, 10);
 
