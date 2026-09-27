@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getBlogPostBySlug(slug);
   if (!post) return {};
 
-  const url = `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.zhenlongaluminum.com"}/${locale}/blog/${slug}`;
+  const url = `${SITE_URL}/${locale}/blog/${slug}`;
   const fullTitle = `${post.title} | ${COMPANY.shortName}`;
 
   return {

@@ -23,7 +23,7 @@ Visit [http://localhost:3000/en](http://localhost:3000/en)
 ## Environment Variables
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://www.zhenlongaluminum.com
+SITE_URL=https://www.zhenlongaluminum.com
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX          # optional
 RESEND_API_KEY=re_xxxxxxxx            # inquiry emails
 RESEND_FROM=Zhenlong <inquiry@yourdomain.com>

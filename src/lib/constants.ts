@@ -1,5 +1,7 @@
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.zhenlongaluminum.com";
+  process.env.SITE_URL ??
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://www.zhenlongaluminum.com";
 
 export const COMPANY = {
   name: "Shanghai Zhenlong Aluminum Industry Co., Ltd.",
