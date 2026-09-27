@@ -49,85 +49,145 @@ const en = pack(
   {
     "aluminum-gazebos": {
       name: "Aluminum Gazebo & Pergola",
-      summary: "Motorized and fixed aluminum pergolas and gazebos for gardens, restaurants, and villas.",
+      summary: "Louvered and fixed outdoor living roofs for villas, restaurants, and hotel courtyards—not a carport or door canopy.",
       description:
-        "Outdoor aluminum gazebos and pergolas from the Zhenlong catalog, including bioclimatic louvered roofs and fixed structures. Sizes, colors, and motor options are made to drawing.",
-      features: ["6063-T5 aluminum frame", "Louvered or fixed roof", "Powder-coated finish", "Custom plan sizes"],
-      applications: ["Villa gardens", "Restaurant terraces", "Hotel courtyards", "Residential backyards"],
+        "This line is for outdoor living: bioclimatic louvered pergolas, fixed-top gazebos, and pavilion-style shade structures. Buyers usually specify free span, post layout, motorized or manual louvers, drainage, and RAL finish. Frames are 6063-T5. Pavilion models named on our ICR file follow EN 1090; carports and entrance canopies are separate categories.",
+      features: [
+        "Bioclimatic louver or fixed roof",
+        "6063-T5 outdoor frame",
+        "Motor options on louver models",
+        "RAL powder coat or PVDF on request",
+        "Sized from drawings or site measures",
+      ],
+      applications: ["Villa gardens", "Restaurant terraces", "Hotel courtyards", "Residential outdoor rooms"],
       faqs: [
         {
-          question: "Can the pergola size be customized?",
-          answer: "Yes. Span, length, and height are produced from your drawings or site measurements.",
+          question: "Is a pergola the same product as a carport?",
+          answer: "No. Pergolas and gazebos are outdoor living roofs. Carports are a separate parking category and do not use the pavilion certificate.",
+        },
+        {
+          question: "Can louver angle and motor be specified?",
+          answer: "Yes. Louvered models can be motorized or manual; span, bay count, and finish follow your drawing.",
         },
       ],
     },
     "aluminum-fences": {
       name: "Aluminum Fence",
-      summary: "Separate fence models: horizontal louver, slat privacy, vertical picket, pool barrier, and security fence.",
+      summary: "Model-by-model perimeter systems: privacy slats, louvers, pickets, pool barriers, and anti-climb panels.",
       description:
-        "Each listing is a distinct fence model from the Zhenlong store, covering privacy screens, louvered panels, vertical pickets, pool fences, wood-grain slats, and anti-climb security fencing.",
-      features: ["Separate models, not one generic fence", "Powder-coated colors", "Privacy or open picket", "Cut-to-size panels"],
-      applications: ["Villa perimeters", "Pool safety", "Garden privacy", "Commercial boundaries"],
+        "Fence buying is about the panel type, not a generic “aluminum fence.” Listings stay separated as horizontal louvers, vertical privacy slats, pickets, pool barriers, wood-grain screens, and anti-climb security panels. Quote height, module width, post detail, and gate openings with the fence run. Coating is powder coat on 6063-T5. Listed fence models on the ICR file follow EN 1090.",
+      features: [
+        "One model per listing",
+        "Privacy, pool, or security roles",
+        "Cut-to-height panel modules",
+        "RAL powder-coated finish",
+        "Posts and gates quoted with the run",
+      ],
+      applications: ["Villa perimeters", "Pool safety lines", "Garden privacy screens", "Commercial boundaries"],
       faqs: [
         {
-          question: "Are fence styles listed as separate models?",
-          answer: "Yes. Horizontal louver, vertical slat, picket, pool, and security fences each have their own product page.",
+          question: "Why are fence styles on separate product pages?",
+          answer: "Because height, infill, and fixing differ. Privacy slats, pool barriers, and security panels are not interchangeable SKUs.",
+        },
+        {
+          question: "What do you need for a fence quote?",
+          answer: "Total length, height, panel style, post preference, gate positions, and finish. A site plan speeds production.",
         },
       ],
     },
     "aluminum-carports": {
       name: "Aluminum Carport",
-      summary: "Single- and double-bay aluminum carports and parking canopies.",
+      summary: "Freestanding single- and double-bay parking shelters sized for vehicles—not pergola living roofs.",
       description:
-        "Freestanding aluminum carports and garage canopies for one or two vehicles, with polycarbonate or metal roofs and powder-coated frames.",
-      features: ["Single or double vehicle", "Polycarbonate or metal roof", "Freestanding frame", "Custom width and length"],
-      applications: ["Home driveways", "Villa parking", "Commercial parking", "Hotel drop-off"],
+        "Carports protect vehicles on driveways and parking lots. Specs focus on bay width, length, clear height, roof sheet (polycarbonate or metal), and wind or snow notes for the destination. Structures are freestanding 6063-T5 frames with powder coating. This category does not use pavilion, gate, or canopy EN 1090 certificates.",
+      features: [
+        "Single or double vehicle bays",
+        "Polycarbonate or metal roof sheet",
+        "Freestanding 6063-T5 frame",
+        "Driveway width and length to drawing",
+        "Export packing for overseas sites",
+      ],
+      applications: ["Home driveways", "Villa parking courts", "Small commercial lots", "Hotel drop-off bays"],
       faqs: [
         {
-          question: "Do you build double carports?",
-          answer: "Yes. The catalog includes single shelters and double-vehicle parking canopies.",
+          question: "Can one carport cover two cars?",
+          answer: "Yes. Double-bay models are in the catalog; confirm clear width, length, and approach path on your plan.",
+        },
+        {
+          question: "Does the carport share the pergola EN 1090 file?",
+          answer: "No. Carports are a parking product line. Do not cite pavilion or canopy certificates for carport tenders.",
         },
       ],
     },
     "aluminum-sliding-doors": {
       name: "Aluminum Sliding Door",
-      summary: "Architectural sliding doors and automatic aluminum sliding gates.",
+      summary: "Architectural sliding door leaves and automatic sliding gates for openings—not courtyard swing gates.",
       description:
-        "Aluminum sliding doors with tempered glazing, plus automatic sliding driveway gates for residential and hotel projects.",
-      features: ["Sliding door or gate", "Tempered glazing options", "Powder-coated profiles", "Automatic gate options"],
-      applications: ["Hotel balconies", "Villa entrances", "Driveway gates", "Commercial fronts"],
+        "Use this category for sliding operation: glazed patio or balcony sliding doors, and automatic aluminum sliding gates for driveways. Quotes need opening width and height, track type, glass or solid infill, and whether a motor is required. Powder-coated 6063-T5 profiles. Sliding doors are not covered by the courtyard-gate EN 1090 list unless a specific model is confirmed in writing.",
+      features: [
+        "Sliding door or sliding gate",
+        "Tempered glass options",
+        "Automatic motor packages",
+        "Opening size from site measure",
+        "Powder-coated profiles",
+      ],
+      applications: ["Hotel balconies", "Villa patio openings", "Driveway sliding gates", "Commercial shopfronts"],
       faqs: [
         {
-          question: "Are automatic sliding gates available?",
-          answer: "Yes. Several listings are automatic aluminum sliding gates with powder-coated finishes.",
+          question: "What is the difference from courtyard gates?",
+          answer: "Courtyard gates are mainly swing or decorative entrance gates. This page focuses on sliding leaves and automatic sliding gate runs.",
+        },
+        {
+          question: "Can you motorize a sliding gate?",
+          answer: "Yes. Several models ship as automatic sliding gates; share clear opening and power availability.",
         },
       ],
     },
     "aluminum-doors": {
       name: "Aluminum Door & Gate",
-      summary: "Courtyard entrance gates, main gates, and metal house gates.",
+      summary: "Swing and decorative courtyard entrance gates made from CAD—not patio sliding door systems.",
       description:
-        "Aluminum courtyard and driveway gates, including sliding electric gates and decorative house gates for villas and communities.",
-      features: ["Entrance and courtyard gates", "Sliding or swing layouts", "Custom CAD designs", "Outdoor powder coating"],
-      applications: ["Villa entrances", "Community gates", "Ranch and site gates", "House front gates"],
+        "This category is for entrance identity: courtyard gates, villa main gates, and driveway gates in swing or sliding layouts, including decorative house gates. Buyers send CAD, clear opening, leaf count, and finish. Listed gate models on our ICR verification follow EN 1090 and CPR (EU) 305/2011. Architectural glazed sliding doors belong under sliding doors.",
+      features: [
+        "Courtyard and main entrance gates",
+        "Swing or sliding layouts",
+        "CAD-based OEM patterns",
+        "Outdoor powder coating",
+        "EN 1090 on listed gate models",
+      ],
+      applications: ["Villa entrances", "Community gates", "Site and ranch gates", "House front gates"],
       faqs: [
         {
-          question: "Can gates be made from our drawings?",
-          answer: "Yes. Entrance gates can be produced from your CAD drawings and site dimensions.",
+          question: "Can you build from our CAD gate drawing?",
+          answer: "Yes. Pattern, leaf size, and hardware side are produced from your CAD and site opening.",
+        },
+        {
+          question: "Which gates carry EN 1090 verification?",
+          answer: "Only models named on the ICR gate verification. Send the model number before you lock a tender spec.",
         },
       ],
     },
     awnings: {
       name: "Awning & Canopy",
-      summary: "Aluminum terrace awnings and door or window entrance canopies.",
+      summary: "Door, window, and terrace canopies with defined projection—not freestanding carports or full pergolas.",
       description:
-        "Powder-coated aluminum awnings and canopies for villa terraces, patio doors, and window entrances, including polycarbonate covers.",
-      features: ["Terrace and entrance covers", "Aluminum alloy frame", "Polycarbonate options", "Corrosion-resistant coating"],
-      applications: ["Villa terraces", "Door canopies", "Window awnings", "Patio shelters"],
+        "Awnings and canopies cover entrances and terraces with a projection from the wall or a light frame. Quotes need width, projection, mounting height, and cover material (usually polycarbonate on a powder-coated aluminum frame). Listed canopy models on the ICR file follow EN 1090. Freestanding parking shelters belong under carports; large louver roofs belong under pergolas.",
+      features: [
+        "Entrance and terrace coverage",
+        "Projection and width to drawing",
+        "Polycarbonate cover options",
+        "6063-T5 powder-coated frame",
+        "EN 1090 on listed canopy models",
+      ],
+      applications: ["Door canopies", "Window awnings", "Villa terraces", "Shop entrance covers"],
       faqs: [
         {
-          question: "What roof materials are used on awnings?",
-          answer: "Most awnings use a powder-coated aluminum frame with polycarbonate or similar weather covers.",
+          question: "How is an awning different from a carport?",
+          answer: "Awnings usually project from a building. Carports are freestanding vehicle shelters with parking bay sizes.",
+        },
+        {
+          question: "What do you need to quote a canopy?",
+          answer: "Width, projection, mounting height, wall or post type, and preferred cover sheet.",
         },
       ],
     },
@@ -141,51 +201,147 @@ const zh = pack(
   {
     "aluminum-gazebos": {
       name: "铝艺凉亭 / 遮阳棚",
-      summary: "电动百叶与固定顶铝艺凉亭、凉棚，适用于庭院、餐厅和别墅。",
-      description: "来自振龙店铺的铝艺凉亭与 pergola，含电动百叶顶和固定顶。跨度、颜色和电机可按图纸定制。",
-      features: ["6063-T5 铝型材框架", "百叶顶或固定顶", "粉末喷涂", "按图纸定制尺寸"],
-      applications: ["别墅庭院", "餐厅露台", "酒店中庭", "住宅后院"],
-      faqs: [{ question: "凉亭尺寸可以定制吗？", answer: "可以。跨度、长度和高度按图纸或现场尺寸生产。" }],
+      summary: "别墅、餐厅、酒店户外空间用的百叶顶与固定顶凉亭，不是车棚或门头雨棚。",
+      description:
+        "这一品类面向户外起居：电动百叶凉亭、固定顶凉棚与亭式遮阳结构。采购通常要明确净跨、立柱布局、电动或手动百叶、排水与 RAL 颜色。框架为 6063-T5。列入 ICR 的凉亭型号按 EN 1090 核查；车棚与入口雨棚是另两个品类。",
+      features: [
+        "百叶顶或固定顶",
+        "6063-T5 户外框架",
+        "百叶款可选电机",
+        "RAL 粉末喷涂，可询 PVDF",
+        "按图纸或现场尺寸生产",
+      ],
+      applications: ["别墅庭院", "餐厅露台", "酒店中庭", "住宅户外起居区"],
+      faqs: [
+        {
+          question: "凉亭和车棚是同一类产品吗？",
+          answer: "不是。凉亭用于户外起居遮阳；车棚是停车品类，不能套用凉亭证书。",
+        },
+        {
+          question: "百叶角度和电机可以指定吗？",
+          answer: "可以。百叶款可做电动或手动，跨度、开间与表面处理按图纸执行。",
+        },
+      ],
     },
     "aluminum-fences": {
       name: "铝艺围栏",
-      summary: "围栏按型号分开：横百叶、格栅隐私、竖条、泳池围栏和安防围栏。",
-      description: "每条产品都是店铺里的独立围栏型号，包括隐私屏、百叶板、竖条尖桩、泳池围栏、木纹格栅和防攀爬安防围栏。",
-      features: ["按型号分开，不是一种通用围栏", "粉末喷涂配色", "隐私或镂空立柱", "可裁切板宽"],
-      applications: ["别墅围界", "泳池安全", "庭院隐私", "商业边界"],
-      faqs: [{ question: "围栏会按款式分开吗？", answer: "会。横百叶、竖条、尖桩、泳池和安防围栏各自有产品页。" }],
+      summary: "按型号分开的围界系统：隐私格栅、百叶、竖条、泳池围栏与防攀爬板。",
+      description:
+        "买围栏要看板型，不是笼统的“铝艺围栏”。目录按横百叶、竖向隐私格栅、尖桩、泳池围栏、木纹屏风和防攀爬安防板分开。询价请带高度、模数宽度、立柱做法与门洞位置。型材 6063-T5，粉末喷涂。列入 ICR 的围栏型号按 EN 1090 核查。",
+      features: [
+        "一款一页，型号独立",
+        "隐私 / 泳池 / 安防用途清晰",
+        "按高度裁切模数板",
+        "RAL 粉末喷涂",
+        "立柱与门洞随围栏一起报价",
+      ],
+      applications: ["别墅围界", "泳池安全线", "庭院隐私屏", "商业边界"],
+      faqs: [
+        {
+          question: "为什么围栏要分那么多型号页？",
+          answer: "因为高度、填芯和安装方式不同。隐私格栅、泳池围栏与安防板不能互相替代。",
+        },
+        {
+          question: "围栏报价需要提供什么？",
+          answer: "总长度、高度、板型、立柱偏好、门洞位置和颜色。有总平图会更快。",
+        },
+      ],
     },
     "aluminum-carports": {
       name: "铝艺车棚",
-      summary: "单车位与双车位铝艺车棚、停车棚。",
-      description: "独立式铝艺车棚和车库雨棚，覆盖单车与双车，顶面可选阳光板或金属板，框架粉末喷涂。",
-      features: ["单车或双车", "阳光板或金属顶", "独立框架", "宽度和长度可定制"],
-      applications: ["家用车道", "别墅停车", "商业停车", "酒店落客区"],
-      faqs: [{ question: "有双车位车棚吗？", answer: "有。目录里包含单车棚和双车位停车棚。" }],
+      summary: "按车位尺寸定制的独立式单车 / 双车停车棚，不是凉亭起居顶。",
+      description:
+        "车棚用于车道和停车场遮车。规格重点是车位净宽、长度、净高、顶板（阳光板或金属板）以及目的地风雪说明。结构为独立式 6063-T5 框架，粉末喷涂。本品类不使用凉亭、大门或雨棚的 EN 1090 证书。",
+      features: [
+        "单车位或双车位",
+        "阳光板或金属顶板",
+        "独立式 6063-T5 框架",
+        "按车道尺寸出图生产",
+        "支持出口包装",
+      ],
+      applications: ["家用车道", "别墅停车院", "小型商业车位", "酒店落客区"],
+      faqs: [
+        {
+          question: "一个车棚能遮两辆车吗？",
+          answer: "可以。目录含双车位型号；请确认净宽、长度和进出路径。",
+        },
+        {
+          question: "车棚能用凉亭的 EN 1090 证书吗？",
+          answer: "不能。车棚是停车产品线，投标时不要引用凉亭或雨棚证书。",
+        },
+      ],
     },
     "aluminum-sliding-doors": {
       name: "铝艺推拉门",
-      summary: "建筑推拉门，以及自动铝艺平移门。",
-      description: "带钢化玻璃的铝艺推拉门，以及住宅和酒店用的自动车道平移门。",
-      features: ["推拉门或平移门", "可选钢化玻璃", "粉末喷涂型材", "可选自动门机"],
-      applications: ["酒店阳台", "别墅入口", "车道大门", "商业门面"],
-      faqs: [{ question: "有自动平移门吗？", answer: "有。多款为粉末喷涂的自动铝艺平移门。" }],
+      summary: "建筑推拉门扇与自动平移门，侧重洞口滑动开启，不是庭院平开装饰门。",
+      description:
+        "本类用于滑动开启：阳台 / 露台推拉门，以及车道自动铝艺平移门。询价需洞口宽高、轨道形式、玻璃或实心填芯、是否配电机。型材 6063-T5，粉末喷涂。除书面确认的具体型号外，推拉门一般不套用庭院大门 EN 1090 清单。",
+      features: [
+        "推拉门或平移门",
+        "可选钢化玻璃",
+        "可选自动门机",
+        "按洞口尺寸定制",
+        "粉末喷涂型材",
+      ],
+      applications: ["酒店阳台", "别墅露台洞口", "车道平移门", "商业门面"],
+      faqs: [
+        {
+          question: "和庭院大门有什么区别？",
+          answer: "庭院大门偏平开或装饰入口门；本页聚焦推拉门扇与自动平移门系统。",
+        },
+        {
+          question: "平移门可以配电机吗？",
+          answer: "可以。多款为自动平移门，请提供净开洞口与电源条件。",
+        },
+      ],
     },
     "aluminum-doors": {
       name: "铝艺大门",
-      summary: "庭院入口大门、主门和住宅金属门。",
-      description: "铝艺庭院门和车道门，包括电动平移门和装饰住宅大门，适用于别墅和社区。",
-      features: ["入口门与庭院门", "平移或平开", "按 CAD 定制", "户外粉末喷涂"],
+      summary: "按 CAD 制作的平开 / 装饰庭院入口门，不是建筑玻璃推拉门系统。",
+      description:
+        "本类强调入口形象：庭院门、别墅主门、车道大门（平开或平移），以及装饰住宅门。采购通常提供 CAD、净开洞口、门扇数量与颜色。列入 ICR 的大门型号按 EN 1090 与 CPR (EU) 305/2011 核查。建筑玻璃推拉门请看推拉门品类。",
+      features: [
+        "庭院门与主入口门",
+        "平开或平移布局",
+        "按 CAD 做 OEM 花型",
+        "户外粉末喷涂",
+        "列入证书的型号具备 EN 1090",
+      ],
       applications: ["别墅入口", "社区大门", "场地大门", "住宅正门"],
-      faqs: [{ question: "大门可以按图纸做吗？", answer: "可以。入口大门可按 CAD 图纸和现场尺寸生产。" }],
+      faqs: [
+        {
+          question: "可以按我们的 CAD 大门图纸生产吗？",
+          answer: "可以。花型、门扇尺寸和五金方向按 CAD 与现场洞口制作。",
+        },
+        {
+          question: "哪些大门有 EN 1090 验证？",
+          answer: "仅 ICR 大门证书上列出的型号。投标前把型号发给我们核对。",
+        },
+      ],
     },
     awnings: {
       name: "雨棚 / 遮阳篷",
-      summary: "铝艺露台雨棚，以及门窗入口遮阳篷。",
-      description: "别墅露台、门斗和窗上入口用的粉末喷涂铝艺雨棚，可选阳光板顶。",
-      features: ["露台与入口遮盖", "铝合金框架", "可选阳光板", "耐腐蚀涂层"],
-      applications: ["别墅露台", "门口雨棚", "窗户遮阳", "庭院遮蔽"],
-      faqs: [{ question: "雨棚顶面用什么材料？", answer: "多数为粉末喷涂铝框，配阳光板或同类防雨顶面。" }],
+      summary: "有明确出挑的门窗与露台雨棚，不是独立车棚或大型百叶凉亭。",
+      description:
+        "雨棚用于入口与露台遮蔽，通常带出挑宽度。询价需宽度、出挑、安装高度和顶面材料（多为粉末喷涂铝框 + 阳光板）。列入 ICR 的雨棚型号按 EN 1090 核查。独立停车棚归车棚；大型百叶顶归凉亭。",
+      features: [
+        "门口与露台遮盖",
+        "宽度与出挑按图定制",
+        "可选阳光板顶面",
+        "6063-T5 粉末喷涂框架",
+        "列入证书的型号具备 EN 1090",
+      ],
+      applications: ["门口雨棚", "窗上遮阳", "别墅露台", "商铺入口"],
+      faqs: [
+        {
+          question: "雨棚和车棚有什么不同？",
+          answer: "雨棚多从建筑外墙出挑；车棚是按车位尺寸做的独立停车棚。",
+        },
+        {
+          question: "雨棚报价要提供什么？",
+          answer: "宽度、出挑、安装高度、墙面或立柱条件，以及偏好的顶板材料。",
+        },
+      ],
     },
   },
   ["材质", "表面", "参考价格", "起订量"],
