@@ -351,12 +351,72 @@ const zh = pack(
 
 const es = pack(
   {
-    "aluminum-gazebos": { name: "Pérgola y cenador de aluminio", summary: "Pérgolas motorizadas y fijas para jardines, restaurantes y villas.", description: "Cenadores y pérgolas de aluminio del catálogo Zhenlong, con cubierta bioclimática de lamas y estructuras fijas. Medidas, colores y motorización se fabrican según plano.", features: ["Estructura 6063-T5", "Cubierta de lamas o fija", "Recubrimiento en polvo", "Medidas a medida"], applications: ["Jardines", "Terrazas", "Hoteles", "Patios"], faqs: [{ question: "¿Se puede personalizar el tamaño de la pérgola?", answer: "Sí. El vano, la longitud y la altura se fabrican a partir de sus planos o de las medidas de obra." }] },
-    "aluminum-fences": { name: "Valla de aluminio", summary: "Modelos separados: lama horizontal, privacidad, piquete, piscina y seguridad.", description: "Cada ficha es un modelo distinto de la tienda Zhenlong: pantallas de privacidad, paneles de lamas, piquetes verticales, vallas de piscina, lamas efecto madera y vallado de seguridad antiescalada.", features: ["Un modelo por ficha", "Colores en polvo", "Privacidad o piquete", "Paneles a medida"], applications: ["Perímetro", "Piscina", "Jardín", "Límite comercial"], faqs: [{ question: "¿Los estilos de valla aparecen como modelos separados?", answer: "Sí. Lama horizontal, lama vertical, piquete, piscina y seguridad tienen cada uno su página de producto." }] },
-    "aluminum-carports": { name: "Cochera de aluminio", summary: "Cocheras de una o dos plazas y marquesinas de aparcamiento.", description: "Cocheras de aluminio exentas y marquesinas de garaje para uno o dos vehículos, con techo de policarbonato o metal y estructura lacada en polvo.", features: ["Una o dos plazas", "Techo de policarbonato o metal", "Estructura exenta", "Ancho y largo a medida"], applications: ["Entrada de casa", "Villa", "Aparcamiento", "Hotel"], faqs: [{ question: "¿Fabrican cocheras dobles?", answer: "Sí. El catálogo incluye refugios de una plaza y marquesinas para dos vehículos." }] },
-    "aluminum-sliding-doors": { name: "Puerta corredera de aluminio", summary: "Puertas correderas arquitectónicas y cancelas automáticas.", description: "Puertas correderas de aluminio con vidrio templado, y cancelas correderas automáticas para viviendas y hoteles.", features: ["Puerta o cancela corredera", "Vidrio templado", "Perfiles lacados", "Opción automática"], applications: ["Balcones", "Accesos", "Entrada de coches", "Fachadas"], faqs: [{ question: "¿Hay cancelas correderas automáticas?", answer: "Sí. Varias fichas son cancelas correderas automáticas de aluminio con acabado en polvo." }] },
-    "aluminum-doors": { name: "Puerta y cancela de aluminio", summary: "Cancelas de patio, puertas principales y portones de vivienda.", description: "Cancelas de patio y de acceso en aluminio, incluidas cancelas correderas eléctricas y portones decorativos para villas y comunidades.", features: ["Acceso y patio", "Corredera o batiente", "Diseño CAD", "Lacado exterior"], applications: ["Villa", "Comunidad", "Obra", "Fachada"], faqs: [{ question: "¿Se pueden fabricar las cancelas según nuestros planos?", answer: "Sí. Las cancelas de acceso se producen a partir de sus planos CAD y de las medidas de obra." }] },
-    awnings: { name: "Toldo y marquesina", summary: "Toldos de terraza y marquesinas de puerta o ventana.", description: "Toldos y marquesinas de aluminio lacado para terrazas de villa, puertas de patio y entradas de ventana, con cubierta de policarbonato.", features: ["Terraza y entrada", "Marco de aluminio", "Policarbonato", "Acabado anticorrosión"], applications: ["Terrazas", "Puertas", "Ventanas", "Patios"], faqs: [{ question: "¿Qué material lleva el techo de los toldos?", answer: "La mayoría usa un marco de aluminio lacado en polvo con policarbonato u otra cubierta para intemperie." }] },
+    "aluminum-gazebos": {
+      name: "Pérgola y cenador de aluminio",
+      summary: "Cubiertas de ocio con lamas o techo fijo—no cochera ni marquesina de puerta.",
+      description: "Outdoor living: pérgolas bioclimáticas, cenadores fijos y pabellones. Indique luz, postes, lamas manuales o motorizadas, drenaje y RAL. 6063-T5. Pabellones ICR: EN 1090. Cocheras y marquesinas son otras categorías.",
+      features: ["Techo de lamas o fijo", "Estructura 6063-T5", "Motor opcional", "Lacado RAL o PVDF", "Medidas según plano"],
+      applications: ["Jardines de villa", "Terrazas de restaurante", "Patios de hotel", "Salas exteriores"],
+      faqs: [
+        { question: "¿Pérgola = cochera?", answer: "No. La pérgola es ocio; la cochera es aparcamiento sin certificado de pabellón." },
+        { question: "¿Motor y color RAL?", answer: "Sí. Lamas manuales o motorizadas según plano." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "Valla de aluminio",
+      summary: "Perímetro por modelo: privacidad, lamas, piquete, piscina y antiescalada.",
+      description: "Cada ficha es un modelo distinto. Indique longitud, altura, módulo, postes y puertas. 6063-T5 lacado. Modelos ICR de valla: EN 1090.",
+      features: ["Un modelo por ficha", "Privacidad, piscina o seguridad", "Paneles a altura de obra", "Lacado RAL", "Postes y puertas en el presupuesto"],
+      applications: ["Perímetro de villa", "Línea de piscina", "Privacidad de jardín", "Límite comercial"],
+      faqs: [
+        { question: "¿Por qué tantas páginas?", answer: "Altura, relleno y fijación cambian; no son intercambiables." },
+        { question: "¿Datos para cotizar?", answer: "Longitud, altura, estilo, postes, puertas y color." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "Cochera de aluminio",
+      summary: "Aparcamiento de una o dos plazas—no pérgola de ocio.",
+      description: "Cocheras exentas: ancho de plaza, largo, altura libre, cubierta policarbonato/metal, viento o nieve. Sin EN 1090 de pabellón, portón o marquesina.",
+      features: ["Una o dos plazas", "Cubierta policarbonato o metal", "Estructura exenta 6063-T5", "Medidas de entrada", "Embalaje export"],
+      applications: ["Entradas de vivienda", "Parking de villa", "Lotes comerciales", "Drop-off de hotel"],
+      faqs: [
+        { question: "¿Dos coches?", answer: "Sí. Confirme ancho libre, largo y acceso." },
+        { question: "¿Citar EN 1090 de pérgola?", answer: "No. Solo documentos del modelo de cochera." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "Puerta corredera de aluminio",
+      summary: "Hojas correderas y cancelas automáticas—no portones batientes.",
+      description: "Para deslizamiento: puertas de patio/balcón y cancelas automáticas. Cotice hueco, carril, vidrio/panel y motor. No es la lista EN 1090 de portones sin confirmación escrita.",
+      features: ["Puerta o cancela corredera", "Vidrio templado opcional", "Paquetes con motor", "Hueco a medida", "Perfiles lacados"],
+      applications: ["Balcones de hotel", "Huecos de patio", "Cancelas de acceso", "Frentes comerciales"],
+      faqs: [
+        { question: "¿Diferencia con el portón?", answer: "El portón es identidad de entrada; aquí el foco es deslizar." },
+        { question: "¿Motor en la cancela?", answer: "Sí. Indique hueco y alimentación." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "Puerta y cancela de aluminio",
+      summary: "Portones de patio según CAD—no correderas acristaladas.",
+      description: "Identidad de entrada: portones de patio y acceso, batiente o corredera. Envíe CAD, hueco, hojas y acabado. Portones ICR: EN 1090. Correderas acristaladas van en la categoría corredera.",
+      features: ["Portones de patio y acceso", "Batiente o corredera", "OEM según CAD", "Lacado exterior", "EN 1090 en modelos listados"],
+      applications: ["Accesos de villa", "Portones de comunidad", "Portones de obra", "Fachada de vivienda"],
+      faqs: [
+        { question: "¿Según nuestro CAD?", answer: "Sí. Dibujo, hoja y herrajes siguen CAD y hueco." },
+        { question: "¿Qué portones EN 1090?", answer: "Solo los del ICR de portones." },
+      ],
+    },
+    awnings: {
+      name: "Toldo y marquesina",
+      summary: "Marquesinas con vuelo definido—no cocheras ni pérgolas grandes.",
+      description: "Toldos de entrada/terraza con ancho y vuelo, marco lacado + policarbonato. Modelos ICR: EN 1090. Cocheras y pérgolas de lamas son otras categorías.",
+      features: ["Cubierta de entrada y terraza", "Ancho y vuelo según plano", "Cubierta de policarbonato", "Marco 6063-T5 lacado", "EN 1090 en modelos listados"],
+      applications: ["Marquesinas de puerta", "Toldos de ventana", "Terrazas de villa", "Entradas de local"],
+      faqs: [
+        { question: "¿Diferencia con cochera?", answer: "El toldo vuela del edificio; la cochera es aparcamiento exento." },
+        { question: "¿Datos para cotizar?", answer: "Ancho, vuelo, altura, muro/poste y cubierta." },
+      ],
+    },
   },
   ["Material", "Superficie", "Precio de referencia", "Pedido mínimo"],
   "Aluminio 6063-T5",
@@ -365,12 +425,72 @@ const es = pack(
 
 const fr = pack(
   {
-    "aluminum-gazebos": { name: "Pergola et gazebo aluminium", summary: "Pergolas motorisées et fixes pour jardins, restaurants et villas.", description: "Gazebos et pergolas aluminium du catalogue Zhenlong, y compris toits bioclimatiques à lames et structures fixes. Dimensions, couleurs et motorisation sont réalisés sur plan.", features: ["Ossature 6063-T5", "Toit à lames ou fixe", "Thermolaquage", "Dimensions sur plan"], applications: ["Jardins", "Terrasses", "Hôtels", "Cours"], faqs: [{ question: "La taille de la pergola peut-elle être personnalisée ?", answer: "Oui. La portée, la longueur et la hauteur sont produites d'après vos plans ou les cotes du site." }] },
-    "aluminum-fences": { name: "Clôture aluminium", summary: "Modèles séparés : lame horizontale, occultation, barreaux, piscine et sécurité.", description: "Chaque fiche est un modèle distinct de la boutique Zhenlong : écrans occultants, panneaux à lames, barreaux verticaux, clôtures de piscine, lames aspect bois et clôtures de sécurité anti-escalade.", features: ["Un modèle par fiche", "Couleurs thermolaquées", "Occultant ou barreaux", "Panneaux sur mesure"], applications: ["Périmètre", "Piscine", "Jardin", "Limite commerciale"], faqs: [{ question: "Les styles de clôture sont-ils des modèles séparés ?", answer: "Oui. Lame horizontale, lame verticale, barreaux, piscine et sécurité ont chacun leur page produit." }] },
-    "aluminum-carports": { name: "Carport aluminium", summary: "Carports une ou deux places et auvents de stationnement.", description: "Carports aluminium autoportants et auvents de garage pour un ou deux véhicules, avec toit polycarbonate ou métal et ossature thermolaquée.", features: ["Une ou deux places", "Toit polycarbonate ou métal", "Structure autoportante", "Largeur et longueur sur mesure"], applications: ["Allée", "Villa", "Parking", "Hôtel"], faqs: [{ question: "Fabriquez-vous des carports doubles ?", answer: "Oui. Le catalogue comprend des abris simples et des auvents pour deux véhicules." }] },
-    "aluminum-sliding-doors": { name: "Porte coulissante aluminium", summary: "Portes coulissantes et portails coulissants automatiques.", description: "Portes coulissantes aluminium à vitrage trempé, ainsi que portails coulissants automatiques pour maisons et hôtels.", features: ["Porte ou portail coulissant", "Vitrage trempé", "Profils laqués", "Option motorisée"], applications: ["Balcons", "Entrées", "Allées", "Façades"], faqs: [{ question: "Des portails coulissants automatiques sont-ils disponibles ?", answer: "Oui. Plusieurs fiches sont des portails coulissants automatiques en aluminium thermolaqué." }] },
-    "aluminum-doors": { name: "Portail aluminium", summary: "Portails de cour, portes principales et portails de maison.", description: "Portails de cour et d'allée en aluminium, y compris portails coulissants électriques et portails décoratifs pour villas et résidences.", features: ["Entrée et cour", "Coulissant ou battant", "Plans CAO", "Laquage extérieur"], applications: ["Villa", "Résidence", "Chantier", "Façade"], faqs: [{ question: "Les portails peuvent-ils être fabriqués d'après nos plans ?", answer: "Oui. Les portails d'entrée sont produits à partir de vos plans CAO et des cotes du site." }] },
-    awnings: { name: "Auvent et marquise", summary: "Auvents de terrasse et marquises de porte ou fenêtre.", description: "Auvents et marquises aluminium thermolaqués pour terrasses de villa, portes-fenêtres et entrées de fenêtre, avec couverture polycarbonate.", features: ["Terrasse et entrée", "Cadre aluminium", "Polycarbonate", "Finition anticorrosion"], applications: ["Terrasses", "Portes", "Fenêtres", "Cours"], faqs: [{ question: "Quels matériaux de toit sont utilisés sur les auvents ?", answer: "La plupart utilisent un cadre aluminium thermolaqué avec polycarbonate ou une couverture similaire pour l'extérieur." }] },
+    "aluminum-gazebos": {
+      name: "Pergola et gazebo aluminium",
+      summary: "Toits de vie extérieure à lames ou fixes—pas un carport ni une marquise de porte.",
+      description: "Outdoor living : pergolas bioclimatiques, gazebos fixes et pavillons. Indiquez portée, poteaux, lames manuelles ou motorisées, drainage et RAL. 6063-T5. Pavillons ICR : EN 1090. Carports et marquises : autres catégories.",
+      features: ["Toit à lames ou fixe", "Ossature 6063-T5", "Moteur optionnel", "Thermolaquage RAL ou PVDF", "Cotes sur plan"],
+      applications: ["Jardins de villa", "Terrasses de restaurant", "Cours d’hôtel", "Pièces extérieures"],
+      faqs: [
+        { question: "Pergola = carport ?", answer: "Non. La pergola est un toit de séjour ; le carport est un abri parking." },
+        { question: "Motoriser et RAL ?", answer: "Oui. Lames manuelles ou motorisées selon plan." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "Clôture aluminium",
+      summary: "Périmètres par modèle : occultation, lames, barreaux, piscine et anti-escalade.",
+      description: "Chaque fiche est un modèle distinct. Indiquez longueur, hauteur, module, poteaux et portillons. 6063-T5 thermolaqué. Modèles ICR clôture : EN 1090.",
+      features: ["Un modèle par fiche", "Occultation, piscine ou sécurité", "Panneaux à hauteur de chantier", "Thermolaquage RAL", "Poteaux et portillons au devis"],
+      applications: ["Périmètre de villa", "Ligne de piscine", "Jardin occultant", "Limite commerciale"],
+      faqs: [
+        { question: "Pourquoi tant de pages ?", answer: "Hauteur, remplissage et fixations diffèrent." },
+        { question: "Infos pour devis ?", answer: "Longueur, hauteur, style, poteaux, portillons et teinte." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "Carport aluminium",
+      summary: "Abris parking une ou deux places—pas des pergolas de séjour.",
+      description: "Carports autoportants : largeur de place, longueur, hauteur libre, couverture polycarbonate/métal, notes vent/neige. Pas d’EN 1090 pavillon/portail/marquise.",
+      features: ["Une ou deux places", "Toit polycarbonate ou métal", "Structure autoportante 6063-T5", "Cotes d’allée", "Emballage export"],
+      applications: ["Allées résidentielles", "Parking de villa", "Petits parkings", "Dépose-minute hôtel"],
+      faqs: [
+        { question: "Deux voitures ?", answer: "Oui. Confirmez largeur libre, longueur et accès." },
+        { question: "Citer EN 1090 pergola ?", answer: "Non. Uniquement les documents du modèle carport." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "Porte coulissante aluminium",
+      summary: "Vantaux coulissants et portails automatiques—pas des portails battants de cour.",
+      description: "Pour le coulissement : portes patio/balcon et portails coulissants automatiques. Cotez ouverture, rail, vitrage/panneau et moteur. Pas la liste EN 1090 portail sans confirmation écrite.",
+      features: ["Porte ou portail coulissant", "Vitrage trempé optionnel", "Packs motorisés", "Ouverture sur mesure", "Profils laqués"],
+      applications: ["Balcons d’hôtel", "Ouvertures de patio", "Portails d’accès", "Façades commerciales"],
+      faqs: [
+        { question: "Différence avec le portail ?", answer: "Le portail vise l’entrée ; ici le focus est le coulissement." },
+        { question: "Portail motorisé ?", answer: "Oui. Indiquez ouverture et alimentation." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "Portail aluminium",
+      summary: "Portails de cour selon CAO—pas des portes coulissantes vitrées.",
+      description: "Identité d’entrée : portails de cour et d’accès, battants ou coulissants. Envoyez CAO, ouverture, vantaux et finition. Portails ICR : EN 1090. Les coulissants vitrés sont dans la catégorie coulissante.",
+      features: ["Portails de cour et d’accès", "Battant ou coulissant", "OEM selon CAO", "Laquage extérieur", "EN 1090 sur modèles listés"],
+      applications: ["Entrées de villa", "Portails de résidence", "Portails de chantier", "Façade maison"],
+      faqs: [
+        { question: "Selon notre CAO ?", answer: "Oui. Motif, vantail et quincaillerie suivent CAO et ouverture." },
+        { question: "Quels portails EN 1090 ?", answer: "Uniquement ceux du ICR portail." },
+      ],
+    },
+    awnings: {
+      name: "Auvent et marquise",
+      summary: "Marquises à projection définie—pas carports ni grandes pergolas.",
+      description: "Auvents d’entrée/terrasse avec largeur et projection, cadre laqué + polycarbonate. Modèles marquise ICR : EN 1090. Carports et pergolas à lames : autres catégories.",
+      features: ["Couverture entrée et terrasse", "Largeur et projection sur plan", "Couverture polycarbonate", "Cadre 6063-T5 laqué", "EN 1090 sur modèles listés"],
+      applications: ["Marquises de porte", "Auvents de fenêtre", "Terrasses de villa", "Entrées de magasin"],
+      faqs: [
+        { question: "Différence avec carport ?", answer: "L’auvent déborde du bâtiment ; le carport est un abri parking." },
+        { question: "Infos pour devis ?", answer: "Largeur, projection, hauteur, mur/poteau et couverture." },
+      ],
+    },
   },
   ["Matière", "Surface", "Prix indicatif", "Commande minimum"],
   "Aluminium 6063-T5",
@@ -379,12 +499,72 @@ const fr = pack(
 
 const de = pack(
   {
-    "aluminum-gazebos": { name: "Alu-Pergola und Pavillon", summary: "Motorisierte und feste Pergolen für Gärten, Restaurants und Villen.", description: "Aluminium-Pavillons und Pergolen aus dem Zhenlong-Katalog, einschließlich bioklimatischer Lamellendächer und fester Konstruktionen. Maße, Farben und Motorisierung werden nach Zeichnung gefertigt.", features: ["Rahmen 6063-T5", "Lamellen- oder Festdach", "Pulverbeschichtung", "Maße nach Plan"], applications: ["Gärten", "Terrassen", "Hotels", "Höfe"], faqs: [{ question: "Kann die Pergolagröße angepasst werden?", answer: "Ja. Spannweite, Länge und Höhe werden nach Ihren Zeichnungen oder Aufmaßen gefertigt." }] },
-    "aluminum-fences": { name: "Alu-Zaun", summary: "Getrennte Modelle: Horizontallamelle, Sichtschutz, Staketen, Pool und Sicherheit.", description: "Jeder Eintrag ist ein eigenes Zaunmodell aus dem Zhenlong-Shop: Sichtschutz, Lamellenfelder, senkrechte Staketen, Poolzäune, Holzoptik-Lamellen und klettersichere Sicherheitszäune.", features: ["Ein Modell pro Seite", "Pulverfarben", "Sichtschutz oder Staketen", "Zuschnitt"], applications: ["Grundstück", "Pool", "Garten", "Gewerbegrenze"], faqs: [{ question: "Werden Zaunstile als eigene Modelle geführt?", answer: "Ja. Horizontallamelle, Vertikallamelle, Stakete, Pool und Sicherheit haben jeweils eine eigene Produktseite." }] },
-    "aluminum-carports": { name: "Alu-Carport", summary: "Einzel- und Doppelcarports sowie Parküberdachungen.", description: "Freistehende Aluminium-Carports und Garagenüberdachungen für ein oder zwei Fahrzeuge, mit Polycarbonat- oder Metalldach und pulverbeschichtetem Rahmen.", features: ["Ein oder zwei Fahrzeuge", "Polycarbonat- oder Metalldach", "Freistehend", "Breite und Länge nach Maß"], applications: ["Einfahrt", "Villa", "Parkplatz", "Hotel"], faqs: [{ question: "Bauen Sie Doppelcarports?", answer: "Ja. Der Katalog umfasst Einzelunterstände und Überdachungen für zwei Fahrzeuge." }] },
-    "aluminum-sliding-doors": { name: "Alu-Schiebetür", summary: "Schiebetüren und automatische Schiebetore aus Aluminium.", description: "Aluminium-Schiebetüren mit ESG-Verglasung sowie automatische Schiebetore für Wohn- und Hotelprojekte.", features: ["Schiebetür oder Tor", "ESG-Verglasung", "Pulverbeschichtete Profile", "Automatik optional"], applications: ["Balkone", "Zugänge", "Einfahrten", "Fassaden"], faqs: [{ question: "Gibt es automatische Schiebetore?", answer: "Ja. Mehrere Einträge sind automatische Aluminium-Schiebetore mit Pulverbeschichtung." }] },
-    "aluminum-doors": { name: "Alu-Tor und Tür", summary: "Hoftore, Haupttore und Haustore aus Aluminium.", description: "Aluminium-Hof- und Einfahrtstore, einschließlich elektrischer Schiebetore und dekorativer Haustore für Villen und Anlagen.", features: ["Eingang und Hof", "Schiebe- oder Drehtor", "CAD-Design", "Außenbeschichtung"], applications: ["Villa", "Anlage", "Baustelle", "Fassade"], faqs: [{ question: "Können Tore nach unseren Zeichnungen gefertigt werden?", answer: "Ja. Einfahrtstore werden nach Ihren CAD-Zeichnungen und den Maßen vor Ort gefertigt." }] },
-    awnings: { name: "Vordach und Markise", summary: "Terrassenvordächer und Tür- oder Fenstermarkisen.", description: "Pulverbeschichtete Aluminium-Vordächer und Markisen für Villenterrassen, Terrassentüren und Fenstereingänge, auch mit Polycarbonat-Eindeckung.", features: ["Terrasse und Eingang", "Aluminiumrahmen", "Polycarbonat", "Korrosionsschutz"], applications: ["Terrassen", "Türen", "Fenster", "Höfe"], faqs: [{ question: "Welche Dachmaterialien werden bei Markisen verwendet?", answer: "Die meisten nutzen einen pulverbeschichteten Aluminiumrahmen mit Polycarbonat oder einer ähnlichen Wetterabdeckung." }] },
+    "aluminum-gazebos": {
+      name: "Alu-Pergola und Pavillon",
+      summary: "Outdoor-Living mit Lamellen- oder Festdach—kein Carport und kein Türvordach.",
+      description: "Outdoor-Living: bioklimatische Lamellenpergolen und feste Pavillons. Spannweite, Pfosten, manuelle/motorisierte Lamellen, Entwässerung und RAL. 6063-T5. ICR-Pavillons: EN 1090. Carports und Eingangsvordächer sind andere Kategorien.",
+      features: ["Lamellen- oder Festdach", "Rahmen 6063-T5", "Motor optional", "RAL-Pulver oder PVDF", "Maße nach Plan"],
+      applications: ["Villengärten", "Restaurantterrassen", "Hotelhöfe", "Outdoor-Räume"],
+      faqs: [
+        { question: "Pergola = Carport?", answer: "Nein. Pergolen sind Wohnüberdachungen; Carports sind Parkprodukte." },
+        { question: "Motor und RAL?", answer: "Ja. Manuell oder motorisiert nach Zeichnung." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "Alu-Zaun",
+      summary: "Perimeter nach Modell: Sichtschutz, Lamellen, Staketen, Pool und Anti-Kletter.",
+      description: "Jeder Eintrag ist ein eigenes Modell. Länge, Höhe, Modul, Pfosten und Tore angeben. 6063-T5 pulverbeschichtet. ICR-Zaunmodelle: EN 1090.",
+      features: ["Ein Modell pro Seite", "Sichtschutz, Pool oder Sicherheit", "Felder auf Bauhöhe", "RAL-Pulver", "Pfosten und Tore im Angebot"],
+      applications: ["Villenumgrenzung", "Poollinie", "Gartensichtschutz", "Gewerbegrenze"],
+      faqs: [
+        { question: "Warum so viele Seiten?", answer: "Höhe, Füllung und Befestigung unterscheiden sich." },
+        { question: "Angaben für Angebot?", answer: "Länge, Höhe, Stil, Pfosten, Tore und Farbe." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "Alu-Carport",
+      summary: "Freistehende Ein- und Doppelstellplätze—keine Wohnpergola.",
+      description: "Carports für Fahrzeuge: Stellplatzbreite, Länge, lichte Höhe, Dach Polycarbonat/Metall, Wind-/Schneehinweise. Kein EN-1090 von Pavillon, Tor oder Vordach.",
+      features: ["Ein oder zwei Stellplätze", "Polycarbonat- oder Metalldach", "Freistehend 6063-T5", "Einfahrtsmaße", "Exportverpackung"],
+      applications: ["Hauseinfahrten", "Villenparkplätze", "Kleine Gewerbehöfe", "Hotel-Drop-off"],
+      faqs: [
+        { question: "Doppelcarport?", answer: "Ja. Lichte Breite, Länge und Zufahrt bestätigen." },
+        { question: "Pergola-EN-1090 zitieren?", answer: "Nein. Nur Dokumente des Carport-Modells." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "Alu-Schiebetür",
+      summary: "Schiebeflügel und Automatik-Schiebetore—keine Drehtore.",
+      description: "Für Schiebebetrieb: Patio-/Balkontüren und Automatik-Schiebetore. Öffnung, Laufschiene, Glas/Füllung, Motor. Nicht die EN-1090-Torliste ohne Bestätigung.",
+      features: ["Schiebetür oder Schiebetor", "ESG optional", "Motorpakete", "Öffnung nach Aufmaß", "Pulverbeschichtete Profile"],
+      applications: ["Hotelbalkone", "Patio-Öffnungen", "Zufahrtstore", "Ladenfronten"],
+      faqs: [
+        { question: "Unterschied zum Hoftor?", answer: "Hoftore sind Eingangsidentität; hier geht es um Schieben." },
+        { question: "Tor mit Motor?", answer: "Ja. Lichte Öffnung und Strom angeben." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "Alu-Tor und Tür",
+      summary: "Hof- und Einfahrtstore nach CAD—keine verglasten Schiebesysteme.",
+      description: "Eingangsidentität: Hof- und Einfahrtstore, Dreh oder Schiebe. CAD, Öffnung, Flügel und Finish senden. ICR-Tore: EN 1090. Verglaste Schiebetüren gehören zur Kategorie Schiebetür.",
+      features: ["Hof- und Einfahrtstore", "Dreh- oder Schiebe", "OEM nach CAD", "Außenpulver", "EN 1090 bei gelisteten Modellen"],
+      applications: ["Villeneinfahrten", "Anlagentore", "Bautore", "Hausfront"],
+      faqs: [
+        { question: "Nach unserem CAD?", answer: "Ja. Motiv, Flügel und Beschlag folgen CAD und Öffnung." },
+        { question: "Welche Tore EN 1090?", answer: "Nur Modelle auf der ICR-Torverifizierung." },
+      ],
+    },
+    awnings: {
+      name: "Vordach und Markise",
+      summary: "Tür-/Fenstervordächer mit definierter Ausladung—keine Carports.",
+      description: "Vordächer mit Breite und Ausladung, Rahmen mit Polycarbonat. ICR-Vordachmodelle: EN 1090. Carports und Lamellenpergolen sind andere Kategorien.",
+      features: ["Eingangs- und Terrassenabdeckung", "Breite und Ausladung nach Plan", "Polycarbonat-Eindeckung", "Rahmen 6063-T5", "EN 1090 bei gelisteten Modellen"],
+      applications: ["Türvordächer", "Fenstermarkisen", "Villenterrassen", "Ladeneingänge"],
+      faqs: [
+        { question: "Unterschied zum Carport?", answer: "Das Vordach kragt vom Gebäude; der Carport ist freistehender Parkplatz." },
+        { question: "Angaben für Angebot?", answer: "Breite, Ausladung, Höhe, Wand/Pfosten und Eindeckung." },
+      ],
+    },
   },
   ["Werkstoff", "Oberfläche", "Richtpreis", "Mindestmenge"],
   "Aluminium 6063-T5",
@@ -393,12 +573,72 @@ const de = pack(
 
 const pt = pack(
   {
-    "aluminum-gazebos": { name: "Pérgola e gazebo de alumínio", summary: "Pérgolas motorizadas e fixas para jardins, restaurantes e villas.", description: "Gazebos e pérgolas de alumínio do catálogo Zhenlong, incluindo coberturas bioclimáticas de lâminas e estruturas fixas. Medidas, cores e motorização são feitas conforme desenho.", features: ["Estrutura 6063-T5", "Telhado de lâminas ou fixo", "Pintura a pó", "Medidas sob desenho"], applications: ["Jardins", "Terraços", "Hotéis", "Pátios"], faqs: [{ question: "O tamanho da pérgola pode ser personalizado?", answer: "Sim. Vão, comprimento e altura são produzidos a partir dos seus desenhos ou das medidas da obra." }] },
-    "aluminum-fences": { name: "Cerca de alumínio", summary: "Modelos separados: lâmina horizontal, privacidade, piquete, piscina e segurança.", description: "Cada ficha é um modelo distinto da loja Zhenlong: telas de privacidade, painéis de lâminas, piquetes verticais, cercas de piscina, lâminas com aspeto de madeira e cercas de segurança anti-escalada.", features: ["Um modelo por ficha", "Cores em pó", "Privacidade ou piquete", "Painéis sob medida"], applications: ["Perímetro", "Piscina", "Jardim", "Limite comercial"], faqs: [{ question: "Os estilos de cerca aparecem como modelos separados?", answer: "Sim. Lâmina horizontal, lâmina vertical, piquete, piscina e segurança têm cada um a sua página de produto." }] },
-    "aluminum-carports": { name: "Carport de alumínio", summary: "Carports para um ou dois carros e coberturas de estacionamento.", description: "Carports de alumínio independentes e coberturas de garagem para um ou dois veículos, com telhado de policarbonato ou metal e estrutura pintada a pó.", features: ["Uma ou duas vagas", "Telhado de policarbonato ou metal", "Estrutura independente", "Largura e comprimento sob medida"], applications: ["Entrada", "Villa", "Estacionamento", "Hotel"], faqs: [{ question: "Fabricam carports duplos?", answer: "Sim. O catálogo inclui abrigos simples e coberturas para dois veículos." }] },
-    "aluminum-sliding-doors": { name: "Porta de correr de alumínio", summary: "Portas de correr e portões automáticos de alumínio.", description: "Portas de correr de alumínio com vidro temperado e portões de correr automáticos para residências e hotéis.", features: ["Porta ou portão de correr", "Vidro temperado", "Perfis pintados", "Opção automática"], applications: ["Varandas", "Acessos", "Entrada de carros", "Fachadas"], faqs: [{ question: "Há portões de correr automáticos?", answer: "Sim. Várias fichas são portões de correr automáticos de alumínio com pintura a pó." }] },
-    "aluminum-doors": { name: "Portão de alumínio", summary: "Portões de pátio, portas principais e portões residenciais.", description: "Portões de pátio e de acesso em alumínio, incluindo portões elétricos de correr e portões decorativos para villas e condomínios.", features: ["Entrada e pátio", "Correr ou abrir", "Desenho CAD", "Pintura externa"], applications: ["Villa", "Condomínio", "Obra", "Fachada"], faqs: [{ question: "Os portões podem ser feitos segundo os nossos desenhos?", answer: "Sim. Os portões de entrada são produzidos a partir dos seus desenhos CAD e das medidas da obra." }] },
-    awnings: { name: "Toldo e marquise", summary: "Toldos de terraço e marquises de porta ou janela.", description: "Toldos e marquises de alumínio pintados a pó para terraços de villa, portas de pátio e entradas de janela, com cobertura de policarbonato.", features: ["Terraço e entrada", "Estrutura de alumínio", "Policarbonato", "Acabamento anticorrosão"], applications: ["Terraços", "Portas", "Janelas", "Pátios"], faqs: [{ question: "Que materiais de cobertura são usados nos toldos?", answer: "A maioria usa estrutura de alumínio pintada a pó com policarbonato ou cobertura semelhante para intempérie." }] },
+    "aluminum-gazebos": {
+      name: "Pérgola e gazebo de alumínio",
+      summary: "Coberturas de lazer com lâminas ou teto fixo—não é carport nem marquise de porta.",
+      description: "Outdoor living: pérgolas bioclimáticas, gazebos fixos e pavilhões. Indique vão, postes, lâminas manuais ou motorizadas, drenagem e RAL. 6063-T5. Pavilhões ICR: EN 1090. Carports e marquises são outras categorias.",
+      features: ["Telhado de lâminas ou fixo", "Estrutura 6063-T5", "Motor opcional", "Pintura RAL ou PVDF", "Medidas sob desenho"],
+      applications: ["Jardins de villa", "Terraços de restaurante", "Pátios de hotel", "Salas exteriores"],
+      faqs: [
+        { question: "Pérgola = carport?", answer: "Não. A pérgola é lazer; o carport é estacionamento." },
+        { question: "Motor e RAL?", answer: "Sim. Lâminas manuais ou motorizadas conforme desenho." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "Cerca de alumínio",
+      summary: "Perímetro por modelo: privacidade, lâminas, piquete, piscina e anti-escalada.",
+      description: "Cada ficha é um modelo distinto. Indique comprimento, altura, módulo, postes e portões. 6063-T5 com pintura a pó. Modelos ICR de cerca: EN 1090.",
+      features: ["Um modelo por ficha", "Privacidade, piscina ou segurança", "Painéis à altura da obra", "Pintura RAL", "Postes e portões no orçamento"],
+      applications: ["Perímetro de villa", "Linha de piscina", "Privacidade de jardim", "Limite comercial"],
+      faqs: [
+        { question: "Por que tantas páginas?", answer: "Altura, preenchimento e fixação mudam." },
+        { question: "Dados para orçar?", answer: "Comprimento, altura, estilo, postes, portões e cor." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "Carport de alumínio",
+      summary: "Estacionamento de uma ou duas vagas—não é pérgola de lazer.",
+      description: "Carports independentes: largura da vaga, comprimento, altura livre, cobertura policarbonato/metal, vento/neve. Sem EN 1090 de pavilhão, portão ou marquise.",
+      features: ["Uma ou duas vagas", "Cobertura policarbonato ou metal", "Estrutura independente 6063-T5", "Medidas da entrada", "Embalagem export"],
+      applications: ["Entradas residenciais", "Estacionamento de villa", "Lotes comerciais", "Drop-off de hotel"],
+      faqs: [
+        { question: "Dois carros?", answer: "Sim. Confirme largura livre, comprimento e acesso." },
+        { question: "Citar EN 1090 da pérgola?", answer: "Não. Só documentos do modelo de carport." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "Porta de correr de alumínio",
+      summary: "Folhas de correr e portões automáticos—não portões de batente.",
+      description: "Para deslizar: portas de pátio/varanda e portões de correr automáticos. Orce vão, trilho, vidro/painel e motor. Não é a lista EN 1090 de portões sem confirmação escrita.",
+      features: ["Porta ou portão de correr", "Vidro temperado opcional", "Pacotes com motor", "Vão sob medida", "Perfis pintados"],
+      applications: ["Varandas de hotel", "Vãos de pátio", "Portões de acesso", "Frentes comerciais"],
+      faqs: [
+        { question: "Diferença do portão de pátio?", answer: "O portão é identidade de entrada; aqui o foco é deslizar." },
+        { question: "Portão com motor?", answer: "Sim. Informe vão livre e energia." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "Portão de alumínio",
+      summary: "Portões de pátio sob CAD—não sistemas de correr envidraçados.",
+      description: "Identidade de entrada: portões de pátio e acesso, batente ou correr. Envie CAD, vão, folhas e acabamento. Portões ICR: EN 1090. Portas de correr envidraçadas ficam na categoria de correr.",
+      features: ["Portões de pátio e acesso", "Batente ou correr", "OEM sob CAD", "Pintura externa", "EN 1090 em modelos listados"],
+      applications: ["Acessos de villa", "Portões de condomínio", "Portões de obra", "Fachada residencial"],
+      faqs: [
+        { question: "Segundo nosso CAD?", answer: "Sim. Desenho, folha e ferragens seguem CAD e vão." },
+        { question: "Quais portões EN 1090?", answer: "Só os do ICR de portões." },
+      ],
+    },
+    awnings: {
+      name: "Toldo e marquise",
+      summary: "Marquises com balanço definido—não carports nem grandes pérgolas.",
+      description: "Toldos de entrada/terraço com largura e balanço, quadro pintado + policarbonato. Modelos ICR: EN 1090. Carports e pérgolas de lâminas são outras categorias.",
+      features: ["Cobertura de entrada e terraço", "Largura e balanço sob desenho", "Cobertura de policarbonato", "Quadro 6063-T5 pintado", "EN 1090 em modelos listados"],
+      applications: ["Marquises de porta", "Toldos de janela", "Terraços de villa", "Entradas de loja"],
+      faqs: [
+        { question: "Diferença do carport?", answer: "O toldo avança do edifício; o carport é estacionamento independente." },
+        { question: "Dados para orçar?", answer: "Largura, balanço, altura, parede/poste e cobertura." },
+      ],
+    },
   },
   ["Material", "Superfície", "Preço de referência", "Pedido mínimo"],
   "Alumínio 6063-T5",
@@ -407,12 +647,72 @@ const pt = pack(
 
 const ru = pack(
   {
-    "aluminum-gazebos": { name: "Алюминиевая пергола", summary: "Моторизованные и стационарные перголы для садов, ресторанов и вилл.", description: "Алюминиевые беседки и перголы из каталога Zhenlong, включая биоклиматические ламельные крыши и стационарные конструкции. Размеры, цвета и мотор изготавливаются по чертежу.", features: ["Каркас 6063-T5", "Ламели или глухая крыша", "Порошковая окраска", "Размеры по чертежу"], applications: ["Сады", "Террасы", "Отели", "Дворы"], faqs: [{ question: "Можно ли изменить размер перголы?", answer: "Да. Пролёт, длина и высота изготавливаются по вашим чертежам или замерам объекта." }] },
-    "aluminum-fences": { name: "Алюминиевый забор", summary: "Отдельные модели: горизонтальные ламели, экран, штакетник, бассейн и охрана.", description: "Каждая карточка — отдельная модель забора магазина Zhenlong: экраны приватности, ламельные панели, вертикальный штакетник, ограждения бассейна, ламели под дерево и противоподъёмные охранные заборы.", features: ["Отдельная модель", "Цвета порошковой окраски", "Экран или штакетник", "Панели в размер"], applications: ["Участок", "Бассейн", "Сад", "Коммерческая граница"], faqs: [{ question: "Стили забора указаны отдельными моделями?", answer: "Да. Горизонтальные ламели, вертикальные ламели, штакетник, бассейн и охрана имеют свою страницу товара." }] },
-    "aluminum-carports": { name: "Алюминиевый навес для авто", summary: "Навесы на одно и два авто и парковочные козырьки.", description: "Отдельно стоящие алюминиевые навесы и гаражные козырьки на одно или два авто, с крышей из поликарбоната или металла и порошковым каркасом.", features: ["Одно или два авто", "Поликарбонат или металл", "Отдельно стоящий каркас", "Ширина и длина на заказ"], applications: ["Подъезд", "Вилла", "Парковка", "Отель"], faqs: [{ question: "Делаете ли вы навесы на два авто?", answer: "Да. В каталоге есть укрытия на одно авто и навесы на два." }] },
-    "aluminum-sliding-doors": { name: "Алюминиевая раздвижная дверь", summary: "Раздвижные двери и автоматические откатные ворота.", description: "Алюминиевые раздвижные двери с закалённым стеклом и автоматические откатные ворота для домов и отелей.", features: ["Дверь или ворота", "Закалённое стекло", "Окрашенный профиль", "Автоматика"], applications: ["Балконы", "Входы", "Въезд", "Фасады"], faqs: [{ question: "Есть ли автоматические откатные ворота?", answer: "Да. Несколько позиций — автоматические алюминиевые откатные ворота с порошковой окраской." }] },
-    "aluminum-doors": { name: "Алюминиевые ворота", summary: "Дворовые, въездные и домовые ворота из алюминия.", description: "Алюминиевые дворовые и въездные ворота, включая электрические откатные и декоративные ворота для вилл и посёлков.", features: ["Вход и двор", "Откатные или распашные", "Чертежи CAD", "Наружная окраска"], applications: ["Вилла", "Посёлок", "Площадка", "Фасад"], faqs: [{ question: "Можно ли изготовить ворота по нашим чертежам?", answer: "Да. Въездные ворота производятся по вашим чертежам CAD и размерам объекта." }] },
-    awnings: { name: "Козырёк и навес", summary: "Навесы для террас и козырьки над дверями и окнами.", description: "Порошковые алюминиевые козырьки и навесы для террас вилл, дверей патио и оконных входов, в том числе с поликарбонатом.", features: ["Терраса и вход", "Алюминиевый каркас", "Поликарбонат", "Антикоррозийное покрытие"], applications: ["Террасы", "Двери", "Окна", "Дворы"], faqs: [{ question: "Из чего делают кровлю навесов?", answer: "Чаще всего это порошковый алюминиевый каркас с поликарбонатом или похожим уличным покрытием." }] },
+    "aluminum-gazebos": {
+      name: "Алюминиевая пергола",
+      summary: "Крыши для outdoor living с ламелями или глухие—не автонавес и не козырёк двери.",
+      description: "Outdoor living: биоклиматические перголы, стационарные беседки. Укажите пролёт, стойки, ручные/моторные ламели, дренаж и RAL. 6063-T5. Павильоны ICR: EN 1090. Автонавесы и входные козырьки — другие категории.",
+      features: ["Ламели или глухая крыша", "Каркас 6063-T5", "Мотор опционально", "RAL или PVDF", "Размеры по чертежу"],
+      applications: ["Сады вилл", "Террасы ресторанов", "Дворы отелей", "Уличные комнаты"],
+      faqs: [
+        { question: "Пергола = навес для авто?", answer: "Нет. Пергола — для отдыха; навес — для парковки." },
+        { question: "Мотор и RAL?", answer: "Да. Ламели вручную или с мотором по чертежу." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "Алюминиевый забор",
+      summary: "Периметр по моделям: приватность, ламели, штакетник, бассейн и антиподъём.",
+      description: "Каждая карточка — отдельная модель. Укажите длину, высоту, модуль, столбы и калитки. 6063-T5 с порошковой окраской. Модели ICR забора: EN 1090.",
+      features: ["Отдельная модель на странице", "Приватность, бассейн или охрана", "Панели по высоте объекта", "RAL порошок", "Столбы и калитки в расчёте"],
+      applications: ["Периметр виллы", "Линия бассейна", "Садовая приватность", "Коммерческая граница"],
+      faqs: [
+        { question: "Зачем столько страниц?", answer: "Высота, заполнение и крепления разные." },
+        { question: "Что нужно для расчёта?", answer: "Длина, высота, стиль, столбы, калитки и цвет." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "Алюминиевый навес для авто",
+      summary: "Парковка на одно–два авто—не пергола для отдыха.",
+      description: "Отдельно стоящие навесы: ширина места, длина, высота, кровля поликарбонат/металл, ветер/снег. Без EN 1090 павильона, ворот или козырька.",
+      features: ["Одно или два авто", "Поликарбонат или металл", "Отдельно стоящий 6063-T5", "Размеры подъезда", "Экспортная упаковка"],
+      applications: ["Подъезды домов", "Парковка вилл", "Небольшие стоянки", "Drop-off отеля"],
+      faqs: [
+        { question: "На два авто?", answer: "Да. Подтвердите ширину, длину и подъезд." },
+        { question: "Цитировать EN 1090 перголы?", answer: "Нет. Только документы модели навеса." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "Алюминиевая раздвижная дверь",
+      summary: "Раздвижные створки и автоматические откатные ворота—не распашные дворовые.",
+      description: "Для сдвига: двери патио/балкона и автоматические откатные ворота. Укажите проём, направляющую, стекло/заполнение и мотор. Не список EN 1090 ворот без письменного подтверждения.",
+      features: ["Дверь или откатные ворота", "Закалённое стекло опционально", "Пакеты с мотором", "Проём по замеру", "Окрашенный профиль"],
+      applications: ["Балконы отелей", "Проёмы патио", "Въездные ворота", "Витрины"],
+      faqs: [
+        { question: "Отличие от дворовых ворот?", answer: "Дворовые ворота — образ входа; здесь фокус на сдвиге." },
+        { question: "Ворота с мотором?", answer: "Да. Укажите проём и питание." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "Алюминиевые ворота",
+      summary: "Дворовые ворота по CAD—не остеклённые раздвижные системы.",
+      description: "Образ входа: дворовые и въездные ворота, распашные или откатные. Пришлите CAD, проём, створки и отделку. Ворота ICR: EN 1090. Остеклённые раздвижные — в категории раздвижных дверей.",
+      features: ["Дворовые и въездные ворота", "Распашные или откатные", "OEM по CAD", "Наружная окраска", "EN 1090 у перечисленных моделей"],
+      applications: ["Въезды вилл", "Ворота посёлков", "Ворота площадок", "Фасад дома"],
+      faqs: [
+        { question: "По нашему CAD?", answer: "Да. Рисунок, створка и фурнитура по CAD и проёму." },
+        { question: "Какие ворота EN 1090?", answer: "Только модели из ICR по воротам." },
+      ],
+    },
+    awnings: {
+      name: "Козырёк и навес",
+      summary: "Козырьки с заданным вылетом—не автонавесы и не крупные перголы.",
+      description: "Входные и террасные козырьки с шириной и вылетом, рама с поликарбонатом. Модели ICR: EN 1090. Автонавесы и ламельные перголы — другие категории.",
+      features: ["Покрытие входа и террасы", "Ширина и вылет по чертежу", "Поликарбонат", "Рама 6063-T5", "EN 1090 у перечисленных моделей"],
+      applications: ["Козырьки над дверью", "Навесы окон", "Террасы вилл", "Входы магазинов"],
+      faqs: [
+        { question: "Отличие от автонавеса?", answer: "Козырёк выносится от здания; автонавес — отдельно стоящая парковка." },
+        { question: "Данные для расчёта?", answer: "Ширина, вылет, высота, стена/стойка и покрытие." },
+      ],
+    },
   },
   ["Материал", "Поверхность", "Ориентир цены", "Минимальный заказ"],
   "Алюминий 6063-T5",
@@ -421,12 +721,72 @@ const ru = pack(
 
 const ar = pack(
   {
-    "aluminum-gazebos": { name: "برجولا ومظلة ألمنيوم", summary: "برجولات متحركة وثابتة للحدائق والمطاعم والفلل.", description: "شرفات ومظلات ألمنيوم من كتالوج Zhenlong، بما فيها أسقف شفرات مناخية وهياكل ثابتة. المقاسات والألوان والمحرك تُصنع حسب المخطط.", features: ["هيكل 6063-T5", "سقف شفرات أو ثابت", "طلاء مسحوق", "مقاسات حسب المخطط"], applications: ["حدائق", "تراس", "فنادق", "أفنية"], faqs: [{ question: "هل يمكن تخصيص مقاس البرجولا؟", answer: "نعم. البحر والطول والارتفاع تُنتج من مخططاتكم أو مقاسات الموقع." }] },
-    "aluminum-fences": { name: "سياج ألمنيوم", summary: "موديلات منفصلة: شفرات أفقية، خصوصية، أعمدة، مسبح، وأمن.", description: "كل بطاقة موديل سياج مستقل من متجر Zhenlong: حواجز خصوصية، ألواح شفرات، أعمدة رأسية، سياج مسبح، شرائح بمظهر الخشب، وسياج أمني مانع للتسلق.", features: ["موديل لكل صفحة", "ألوان طلاء مسحوق", "خصوصية أو أعمدة", "ألواح حسب المقاس"], applications: ["حدود العقار", "مسبح", "حديقة", "حدود تجارية"], faqs: [{ question: "هل أنماط السياج مدرجة كموديلات منفصلة؟", answer: "نعم. الشفرات الأفقية والرأسية والأعمدة وسياج المسبح والأمن لكل منها صفحة منتج." }] },
-    "aluminum-carports": { name: "مظلة سيارات ألمنيوم", summary: "مظلات لسيارة أو سيارتين ومواقف مغطاة.", description: "مظلات سيارات ألمنيوم قائمة بذاتها وتغطيات كراج لسيارة أو سيارتين، بسقف بولي كربونات أو معدن وهيكل بطلاء مسحوق.", features: ["سيارة أو سيارتان", "بولي كربونات أو معدن", "هيكل مستقل", "عرض وطول حسب الطلب"], applications: ["مدخل المنزل", "فيلا", "موقف", "فندق"], faqs: [{ question: "هل تصنعون مظلات لسيارتين؟", answer: "نعم. الكتالوج يشمل مظلات لسيارة واحدة وتغطيات لسيارتين." }] },
-    "aluminum-sliding-doors": { name: "باب ألمنيوم منزلق", summary: "أبواب منزلقة وبوابات منزلقة أوتوماتيكية.", description: "أبواب ألمنيوم منزلقة بزجاج مقسى، وبوابات منزلقة أوتوماتيكية للمشاريع السكنية والفنادق.", features: ["باب أو بوابة منزلقة", "زجاج مقسى", "مقاطع مطلية", "خيار أوتوماتيكي"], applications: ["شرفات", "مداخل", "ممرات سيارات", "واجهات"], faqs: [{ question: "هل تتوفر بوابات منزلقة أوتوماتيكية؟", answer: "نعم. عدة بطاقات هي بوابات ألمنيوم منزلقة أوتوماتيكية بطلاء مسحوق." }] },
-    "aluminum-doors": { name: "بوابة ألمنيوم", summary: "بوابات فناء ومداخل رئيسية وبوابات منازل.", description: "بوابات فناء ومداخل من الألمنيوم، بما فيها بوابات منزلقة كهربائية وبوابات منزل مزخرفة للفلل والمجمعات.", features: ["مدخل وفناء", "منزلق أو مفصلي", "تصميم CAD", "طلاء خارجي"], applications: ["فيلا", "مجمع", "موقع", "واجهة"], faqs: [{ question: "هل يمكن صنع البوابات حسب مخططاتنا؟", answer: "نعم. بوابات المدخل تُنتج من مخططات CAD ومقاسات الموقع." }] },
-    awnings: { name: "مظلة ومدخل", summary: "مظلات تراس وتغطيات أبواب ونوافذ.", description: "مظلات ألمنيوم بطلاء مسحوق لشرفات الفلل وأبواب الفناء ومداخل النوافذ، مع تغطية بولي كربونات.", features: ["تراس ومدخل", "إطار ألمنيوم", "بولي كربونات", "طلاء مقاوم للتآكل"], applications: ["تراس", "أبواب", "نوافذ", "أفنية"], faqs: [{ question: "ما مواد سقف المظلات؟", answer: "معظمها إطار ألمنيوم بطلاء مسحوق مع بولي كربونات أو غطاء مماثل للعوامل الجوية." }] },
+    "aluminum-gazebos": {
+      name: "برجولا ومظلة ألمنيوم",
+      summary: "أسقف معيشة خارجية بشفرات أو ثابتة—ليست مظلة سيارات ولا مظلة باب.",
+      description: "للمعيشة الخارجية: برجولات مناخية وشرفات ثابتة. حدّدوا البحر والأعمدة والشفرات اليدوية أو بمحرك والصرف وRAL. 6063-T5. أجنحة ICR: EN 1090. مظلات السيارات ومداخل الأبواب فئات أخرى.",
+      features: ["سقف شفرات أو ثابت", "هيكل 6063-T5", "محرك اختياري", "طلاء RAL أو PVDF", "مقاسات حسب المخطط"],
+      applications: ["حدائق الفلل", "تراس المطاعم", "أفنية الفنادق", "غرف خارجية"],
+      faqs: [
+        { question: "هل البرجولا = مظلة سيارات؟", answer: "لا. البرجولا للمعيشة؛ مظلة السيارات للوقوف." },
+        { question: "محرك ولون RAL؟", answer: "نعم. شفرات يدوية أو بمحرك حسب المخطط." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "سياج ألمنيوم",
+      summary: "حدود حسب الموديل: خصوصية وشفرات وأعمدة ومسبح ومضاد للتسلق.",
+      description: "كل بطاقة موديل مستقل. اذكروا الطول والارتفاع والوحدة والأعمدة والأبواب. 6063-T5 بطلاء مسحوق. موديلات ICR للسياج: EN 1090.",
+      features: ["موديل لكل صفحة", "خصوصية أو مسبح أو أمن", "ألواح بارتفاع الموقع", "طلاء RAL", "أعمدة وأبواب في العرض"],
+      applications: ["حدود الفيلا", "خط المسبح", "خصوصية الحديقة", "حدود تجارية"],
+      faqs: [
+        { question: "لماذا صفحات كثيرة؟", answer: "الارتفاع والتعبئة والتثبيت تختلف." },
+        { question: "بيانات العرض؟", answer: "الطول والارتفاع والطراز والأعمدة والأبواب واللون." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "مظلة سيارات ألمنيوم",
+      summary: "موقف لسيارة أو سيارتين—ليست برجولا للمعيشة.",
+      description: "مظلات مستقلة: عرض الموقف والطول والارتفاع الحر والسقف بولي كربونات/معدن والرياح/الثلج. بلا EN 1090 للجناح أو البوابة أو مظلة المدخل.",
+      features: ["سيارة أو سيارتان", "بولي كربونات أو معدن", "هيكل مستقل 6063-T5", "مقاسات المدخل", "تعبئة تصدير"],
+      applications: ["مداخل المنازل", "مواقف الفلل", "ساحات صغيرة", "Drop-off الفندق"],
+      faqs: [
+        { question: "سيارتان؟", answer: "نعم. أكّدوا العرض الحر والطول والمسار." },
+        { question: "استشهاد EN 1090 للبرجولا؟", answer: "لا. فقط وثائق موديل مظلة السيارات." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "باب ألمنيوم منزلق",
+      summary: "ضلف منزلقة وبوابات أوتوماتيكية—ليست بوابات مفصلية للفناء.",
+      description: "للانزلاق: أبواب فناء/شرفة وبوابات منزلقة أوتوماتيكية. سعّروا الفتحة والمسار والزجاج/التعبئة والمحرك. ليست قائمة EN 1090 للبوابات دون تأكيد كتابي.",
+      features: ["باب أو بوابة منزلقة", "زجاج مقسى اختياري", "حزم بمحرك", "فتحة حسب المقاس", "مقاطع مطلية"],
+      applications: ["شرفات الفنادق", "فتحات الفناء", "بوابات الدخول", "واجهات تجارية"],
+      faqs: [
+        { question: "الفرق عن بوابة الفناء؟", answer: "بوابة الفناء لهوية المدخل؛ هنا التركيز على الانزلاق." },
+        { question: "بوابة بمحرك؟", answer: "نعم. اذكروا الفتحة والطاقة." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "بوابة ألمنيوم",
+      summary: "بوابات فناء حسب CAD—ليست أنظمة منزلقة زجاجية.",
+      description: "هوية المدخل: بوابات فناء ومداخل، مفصلية أو منزلقة. أرسلوا CAD والفتحة والضلف والتشطيب. بوابات ICR: EN 1090. الأبواب المنزلقة الزجاجية في فئة المنزلقة.",
+      features: ["بوابات فناء ومداخل", "مفصلي أو منزلق", "OEM حسب CAD", "طلاء خارجي", "EN 1090 للموديلات المدرجة"],
+      applications: ["مداخل الفلل", "بوابات المجمعات", "بوابات المواقع", "واجهة المنزل"],
+      faqs: [
+        { question: "حسب CAD لدينا؟", answer: "نعم. الرسم والضلفة والملحقات حسب CAD والفتحة." },
+        { question: "أي بوابات EN 1090؟", answer: "فقط موديلات ICR للبوابات." },
+      ],
+    },
+    awnings: {
+      name: "مظلة ومدخل",
+      summary: "مظلات ببروز محدد—ليست مظلات سيارات ولا برجولات كبيرة.",
+      description: "مظلات مدخل وتراس بعرض وبروز، إطار مطلي + بولي كربونات. موديلات ICR: EN 1090. مظلات السيارات وبرجولات الشفرات فئات أخرى.",
+      features: ["تغطية مدخل وتراس", "عرض وبروز حسب المخطط", "بولي كربونات", "إطار 6063-T5", "EN 1090 للموديلات المدرجة"],
+      applications: ["مظلات أبواب", "مظلات نوافذ", "تراس الفلل", "مداخل المحلات"],
+      faqs: [
+        { question: "الفرق عن مظلة السيارات؟", answer: "المظلة تبرز من المبنى؛ مظلة السيارات موقف مستقل." },
+        { question: "بيانات العرض؟", answer: "العرض والبروز والارتفاع والجدار/العمود والغطاء." },
+      ],
+    },
   },
   ["الخامة", "السطح", "سعر مرجعي", "الحد الأدنى"],
   "ألمنيوم 6063-T5",
@@ -435,12 +795,72 @@ const ar = pack(
 
 const ja = pack(
   {
-    "aluminum-gazebos": { name: "アルミパーゴラ", summary: "庭・レストラン・ヴィラ向けの電動および固定パーゴラ。", description: "Zhenlong カタログのアルミガゼボとパーゴラです。バイオクライマティックのルーバー屋根と固定構造を含みます。寸法、色、モーターは図面どおりに製作します。", features: ["6063-T5 フレーム", "ルーバーまたは固定屋根", "粉体塗装", "図面寸法"], applications: ["庭", "テラス", "ホテル", "中庭"], faqs: [{ question: "パーゴラのサイズは特注できますか？", answer: "はい。スパン、長さ、高さは図面または現場寸法から製作します。" }] },
-    "aluminum-fences": { name: "アルミフェンス", summary: "横ルーバー、目隠し、縦桟、プール、防犯を型番ごとに分離。", description: "各掲載は Zhenlong 店舗の別モデルです。目隠し、ルーバーパネル、縦桟、プールフェンス、木目スラット、よじ登り防止の防犯フェンスを含みます。", features: ["型ごとに別ページ", "粉体カラー", "目隠しまたは縦桟", "寸法カット"], applications: ["敷地境界", "プール", "庭", "商業境界"], faqs: [{ question: "フェンスのスタイルは別モデルとして掲載されていますか？", answer: "はい。横ルーバー、縦スラット、ピケット、プール、防犯はそれぞれ商品ページがあります。" }] },
-    "aluminum-carports": { name: "アルミカーポート", summary: "1台用・2台用カーポートと駐車キャノピー。", description: "1台または2台用の独立型アルミカーポートとガレージキャノピーです。ポリカまたは金属屋根、粉体塗装フレームです。", features: ["1台または2台", "ポリカまたは金属屋根", "独立フレーム", "幅と長さを特注"], applications: ["駐車", "ヴィラ", "駐車場", "ホテル"], faqs: [{ question: "2台用カーポートはありますか？", answer: "はい。カタログに1台用シェルターと2台用駐車キャノピーがあります。" }] },
-    "aluminum-sliding-doors": { name: "アルミ引き戸", summary: "建築用引き戸と自動アルミ引き戸ゲート。", description: "強化ガラスのアルミ引き戸と、住宅・ホテル向けの自動引き戸ゲートです。", features: ["引き戸またはゲート", "強化ガラス", "粉体塗装形材", "自動オプション"], applications: ["バルコニー", "入口", "車路", "ファサード"], faqs: [{ question: "自動スライドゲートはありますか？", answer: "はい。粉体塗装の自動アルミ引き戸ゲートが複数あります。" }] },
-    "aluminum-doors": { name: "アルミ門扉", summary: "中庭・主門・住宅用のアルミ門扉。", description: "中庭と車路のアルミ門扉です。電動引き戸と、ヴィラや集合住宅向けの装飾門扉を含みます。", features: ["入口と中庭", "引き戸または開き戸", "CAD 製作", "屋外粉体塗装"], applications: ["ヴィラ", "集合住宅", "敷地", "正面"], faqs: [{ question: "図面どおりに門扉を作れますか？", answer: "はい。入口門扉は CAD 図面と現場寸法から製作できます。" }] },
-    awnings: { name: "庇・オーニング", summary: "テラス庇とドア・窓の入口キャノピー。", description: "ヴィラのテラス、パティオドア、窓入口向けの粉体塗装アルミ庇で、ポリカーボネート屋根を含みます。", features: ["テラスと入口", "アルミフレーム", "ポリカーボネート", "耐食塗装"], applications: ["テラス", "ドア", "窓", "中庭"], faqs: [{ question: "オーニングの屋根材は何ですか？", answer: "多くは粉体塗装のアルミフレームに、ポリカーボネートまたは同等の耐候カバーです。" }] },
+    "aluminum-gazebos": {
+      name: "アルミパーゴラ",
+      summary: "ルーバーまたは固定のアウトドアリビング屋根。カーポートやドア庇ではありません。",
+      description: "アウトドアリビング向け：バイオクライマティックなルーバーパーゴラと固定ガゼボ。スパン、柱、手動/電動ルーバー、排水、RAL を指定。6063-T5。ICR パビリオンは EN 1090。カーポートと入口庇は別カテゴリ。",
+      features: ["ルーバーまたは固定屋根", "6063-T5 フレーム", "モーター任意", "RAL 粉体または PVDF", "図面寸法"],
+      applications: ["ヴィラの庭", "レストランテラス", "ホテル中庭", "屋外リビング"],
+      faqs: [
+        { question: "パーゴラ＝カーポート？", answer: "いいえ。パーゴラは居住用屋根、カーポートは駐車です。" },
+        { question: "モーターと RAL？", answer: "はい。手動または電動を図面どおりに。" },
+      ],
+    },
+    "aluminum-fences": {
+      name: "アルミフェンス",
+      summary: "モデル別の境界：目隠し、ルーバー、縦桟、プール、よじ登り防止。",
+      description: "各掲載は別モデル。長さ、高さ、モジュール、柱、門扉を提示。6063-T5 粉体。ICR フェンスは EN 1090。",
+      features: ["型ごとに別ページ", "目隠し・プール・防犯", "現場高さのパネル", "RAL 粉体", "柱と門を見積に含める"],
+      applications: ["ヴィラ境界", "プールライン", "庭の目隠し", "商業境界"],
+      faqs: [
+        { question: "なぜページが多い？", answer: "高さ・充填・固定が違うため。" },
+        { question: "見積に必要な情報は？", answer: "長さ、高さ、スタイル、柱、門、色。" },
+      ],
+    },
+    "aluminum-carports": {
+      name: "アルミカーポート",
+      summary: "1台・2台の駐車シェルター。居住用パーゴラではありません。",
+      description: "独立カーポート：車幅、長さ、有効高さ、ポリカ/金属屋根、風雪条件。パビリオン/門/庇の EN 1090 は使いません。",
+      features: ["1台または2台", "ポリカまたは金属屋根", "独立 6063-T5", "駐車寸法", "輸出梱包"],
+      applications: ["住宅アプローチ", "ヴィラ駐車", "小規模駐車場", "ホテル降車場"],
+      faqs: [
+        { question: "2台用は？", answer: "はい。有効幅・長さ・動線を確認。" },
+        { question: "パーゴラ EN 1090 を引用可？", answer: "不可。カーポート型番の書類のみ。" },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "アルミ引き戸",
+      summary: "引き戸と自動スライドゲート。庭の開き門扉ではありません。",
+      description: "スライド用途：パティオ/バルコニー引き戸と自動スライドゲート。開口、棚、ガラス/パネル、モーターを提示。書面確認なしに門の EN 1090 一覧とみなさないでください。",
+      features: ["引き戸またはスライドゲート", "強化ガラス任意", "モーター付き", "開口寸法", "粉体形材"],
+      applications: ["ホテルバルコニー", "パティオ開口", "進入ゲート", "店舗正面"],
+      faqs: [
+        { question: "門扉との違いは？", answer: "門扉は入口の顔、ここはスライド動作が焦点。" },
+        { question: "ゲートにモーターは？", answer: "はい。有効開口と電源を提示。" },
+      ],
+    },
+    "aluminum-doors": {
+      name: "アルミ門扉",
+      summary: "CAD による庭・進入門扉。ガラス引き戸システムではありません。",
+      description: "入口の顔：庭門・主門・進入門（開き/引き）。CAD、開口、扉枚数、仕上げを送付。ICR 門は EN 1090。ガラス引き戸は引き戸カテゴリへ。",
+      features: ["庭門と進入門", "開きまたは引き", "CAD OEM", "屋外粉体", "掲載型は EN 1090"],
+      applications: ["ヴィラ入口", "団地ゲート", "現場ゲート", "住宅正面"],
+      faqs: [
+        { question: "CAD どおり？", answer: "はい。意匠・扉・金物は CAD と開口に従う。" },
+        { question: "EN 1090 の門は？", answer: "ICR 門検証に載る型番のみ。" },
+      ],
+    },
+    awnings: {
+      name: "庇・オーニング",
+      summary: "出幅が明確なドア・窓・テラス庇。カーポートや大型パーゴラではありません。",
+      description: "入口・テラス庇は幅と出幅で見積。粉体フレーム＋ポリカが一般的。ICR 庇は EN 1090。カーポートとルーバーパーゴラは別カテゴリ。",
+      features: ["入口とテラスの覆い", "幅と出幅を図面どおり", "ポリカ屋根", "6063-T5 フレーム", "掲載型は EN 1090"],
+      applications: ["ドア庇", "窓オーニング", "ヴィラテラス", "店舗入口"],
+      faqs: [
+        { question: "カーポートとの違いは？", answer: "庇は建物から出る。カーポートは独立駐車。" },
+        { question: "見積に必要な寸法は？", answer: "幅、出幅、取付高さ、壁/柱、屋根材。" },
+      ],
+    },
   },
   ["材質", "表面", "参考価格", "最小注文"],
   "6063-T5 アルミニウム",
@@ -449,12 +869,72 @@ const ja = pack(
 
 const ko = pack(
   {
-    "aluminum-gazebos": { name: "알루미늄 퍼골라", summary: "정원, 레스토랑, 빌라용 전동 및 고정 퍼골라.", description: "Zhenlong 카탈로그의 알루미늄 가제보와 퍼골라입니다. 바이오클리매틱 루버 지붕과 고정 구조를 포함하며, 치수·색상·모터는 도면대로 제작합니다.", features: ["6063-T5 프레임", "루버 또는 고정 지붕", "분체 도장", "도면 치수"], applications: ["정원", "테라스", "호텔", "마당"], faqs: [{ question: "퍼골라 크기를 맞출 수 있나요?", answer: "예. 경간, 길이, 높이는 도면 또는 현장 치수로 제작합니다." }] },
-    "aluminum-fences": { name: "알루미늄 펜스", summary: "가로 루버, 프라이버시, 세로 피켓, 수영장, 보안을 모델별로 분리.", description: "각 항목은 Zhenlong 스토어의 별도 모델입니다. 프라이버시 스크린, 루버 패널, 세로 피켓, 수영장 펜스, 나뭇결 슬랫, 기어오름 방지 보안 펜스를 포함합니다.", features: ["모델별 페이지", "분체 색상", "가림 또는 피켓", "규격 재단"], applications: ["부지 경계", "수영장", "정원", "상업 경계"], faqs: [{ question: "펜스 스타일이 모델별로 나뉘어 있나요?", answer: "예. 가로 루버, 세로 슬랫, 피켓, 수영장, 보안은 각각 제품 페이지가 있습니다." }] },
-    "aluminum-carports": { name: "알루미늄 카포트", summary: "1대·2대 카포트와 주차 캐노피.", description: "1대 또는 2대용 독립형 알루미늄 카포트와 차고 캐노피입니다. 폴리카보네이트 또는 금속 지붕, 분체 도장 프레임입니다.", features: ["1대 또는 2대", "폴리카보네이트 또는 금속 지붕", "독립 프레임", "폭·길이 맞춤"], applications: ["진입로", "빌라", "주차장", "호텔"], faqs: [{ question: "2대용 카포트를 만드나요?", answer: "예. 카탈로그에 1대용 셸터와 2대용 주차 캐노피가 있습니다." }] },
-    "aluminum-sliding-doors": { name: "알루미늄 슬라이딩 도어", summary: "건축용 미닫이문과 자동 슬라이딩 대문.", description: "강화 유리 알루미늄 미닫이문과 주거·호텔용 자동 슬라이딩 대문입니다.", features: ["미닫이문 또는 대문", "강화 유리", "분체 프로파일", "자동 옵션"], applications: ["발코니", "출입구", "차량 진입", "파사드"], faqs: [{ question: "자동 슬라이딩 대문이 있나요?", answer: "예. 여러 항목이 분체 도장 자동 알루미늄 슬라이딩 대문입니다." }] },
-    "aluminum-doors": { name: "알루미늄 대문", summary: "마당 출입문, 주 대문, 주택 금속 대문.", description: "마당과 진입로 알루미늄 대문입니다. 전동 슬라이딩 대문과 빌라·단지의 장식 대문을 포함합니다.", features: ["출입과 마당", "슬라이딩 또는 여닫이", "CAD 제작", "실외 분체 도장"], applications: ["빌라", "단지", "부지", "정면"], faqs: [{ question: "도면대로 대문을 만들 수 있나요?", answer: "예. 출입 대문은 CAD 도면과 현장 치수로 제작합니다." }] },
-    awnings: { name: "어닝·캐노피", summary: "테라스 어닝과 문·창 입구 캐노피.", description: "빌라 테라스, 파티오 문, 창 입구용 분체 도장 알루미늄 어닝과 캐노피입니다. 폴리카보네이트 덮개를 포함합니다.", features: ["테라스와 입구", "알루미늄 프레임", "폴리카보네이트", "내식 도장"], applications: ["테라스", "문", "창", "마당"], faqs: [{ question: "어닝 지붕 재료는 무엇인가요?", answer: "대부분은 분체 도장 알루미늄 프레임에 폴리카보네이트 또는 비슷한 내후 커버입니다." }] },
+    "aluminum-gazebos": {
+      name: "알루미늄 퍼골라",
+      summary: "루버 또는 고정 아웃도어 리빙 지붕. 카포트나 문 캐노피가 아닙니다.",
+      description: "아웃도어 리빙: 바이오클리매틱 루버 퍼골라와 고정 가제보. 경간, 기둥, 수동/전동 루버, 배수, RAL 지정. 6063-T5. ICR 파빌리온은 EN 1090. 카포트와 입구 캐노피는 다른 카테고리.",
+      features: ["루버 또는 고정 지붕", "6063-T5 프레임", "모터 옵션", "RAL 분체 또는 PVDF", "도면 치수"],
+      applications: ["빌라 정원", "레스토랑 테라스", "호텔 중정", "아웃도어 룸"],
+      faqs: [
+        { question: "퍼골라=카포트?", answer: "아니요. 퍼골라는 거주용 지붕, 카포트는 주차입니다." },
+        { question: "모터와 RAL?", answer: "네. 수동 또는 전동을 도면대로." },
+      ],
+    },
+    "aluminum-fences": {
+      name: "알루미늄 펜스",
+      summary: "모델별 경계: 프라이버시, 루버, 피켓, 수영장, 기어오름 방지.",
+      description: "각 항목은 별도 모델. 길이, 높이, 모듈, 기둥, 대문 제시. 6063-T5 분체. ICR 펜스는 EN 1090.",
+      features: ["모델별 페이지", "프라이버시·수영장·보안", "현장 높이 패널", "RAL 분체", "기둥·대문을 견적에 포함"],
+      applications: ["빌라 경계", "수영장 라인", "정원 가림", "상업 경계"],
+      faqs: [
+        { question: "왜 페이지가 많나요?", answer: "높이·채움·고정이 다르기 때문입니다." },
+        { question: "견적에 필요한 정보는?", answer: "길이, 높이, 스타일, 기둥, 대문, 색상." },
+      ],
+    },
+    "aluminum-carports": {
+      name: "알루미늄 카포트",
+      summary: "1·2대 주차 셸터. 거주용 퍼골라가 아닙니다.",
+      description: "독립 카포트: 주차 폭, 길이, 유효 높이, 폴리카/금속 지붕, 풍설 조건. 파빌리온/대문/캐노피 EN 1090 미사용.",
+      features: ["1대 또는 2대", "폴리카 또는 금속 지붕", "독립 6063-T5", "진입 치수", "수출 포장"],
+      applications: ["주택 진입로", "빌라 주차", "소규모 주차장", "호텔 드롭오프"],
+      faqs: [
+        { question: "2대용?", answer: "네. 유효 폭·길이·동선을 확인." },
+        { question: "퍼골라 EN 1090 인용?", answer: "안 됩니다. 카포트 모델 서류만." },
+      ],
+    },
+    "aluminum-sliding-doors": {
+      name: "알루미늄 슬라이딩 도어",
+      summary: "미닫이 문짝과 자동 슬라이딩 대문. 마당 여닫이 대문이 아닙니다.",
+      description: "슬라이딩용: 파티오/발코니 미닫이문과 자동 슬라이딩 대문. 개구부, 레일, 유리/패널, 모터 제시. 서면 확인 없이 대문 EN 1090 목록으로 보지 마세요.",
+      features: ["미닫이문 또는 슬라이딩 대문", "강화유리 옵션", "모터 패키지", "맞춤 개구부", "분체 프로파일"],
+      applications: ["호텔 발코니", "파티오 개구", "진입 대문", "매장 전면"],
+      faqs: [
+        { question: "대문과의 차이는?", answer: "대문은 입구 이미지, 여기는 슬라이딩이 핵심." },
+        { question: "대문에 모터?", answer: "네. 유효 개구와 전원을 제시." },
+      ],
+    },
+    "aluminum-doors": {
+      name: "알루미늄 대문",
+      summary: "CAD 마당·진입 대문. 유리 미닫이 시스템이 아닙니다.",
+      description: "입구 이미지: 마당·주·진입 대문(여닫이/슬라이딩). CAD, 개구, 문짝 수, 마감 제출. ICR 대문: EN 1090. 유리 미닫이는 슬라이딩 카테고리로.",
+      features: ["마당·진입 대문", "여닫이 또는 슬라이딩", "CAD OEM", "실외 분체", "등재 모델 EN 1090"],
+      applications: ["빌라 입구", "단지 대문", "현장 대문", "주택 정면"],
+      faqs: [
+        { question: "CAD대로?", answer: "네. 문양·문짝·하드웨어는 CAD와 개구를 따름." },
+        { question: "EN 1090 대문은?", answer: "ICR 대문 검증에 오른 모델만." },
+      ],
+    },
+    awnings: {
+      name: "어닝·캐노피",
+      summary: "돌출이 명확한 문·창·테라스 어닝. 카포트나 대형 퍼골라가 아닙니다.",
+      description: "입구·테라스 어닝은 폭과 돌출로 견적. 분체 프레임+폴리카가 일반적. ICR 캐노피: EN 1090. 카포트와 루버 퍼골라는 다른 카테고리.",
+      features: ["입구·테라스 커버", "폭·돌출 도면대로", "폴리카 지붕", "6063-T5 프레임", "등재 모델 EN 1090"],
+      applications: ["문 캐노피", "창 어닝", "빌라 테라스", "매장 입구"],
+      faqs: [
+        { question: "카포트와 차이는?", answer: "어닝은 건물에서 돌출, 카포트는 독립 주차." },
+        { question: "견적 치수는?", answer: "폭, 돌출, 설치 높이, 벽/기둥, 지붕재." },
+      ],
+    },
   },
   ["재질", "표면", "참고 가격", "최소 주문"],
   "6063-T5 알루미늄",
