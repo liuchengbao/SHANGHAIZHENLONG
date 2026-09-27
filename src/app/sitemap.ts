@@ -4,6 +4,9 @@ import { routing } from "@/i18n/routing";
 import { BLOG_SLUGS } from "@/lib/content";
 import { CATALOG, CATEGORY_SLUGS, categoryHref } from "@/lib/catalog";
 
+/** Cache sitemap for 1 hour so Googlebot does not hit cold generation timeouts. */
+export const revalidate = 3600;
+
 const staticPaths = [
   "",
   "/products",
@@ -14,59 +17,45 @@ const staticPaths = [
   "/contact",
 ];
 
-function buildAlternates(path: string) {
-  const languages: Record<string, string> = {};
-  for (const locale of routing.locales) {
-    languages[locale] = `${SITE_URL}/${locale}${path}`;
-  }
-  languages["x-default"] = `${SITE_URL}/en${path}`;
-  return languages;
-}
-
 export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
+  // Keep sitemap lean: hreflang already lives in page <link rel="alternate"> metadata.
   for (const locale of routing.locales) {
     for (const path of staticPaths) {
       entries.push({
         url: `${SITE_URL}/${locale}${path}`,
-        lastModified: new Date(),
+        lastModified,
         changeFrequency: "weekly",
         priority: path === "" ? 1 : 0.8,
-        alternates: { languages: buildAlternates(path) },
       });
     }
 
     for (const slug of CATEGORY_SLUGS) {
-      const path = categoryHref(slug);
       entries.push({
-        url: `${SITE_URL}/${locale}${path}`,
-        lastModified: new Date(),
+        url: `${SITE_URL}/${locale}${categoryHref(slug)}`,
+        lastModified,
         changeFrequency: "weekly",
         priority: 0.9,
-        alternates: { languages: buildAlternates(path) },
       });
     }
 
     for (const product of CATALOG) {
-      const path = `/products/${product.id}`;
       entries.push({
-        url: `${SITE_URL}/${locale}${path}`,
-        lastModified: new Date(),
+        url: `${SITE_URL}/${locale}/products/${product.id}`,
+        lastModified,
         changeFrequency: "monthly",
         priority: 0.7,
-        alternates: { languages: buildAlternates(path) },
       });
     }
 
     for (const slug of BLOG_SLUGS) {
-      const path = `/blog/${slug}`;
       entries.push({
-        url: `${SITE_URL}/${locale}${path}`,
-        lastModified: new Date(),
+        url: `${SITE_URL}/${locale}/blog/${slug}`,
+        lastModified,
         changeFrequency: "monthly",
         priority: 0.6,
-        alternates: { languages: buildAlternates(path) },
       });
     }
   }
