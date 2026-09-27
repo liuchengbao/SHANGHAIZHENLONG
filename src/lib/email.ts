@@ -2,9 +2,10 @@ import { Resend } from "resend";
 import type { InquiryFormData } from "@/lib/validators/inquiry";
 import { COMPANY } from "@/lib/constants";
 
-const resend = process.env.RESEND_API_KEY
-  ? new Resend(process.env.RESEND_API_KEY)
-  : null;
+function getResend() {
+  const key = process.env.RESEND_API_KEY?.trim();
+  return key ? new Resend(key) : null;
+}
 
 function escapeHtml(value: string) {
   return value
@@ -36,17 +37,20 @@ function formatInquiryEmail(data: InquiryFormData & { locale?: string }) {
 
 export async function sendInquiryEmail(
   data: InquiryFormData & { locale?: string },
-): Promise<{ sent: boolean; reason?: string }> {
-  const to = process.env.INQUIRY_EMAIL ?? COMPANY.email;
-  const from =
-    process.env.RESEND_FROM ?? "Zhenlong Aluminum <onboarding@resend.dev>";
+): Promise<{ sent: boolean; reason?: string; detail?: string }> {
+  const resend = getResend();
+  const to = (process.env.INQUIRY_EMAIL ?? COMPANY.email).trim();
+  const from = (
+    process.env.RESEND_FROM ??
+    "Zhenlong Aluminum <onboarding@resend.dev>"
+  ).trim();
 
   if (!resend) {
     console.log("[Inquiry] Email skipped (no RESEND_API_KEY):", data);
     return { sent: false, reason: "no_api_key" };
   }
 
-  const { error } = await resend.emails.send({
+  const { data: sent, error } = await resend.emails.send({
     from,
     to,
     replyTo: data.email,
@@ -55,9 +59,14 @@ export async function sendInquiryEmail(
   });
 
   if (error) {
-    console.error("[Inquiry] Resend error:", error);
-    throw new Error(error.message);
+    console.error("[Inquiry] Resend error:", error, { from, to });
+    return {
+      sent: false,
+      reason: "resend_error",
+      detail: error.message,
+    };
   }
 
+  console.log("[Inquiry] Email sent:", sent?.id, { from, to });
   return { sent: true };
 }

@@ -33,8 +33,14 @@ export async function POST(request: Request) {
     const { website: _honeypot, ...payload } = data;
     const result = await sendInquiryEmail({ ...payload, locale });
     if (!result.sent) {
+      const message =
+        result.reason === "no_api_key"
+          ? "Inquiry email is not configured yet. Set RESEND_API_KEY on the server."
+          : result.detail
+            ? `Email send failed: ${result.detail}`
+            : "Failed to send inquiry email. Please try again later.";
       return NextResponse.json(
-        { error: "Inquiry email is not configured yet." },
+        { error: message, reason: result.reason },
         { status: 503 },
       );
     }
@@ -48,8 +54,10 @@ export async function POST(request: Request) {
       );
     }
     console.error("[Inquiry] Error:", error);
+    const detail =
+      error instanceof Error ? error.message : "Unknown server error";
     return NextResponse.json(
-      { error: "Failed to submit inquiry. Please try again later." },
+      { error: `Failed to submit inquiry: ${detail}` },
       { status: 500 },
     );
   }
