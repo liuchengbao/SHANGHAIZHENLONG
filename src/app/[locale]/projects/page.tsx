@@ -62,6 +62,8 @@ export default async function ProjectsPage({ params }: Props) {
                 fill
                 className="object-cover"
                 sizes="(min-width: 768px) 50vw, 100vw"
+                quality={70}
+                loading="lazy"
               />
             </div>
             <div className="p-6">

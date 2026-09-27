@@ -107,7 +107,7 @@
     },
     "cta": {
       "title": "Pronto para iniciar seu projeto de alumínio?",
-      "description": "Envie seus requisitos, desenhos ou fotos de referência. Nossa equipe fornecerá um orçamento profissional e proposta de fabricação em 24 horas."
+      "description": "Envie seus requisitos, desenhos ou fotos de referência. Nossa equipe fornecerá um orçamento profissional e proposta de fabricação em 0,5 horas."
     },
     "trust": {
       "items": [
@@ -355,7 +355,9 @@
     "applications": "Aplicações",
     "faq": "Perguntas frequentes",
     "requestQuote": "Solicitar orçamento",
-    "formHint": "Conte-nos sobre seu projeto e retornaremos em breve."
+    "formHint": "Conte-nos sobre seu projeto e retornaremos em breve.",
+    "relatedProducts": "Modelos relacionados",
+    "relatedArticles": "Guias desta linha"
   },
   "projectsPage": {
     "eyebrow": "Estudos de caso",
@@ -522,7 +524,7 @@
   "contactPage": {
     "eyebrow": "Entre em contato",
     "title": "Contato Zhenlong Aluminum",
-    "description": "Envie os detalhes do seu projeto e nossa equipe de exportação responderá em 24 horas.",
+    "description": "Envie os detalhes do seu projeto e nossa equipe de exportação responderá em 0,5 horas.",
     "infoTitle": "Informações de contato",
     "addressLabel": "Endereço",
     "emailLabel": "E-mail",
@@ -546,7 +548,7 @@
     "messagePlaceholder": "Inclua dimensões, país de destino, prazo e quaisquer requisitos especiais.",
     "required": "Obrigatório",
     "successTitle": "Obrigado pela sua consulta!",
-    "successMessage": "Recebemos sua mensagem e responderemos em 24 horas.",
+    "successMessage": "Recebemos sua mensagem e responderemos em 0,5 horas.",
     "sendAnother": "Enviar outra consulta",
     "errors": {
       "name": "O nome deve ter pelo menos 2 caracteres",

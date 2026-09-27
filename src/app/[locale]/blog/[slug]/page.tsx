@@ -52,7 +52,7 @@ function renderContent(content: string, locale: string) {
       return (
         <figure key={index} className="mt-8">
           <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-slate-100">
-            <Image src={src} alt={alt} fill sizes="(min-width: 768px) 720px, 100vw" className="object-cover" />
+            <Image src={src} alt={alt} fill sizes="(min-width: 768px) 720px, 100vw" quality={70} loading="lazy" className="object-cover" />
           </div>
           <figcaption className="mt-2 text-sm text-slate-500">{alt}</figcaption>
         </figure>

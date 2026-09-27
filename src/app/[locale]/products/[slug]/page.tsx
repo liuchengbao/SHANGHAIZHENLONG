@@ -5,7 +5,8 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { Section } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import { InquiryForm } from "@/components/forms/InquiryForm";
+import { InquiryFormLazy as InquiryForm } from "@/components/forms/InquiryFormLazy";
+import { RelatedProducts } from "@/components/products/RelatedProducts";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { CATALOG, isCategorySlug } from "@/lib/catalog";
 import { getProductBySlug, getCategoryOptions } from "@/lib/get-content";
@@ -105,6 +106,7 @@ export default async function ProductDetailPage({ params }: Props) {
               fill
               className="object-cover"
               priority
+              quality={75}
               sizes="(min-width: 1024px) 50vw, 100vw"
             />
           </div>
@@ -198,6 +200,9 @@ export default async function ProductDetailPage({ params }: Props) {
         </div>
       </Section>
       <CertificateSection category={product.category} />
+      <Section>
+        <RelatedProducts slug={product.slug} category={product.category} />
+      </Section>
     </>
   );
 }

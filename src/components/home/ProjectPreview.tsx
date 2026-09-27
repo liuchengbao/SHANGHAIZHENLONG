@@ -35,6 +35,8 @@ export async function ProjectPreview() {
                   alt={project.title}
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
+                  quality={70}
+                  loading="lazy"
                   className="object-cover transition duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />

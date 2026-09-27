@@ -107,7 +107,7 @@
     },
     "cta": {
       "title": "Prêt à lancer votre projet aluminium ?",
-      "description": "Envoyez-nous vos exigences, plans ou photos de référence. Notre équipe vous fournira un devis professionnel et une proposition de fabrication sous 24 heures."
+      "description": "Envoyez-nous vos exigences, plans ou photos de référence. Notre équipe vous fournira un devis professionnel et une proposition de fabrication sous 0,5 heure."
     },
     "trust": {
       "items": [
@@ -355,7 +355,9 @@
     "applications": "Applications",
     "faq": "FAQ",
     "requestQuote": "Demander un devis",
-    "formHint": "Parlez-nous de votre projet et nous vous répondrons rapidement."
+    "formHint": "Parlez-nous de votre projet et nous vous répondrons rapidement.",
+    "relatedProducts": "Modèles associés",
+    "relatedArticles": "Guides pour cette gamme"
   },
   "projectsPage": {
     "eyebrow": "Études de cas",
@@ -522,7 +524,7 @@
   "contactPage": {
     "eyebrow": "Contactez-nous",
     "title": "Contact Zhenlong Aluminum",
-    "description": "Envoyez-nous les détails de votre projet et notre équipe export répondra sous 24 heures.",
+    "description": "Envoyez-nous les détails de votre projet et notre équipe export répondra sous 0,5 heure.",
     "infoTitle": "Coordonnées",
     "addressLabel": "Adresse",
     "emailLabel": "E-mail",
@@ -546,7 +548,7 @@
     "messagePlaceholder": "Veuillez inclure dimensions, pays de destination, délais et exigences spéciales.",
     "required": "Obligatoire",
     "successTitle": "Merci pour votre demande !",
-    "successMessage": "Nous avons reçu votre message et répondrons sous 24 heures.",
+    "successMessage": "Nous avons reçu votre message et répondrons sous 0,5 heure.",
     "sendAnother": "Envoyer une autre demande",
     "errors": {
       "name": "Le nom doit comporter au moins 2 caractères",

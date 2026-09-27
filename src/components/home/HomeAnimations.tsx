@@ -1,5 +1,3 @@
-"use client";
-
 import { Clock, Factory, Globe2, CheckCircle2 } from "lucide-react";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";

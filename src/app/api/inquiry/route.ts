@@ -2,14 +2,36 @@ import { NextResponse } from "next/server";
 import { ZodError } from "zod";
 import { inquirySchema } from "@/lib/validators/inquiry";
 import { sendInquiryEmail } from "@/lib/email";
+import { rateLimit } from "@/lib/rate-limit";
 
 export async function POST(request: Request) {
   try {
+    const ip =
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      request.headers.get("x-real-ip") ||
+      "unknown";
+    const limited = rateLimit(`inquiry:${ip}`);
+    if (!limited.ok) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429 },
+      );
+    }
+
     const body = await request.json();
     const { locale, ...formData } = body;
-    const data = inquirySchema.parse(formData);
 
-    const result = await sendInquiryEmail({ ...data, locale });
+    if (typeof formData.website === "string" && formData.website.trim() !== "") {
+      return NextResponse.json({ success: true });
+    }
+
+    const data = inquirySchema.parse({
+      ...formData,
+      website: formData.website ?? "",
+    });
+
+    const { website: _honeypot, ...payload } = data;
+    const result = await sendInquiryEmail({ ...payload, locale });
     if (!result.sent) {
       return NextResponse.json(
         { error: "Inquiry email is not configured yet." },

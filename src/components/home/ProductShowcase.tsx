@@ -34,6 +34,8 @@ export async function ProductShowcase() {
                     alt={copy.name}
                     fill
                     sizes="(min-width: 1024px) 33vw, 50vw"
+                    quality={70}
+                    loading="lazy"
                     className="object-cover transition duration-500 group-hover:scale-105"
                   />
                 </div>

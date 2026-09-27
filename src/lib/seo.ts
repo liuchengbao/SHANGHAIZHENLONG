@@ -71,11 +71,20 @@ export async function createPageMetadata({
       siteName: COMPANY.shortName,
       locale: ogLocaleMap[locale],
       type,
+      images: [
+        {
+          url: `${SITE_URL}/images/logo.png`,
+          width: 446,
+          height: 477,
+          alt: COMPANY.shortName,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
+      images: [`${SITE_URL}/images/logo.png`],
     },
     robots: { index: true, follow: true },
   };

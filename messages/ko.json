@@ -107,7 +107,7 @@
     },
     "cta": {
       "title": "알루미늄 프로젝트를 시작할 준비가 되셨나요?",
-      "description": "요구사항, 도면 또는 참고 사진을 보내주세요. 24시간 이내에 전문 견적 및 제조 제안을 제공합니다."
+      "description": "요구사항, 도면 또는 참고 사진을 보내주세요. 0.5시간 이내에 전문 견적 및 제조 제안을 제공합니다."
     },
     "trust": {
       "items": [
@@ -355,7 +355,9 @@
     "applications": "적용 분야",
     "faq": "FAQ",
     "requestQuote": "견적 요청",
-    "formHint": "프로젝트에 대해 알려주시면 곧 연락드리겠습니다."
+    "formHint": "프로젝트에 대해 알려주시면 곧 연락드리겠습니다.",
+    "relatedProducts": "관련 모델",
+    "relatedArticles": "이 제품 라인 가이드"
   },
   "projectsPage": {
     "eyebrow": "사례 연구",
@@ -522,7 +524,7 @@
   "contactPage": {
     "eyebrow": "문의하기",
     "title": "Zhenlong Aluminum 문의",
-    "description": "프로젝트 세부 정보를 보내주시면 수출 팀이 24시간 이내에 답변드립니다.",
+    "description": "프로젝트 세부 정보를 보내주시면 수출 팀이 0.5시간 이내에 답변드립니다.",
     "infoTitle": "연락처 정보",
     "addressLabel": "주소",
     "emailLabel": "이메일",
@@ -546,7 +548,7 @@
     "messagePlaceholder": "치수, 목적지 국가, 일정 및 특별 요구사항을 포함해 주세요.",
     "required": "필수",
     "successTitle": "문의해 주셔서 감사합니다!",
-    "successMessage": "메시지를 받았으며 24시간 이내에 답변드리겠습니다.",
+    "successMessage": "메시지를 받았으며 0.5시간 이내에 답변드리겠습니다.",
     "sendAnother": "다른 문의 보내기",
     "errors": {
       "name": "이름은 2자 이상이어야 합니다",

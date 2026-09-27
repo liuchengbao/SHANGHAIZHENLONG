@@ -1,9 +1,10 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { Container } from "@/components/ui/Container";
 import { HeroClient } from "@/components/home/HeroClient";
-import { TrustBarClient } from "@/components/home/HomeAnimations";
+import { TrustBarClient, StatsBarClient } from "@/components/home/HomeAnimations";
 import { CATEGORY_SLUGS, getCategoryCover } from "@/lib/catalog";
 import { getCategoryCopy } from "@/lib/category-copy";
+import { COMPANY } from "@/lib/constants";
 
 export async function Hero() {
   const t = await getTranslations("home.hero");
@@ -49,18 +50,18 @@ export async function Hero() {
 
 export async function StatsBar() {
   const t = await getTranslations("home.stats");
-  const { StatsBarClient } = await import("@/components/home/HomeAnimations");
+  const years = Math.max(1, new Date().getFullYear() - COMPANY.foundedYear);
 
   const stats = [
     {
       icon: "clock" as const,
-      value: 30,
+      value: years,
       suffix: "+",
       label: t("founded"),
     },
     {
       icon: "factory" as const,
-      value: 5,
+      value: 6,
       suffix: "",
       label: t("products"),
     },

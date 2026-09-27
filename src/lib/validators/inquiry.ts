@@ -9,6 +9,7 @@ export const inquirySchema = z.object({
   productInterest: z.string().min(1, "Please select a product"),
   quantity: z.string().optional(),
   message: z.string().min(10, "Message must be at least 10 characters"),
+  website: z.string().optional(),
 });
 
 export type InquiryFormData = z.infer<typeof inquirySchema>;

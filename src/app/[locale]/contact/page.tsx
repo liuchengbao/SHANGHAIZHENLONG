@@ -4,7 +4,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { Section, SectionHeader } from "@/components/ui/Section";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import { InquiryForm } from "@/components/forms/InquiryForm";
+import { InquiryFormLazy as InquiryForm } from "@/components/forms/InquiryFormLazy";
 import { getCategoryOptions } from "@/lib/get-content";
 import { COMPANY } from "@/lib/constants";
 import { createPageMetadata } from "@/lib/seo";

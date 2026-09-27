@@ -1,5 +1,3 @@
-"use client";
-
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/ui/FadeIn";
 
 type Step = { title: string; description: string };

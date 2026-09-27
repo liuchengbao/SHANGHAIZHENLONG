@@ -36,7 +36,7 @@ export function InquiryForm({
     formState: { errors },
   } = useForm<InquiryFormData>({
     resolver: zodResolver(inquirySchema),
-    defaultValues: { productInterest: defaultProduct },
+    defaultValues: { productInterest: defaultProduct, website: "" },
   });
 
   const onSubmit = async (data: InquiryFormData) => {
@@ -55,8 +55,15 @@ export function InquiryForm({
         throw new Error(result.error ?? t("errors.submit"));
       }
 
+      if (typeof window !== "undefined" && "gtag" in window) {
+        (window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.(
+          "event",
+          "generate_lead",
+          { method: "inquiry_form", locale },
+        );
+      }
       setStatus("success");
-      reset({ productInterest: defaultProduct });
+      reset({ productInterest: defaultProduct, website: "" });
     } catch (error) {
       setStatus("error");
       setErrorMessage(
@@ -92,7 +99,7 @@ export function InquiryForm({
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"
+      className="relative rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"
     >
       {!compact && (
         <div className="mb-6">
@@ -196,6 +203,12 @@ export function InquiryForm({
             <p className={errorClass}>{t("errors.message")}</p>
           )}
         </div>
+      </div>
+
+      
+      <div className="absolute -left-[9999px] top-auto h-0 w-0 overflow-hidden" aria-hidden="true">
+        <label htmlFor="website">Website</label>
+        <input id="website" type="text" tabIndex={-1} autoComplete="off" {...register("website")} />
       </div>
 
       {status === "error" && (

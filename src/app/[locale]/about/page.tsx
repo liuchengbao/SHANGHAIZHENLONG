@@ -102,6 +102,8 @@ export default async function AboutPage({ params }: Props) {
                   alt={t(`photos.${photo.key}.alt`)}
                   fill
                   sizes={photo.wide ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 25vw, 50vw"}
+                  quality={70}
+                  loading="lazy"
                   className="object-cover"
                 />
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950/80 to-transparent px-4 pb-4 pt-12 text-sm font-medium text-white">

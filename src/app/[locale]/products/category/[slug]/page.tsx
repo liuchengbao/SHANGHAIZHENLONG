@@ -6,7 +6,7 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { ProductCard } from "@/components/products/ProductCard";
 import { CertificateSection } from "@/components/about/CertificateSection";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { getProducts } from "@/lib/get-content";
+import { getProducts, getBlogPosts, blogSlugsForCategory } from "@/lib/get-content";
 import { getCategoryCopy } from "@/lib/category-copy";
 import {
   CATEGORY_SLUGS,
@@ -56,6 +56,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
       url,
       siteName: COMPANY.shortName,
       type: "website",
+      images: [`${SITE_URL}/images/logo.png`],
     },
     robots: page > 1 ? { index: false, follow: true } : { index: true, follow: true },
   };
@@ -71,6 +72,9 @@ export default async function CategoryLandingPage({ params, searchParams }: Prop
   const copy = getCategoryCopy(locale, slug);
   const page = Math.max(1, Number(query.page) || 1);
   const products = await getProducts(slug);
+  const posts = await getBlogPosts();
+  const blogSlugs = new Set(blogSlugsForCategory(slug));
+  const relatedPosts = posts.filter((post) => blogSlugs.has(post.slug)).slice(0, 3);
   const pageCount = Math.max(1, Math.ceil(products.length / PAGE_SIZE));
   if (page > pageCount) {
     redirect(`/${locale}${categoryHref(slug)}`);
@@ -78,6 +82,7 @@ export default async function CategoryLandingPage({ params, searchParams }: Prop
 
   const visible = products.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const tc = await getTranslations("common");
+  const tp = await getTranslations("productDetail");
   const path = categoryHref(slug);
 
   return (
@@ -164,6 +169,24 @@ export default async function CategoryLandingPage({ params, searchParams }: Prop
             ))}
           </div>
         </div>
+        {relatedPosts.length > 0 && (
+          <div className="mt-16">
+            <h2 className="mb-6 text-2xl font-bold text-slate-900">{tp("relatedArticles")}</h2>
+            <ul className="grid gap-4 sm:grid-cols-3">
+              {relatedPosts.map((post) => (
+                <li key={post.slug}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="block rounded-sm border border-slate-200 p-4 transition hover:border-[var(--accent)]/40"
+                  >
+                    <p className="text-xs text-slate-500">{post.publishedAt}</p>
+                    <p className="mt-2 text-sm font-semibold text-slate-900">{post.title}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </Section>
       <CertificateSection category={slug} />
     </>

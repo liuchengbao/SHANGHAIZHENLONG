@@ -107,7 +107,7 @@
     },
     "cta": {
       "title": "Bereit, Ihr Aluminiumprojekt zu starten?",
-      "description": "Senden Sie uns Ihre Anforderungen, Zeichnungen oder Referenzfotos. Unser Team erstellt innerhalb von 24 Stunden ein professionelles Angebot und Fertigungsvorschlag."
+      "description": "Senden Sie uns Ihre Anforderungen, Zeichnungen oder Referenzfotos. Unser Team erstellt innerhalb von 0,5 Stunden ein professionelles Angebot und Fertigungsvorschlag."
     },
     "trust": {
       "items": [
@@ -355,7 +355,9 @@
     "applications": "Anwendungen",
     "faq": "FAQ",
     "requestQuote": "Angebot anfordern",
-    "formHint": "Erzählen Sie uns von Ihrem Projekt und wir melden uns in Kürze."
+    "formHint": "Erzählen Sie uns von Ihrem Projekt und wir melden uns in Kürze.",
+    "relatedProducts": "Verwandte Modelle",
+    "relatedArticles": "Ratgeber zu dieser Linie"
   },
   "projectsPage": {
     "eyebrow": "Fallstudien",
@@ -522,7 +524,7 @@
   "contactPage": {
     "eyebrow": "Kontakt aufnehmen",
     "title": "Kontakt Zhenlong Aluminum",
-    "description": "Senden Sie uns Ihre Projektdetails und unser Exportteam antwortet innerhalb von 24 Stunden.",
+    "description": "Senden Sie uns Ihre Projektdetails und unser Exportteam antwortet innerhalb von 0,5 Stunden.",
     "infoTitle": "Kontaktinformationen",
     "addressLabel": "Adresse",
     "emailLabel": "E-Mail",
@@ -546,7 +548,7 @@
     "messagePlaceholder": "Bitte Abmessungen, Zielland, Zeitplan und besondere Anforderungen angeben.",
     "required": "Pflichtfeld",
     "successTitle": "Vielen Dank für Ihre Anfrage!",
-    "successMessage": "Wir haben Ihre Nachricht erhalten und antworten innerhalb von 24 Stunden.",
+    "successMessage": "Wir haben Ihre Nachricht erhalten und antworten innerhalb von 0,5 Stunden.",
     "sendAnother": "Weitere Anfrage senden",
     "errors": {
       "name": "Name muss mindestens 2 Zeichen haben",

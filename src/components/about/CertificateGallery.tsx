@@ -53,6 +53,8 @@ export function CertificateGallery({
                   alt={item.alt}
                   fill
                   sizes="(min-width: 1024px) 22vw, (min-width: 640px) 45vw, 100vw"
+                  quality={70}
+                  loading="lazy"
                   className="object-contain"
                 />
               </span>

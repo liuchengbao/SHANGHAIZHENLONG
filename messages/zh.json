@@ -142,7 +142,7 @@
     },
     "cta": {
       "title": "准备启动您的铝结构项目？",
-      "description": "发送您的需求、图纸或参考照片，我们的团队将在 24 小时内提供专业报价与制造方案。"
+      "description": "发送您的需求、图纸或参考照片，我们的团队将在 0.5 小时内提供专业报价与制造方案。"
     }
   },
   "productsPage": {
@@ -355,7 +355,9 @@
     "applications": "应用场景",
     "faq": "常见问题",
     "requestQuote": "索取报价",
-    "formHint": "请告诉我们您的项目需求，我们将尽快回复。"
+    "formHint": "请告诉我们您的项目需求，我们将尽快回复。",
+    "relatedProducts": "相关型号",
+    "relatedArticles": "本产品线指南"
   },
   "projectsPage": {
     "eyebrow": "案例研究",
@@ -522,7 +524,7 @@
   "contactPage": {
     "eyebrow": "联系我们",
     "title": "联系振龙铝业",
-    "description": "发送您的项目详情，我们的出口团队将在 24 小时内回复。",
+    "description": "发送您的项目详情，我们的出口团队将在 0.5 小时内回复。",
     "infoTitle": "联系方式",
     "addressLabel": "地址",
     "emailLabel": "邮箱",
@@ -546,7 +548,7 @@
     "messagePlaceholder": "请提供尺寸、目的国、时间要求及任何特殊需求。",
     "required": "必填",
     "successTitle": "感谢您的询盘！",
-    "successMessage": "我们已收到您的消息，将在 24 小时内回复。",
+    "successMessage": "我们已收到您的消息，将在 0.5 小时内回复。",
     "sendAnother": "再次提交询盘",
     "errors": {
       "name": "姓名至少 2 个字符",

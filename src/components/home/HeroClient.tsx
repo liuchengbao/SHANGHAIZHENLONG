@@ -1,6 +1,3 @@
-"use client";
-
-import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -37,36 +34,20 @@ export function HeroClient({
   return (
     <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
       <div>
-        <motion.p
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          className="mb-5 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--accent)]"
-        >
+        <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--accent)]">
           <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]" />
           {eyebrow}
-        </motion.p>
+        </p>
 
-        <motion.h1
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          className="font-[family-name:var(--font-playfair)] text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-[3.25rem]"
-        >
+        <h1 className="font-[family-name:var(--font-playfair)] text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-[3.25rem]">
           {title}
-        </motion.h1>
+        </h1>
 
-        <motion.p
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          className="mt-6 max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg"
-        >
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg">
           {subtitle}
-        </motion.p>
+        </p>
 
-        <motion.ul
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          className="mt-8 grid gap-3 sm:grid-cols-2"
-        >
+        <ul className="mt-8 grid gap-3 sm:grid-cols-2">
           {highlights.map((item) => (
             <li
               key={item}
@@ -76,13 +57,9 @@ export function HeroClient({
               {item}
             </li>
           ))}
-        </motion.ul>
+        </ul>
 
-        <motion.div
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          className="mt-10 flex flex-wrap gap-4"
-        >
+        <div className="mt-10 flex flex-wrap gap-4">
           <Button href="/contact" variant="accent">
             {ctaPrimary}
             <ArrowRight className="ml-2 h-4 w-4" />
@@ -90,14 +67,10 @@ export function HeroClient({
           <Button href="/products" variant="ghost">
             {ctaSecondary}
           </Button>
-        </motion.div>
+        </div>
       </div>
 
-      <motion.div
-        initial={false}
-        animate={{ opacity: 1, scale: 1 }}
-        className="relative mx-auto w-full max-w-lg lg:max-w-none"
-      >
+      <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
         <div className="relative aspect-[4/5] overflow-hidden rounded-sm border border-white/10 bg-slate-900 shadow-2xl shadow-black/40 sm:aspect-[5/4]">
           <Image
             src={imageSrc}
@@ -106,6 +79,7 @@ export function HeroClient({
             sizes="(min-width: 1024px) 40vw, 100vw"
             className="object-cover"
             priority
+            quality={75}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-black/20" />
           <div className="absolute left-4 top-4 h-8 w-8 border-l-2 border-t-2 border-[var(--accent)]" />
@@ -115,30 +89,20 @@ export function HeroClient({
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--accent)]">
               {imageLabel}
             </p>
-            <p className="mt-1 text-sm text-slate-300">
-              {caption}
-            </p>
+            <p className="mt-1 text-sm text-slate-300">{caption}</p>
           </div>
         </div>
 
-        <motion.div
-          animate={{ y: [0, -8, 0] }}
-          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute -right-3 top-8 hidden rounded-sm border border-white/10 bg-slate-900/90 px-4 py-3 backdrop-blur sm:block"
-        >
+        <div className="motion-safe:animate-float absolute -right-3 top-8 hidden rounded-sm border border-white/10 bg-slate-900/90 px-4 py-3 backdrop-blur sm:block">
           <p className="text-2xl font-bold text-white">6063-T5</p>
           <p className="text-xs text-slate-400">{alloyLabel}</p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          className="absolute -left-3 bottom-16 hidden rounded-sm border border-white/10 bg-slate-900/90 px-4 py-3 backdrop-blur sm:block"
-        >
+        <div className="motion-safe:animate-float-delayed absolute -left-3 bottom-16 hidden rounded-sm border border-white/10 bg-slate-900/90 px-4 py-3 backdrop-blur sm:block">
           <p className="text-2xl font-bold text-[var(--accent)]">50+</p>
           <p className="text-xs text-slate-400">{marketsLabel}</p>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </div>
   );
 }

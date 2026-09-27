@@ -10,7 +10,7 @@ export const COMPANY = {
     "Shanghai Zhenlong Aluminum Industry Co., Ltd. is a professional manufacturer of aluminum carports, pergolas, canopies, railings, fences, and gates. OEM/ODM services for residential and commercial projects worldwide.",
   email: "chengbao777@gmail.com",
   phone: "+86 15727656720",
-  whatsapp: "+8613800000000",
+  whatsapp: "+8615727656720",
   address: "上海市松江区玉秀路39号",
   foundedYear: 2010,
   exportMarkets: [

@@ -51,7 +51,7 @@ export default async function BlogPage({ params }: Props) {
             className="overflow-hidden rounded-sm border border-slate-200 bg-white shadow-sm"
           >
             <Link href={`/blog/${post.slug}`} className="relative block aspect-[16/10] bg-slate-100">
-              <Image src={post.cover} alt={post.title} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover" />
+              <Image src={post.cover} alt={post.title} fill sizes="(min-width: 1024px) 33vw, 100vw" quality={70} loading="lazy" className="object-cover" />
             </Link>
             <div className="p-6">
               <p className="text-xs text-slate-500">
